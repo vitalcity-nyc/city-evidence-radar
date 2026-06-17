@@ -23,22 +23,34 @@ papers. That keeps the recurring API cost to pennies.
 |---|---|---|
 | **NBER** | New economics working papers | `back.nber.org/rss/new.xml` |
 | **arXiv** | Preprints in `econ.GN`, `cs.CY`, `stat.AP` | arXiv API, newest 120 |
-| **12 peer-reviewed journals** | Criminology + urban/policy/health (see `scanner/config.py`) | Crossref API by ISSN, newest 12 each |
-| **Campbell Collaboration** | Systematic reviews of social/justice interventions | Wiley RSS |
+| **28 peer-reviewed journals** | Criminology, urban economics, policy, housing, transit, health and education (see `scanner/config.py`) | Crossref API by ISSN, newest 12 each |
+| **Campbell Collaboration** | Systematic reviews of social and justice interventions | Wiley RSS |
+| **World Bank** | Policy research working papers | Documents and Reports API, newest 60 |
+| **SocArXiv** | Open social-science preprints | OSF API, newest 50 |
 | **Urban Institute** | Applied urban-policy research | `urban.org/research/rss.xml` |
 | **J-PAL** | Randomized-evaluation lab | `povertyactionlab.org/rss.xml` |
 
 ### Journals indexed
-Journal of Quantitative Criminology · Journal of Experimental Criminology · Criminology ·
-Criminology & Public Policy · Justice Quarterly · Journal of Research in Crime and
-Delinquency · Journal of Urban Economics · Urban Affairs Review · Journal of Policy
-Analysis and Management · Regional Science and Urban Economics · Housing Policy Debate ·
-Journal of Urban Health.
+Criminology and public safety: Journal of Quantitative Criminology · Journal of
+Experimental Criminology · Criminology · Criminology & Public Policy · Justice Quarterly ·
+Journal of Research in Crime and Delinquency · Criminal Justice and Behavior · Police
+Quarterly · Journal of Criminal Justice · Injury Prevention.
+Urban, policy and economics: Journal of Urban Economics · Urban Affairs Review · Journal
+of Urban Affairs · Journal of Policy Analysis and Management · Regional Science and Urban
+Economics · Journal of Public Economics · American Economic Journal: Applied Economics ·
+American Economic Journal: Economic Policy · Journal of Human Resources.
+Housing and transit: Housing Policy Debate · Housing Studies · Transportation Research
+Part A.
+Health: Journal of Urban Health · American Journal of Public Health · American Journal of
+Preventive Medicine · Prevention Science · Health Affairs.
+Education: Educational Evaluation and Policy Analysis.
 
 ### Known gaps (transparency)
-- **SSRN** has no open RSS/API; its crime and economics work largely resurfaces via NBER
-  and Crossref, but coverage is not guaranteed.
-- **Brookings, MDRC, RAND, Vera Institute, Manhattan Institute, Arnold Ventures** —
+- **SSRN** has no open feed or API; its crime and economics work largely resurfaces via
+  NBER, Crossref and SocArXiv, but coverage is not guaranteed.
+- **IZA** discussion papers and the **Cochrane Library** were tested but their feeds
+  returned nothing on the last probe.
+- **Brookings, MDRC, RAND, Vera Institute, Manhattan Institute and Arnold Ventures** —
   their feeds 404 or block automated access as of the last probe and are not indexed.
 
 ## The four scoring dimensions

@@ -146,9 +146,55 @@ def fetch_rss():
     return out
 
 
+def fetch_worldbank():
+    out = []
+    try:
+        r = requests.get(C.WORLDBANK_API, headers=HEADERS, timeout=40)
+        docs = r.json().get("documents", {})
+        for k, it in docs.items():
+            if k == "facets":
+                continue
+            title = it.get("display_title", "")
+            if not title:
+                continue
+            abs = it.get("abstracts", {})
+            abstract = ""
+            if isinstance(abs, dict):
+                abstract = (abs.get("cdata!") or next(iter(abs.values()), "")) if abs else ""
+                if isinstance(abstract, dict):
+                    abstract = abstract.get("cdata!", "")
+            published = (it.get("docdt", "") or "")[:10] or None
+            out.append(normalize(title, "", abstract, it.get("url", ""), published,
+                                 "World Bank", "working_paper"))
+    except Exception as e:
+        log(f"World Bank: FAIL {e}")
+    log(f"World Bank: {len(out)}")
+    return out
+
+
+def fetch_osf():
+    out = []
+    try:
+        r = requests.get(C.OSF_API, headers=HEADERS, timeout=40)
+        for it in r.json().get("data", []):
+            a = it.get("attributes", {})
+            title = a.get("title", "")
+            if not title:
+                continue
+            published = (a.get("date_published", "") or "")[:10] or None
+            link = it.get("links", {}).get("html", "")
+            out.append(normalize(title, "", a.get("description", ""), link,
+                                 published, "SocArXiv", "preprint"))
+    except Exception as e:
+        log(f"SocArXiv: FAIL {e}")
+    log(f"SocArXiv: {len(out)}")
+    return out
+
+
 def fetch_all():
     items = []
-    for fn in (fetch_arxiv, fetch_nber, fetch_crossref, fetch_rss):
+    for fn in (fetch_arxiv, fetch_nber, fetch_crossref, fetch_rss,
+               fetch_worldbank, fetch_osf):
         try:
             items += fn()
         except Exception as e:

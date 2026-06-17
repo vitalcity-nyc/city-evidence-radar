@@ -105,32 +105,44 @@ footer a{color:var(--vc-cerulean)}
 .ai-card ul{margin:10px 0 0 18px}
 .ai-card li{margin-bottom:8px;font-size:13.5px}
 .ai-card .x{float:right;cursor:pointer;font-weight:900;font-size:20px;line-height:1}
-@media(max-width:640px){.card .head{flex-direction:row}.scorebox{width:54px}.stat{min-width:45%}}
+.ai-card p{margin-bottom:8px;font-size:13.5px}
+.ai-card .term{margin:12px 0 4px;font-weight:700;font-size:13px}
+.ai-card .term span{font-weight:300;color:var(--vc-chartreuse)}
+.guide-btn{background:var(--vc-black);color:#fff;border:none;font-family:var(--sans);font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding:8px 12px;cursor:pointer;margin-right:8px}
+/* hover tooltips on controls */
+[data-tip]{position:relative}
+[data-tip]:hover::after{content:attr(data-tip);position:absolute;left:0;top:calc(100% + 7px);z-index:60;width:250px;max-width:74vw;background:var(--vc-indigo);color:#fff;font-family:var(--sans);font-weight:300;font-size:12px;line-height:1.45;text-transform:none;letter-spacing:0;padding:9px 11px;border:1px solid #fff;white-space:normal;box-shadow:0 4px 14px rgba(5,5,7,.25)}
+[data-tip]:hover::before{content:"";position:absolute;left:16px;top:calc(100% + 1px);border:6px solid transparent;border-bottom-color:var(--vc-indigo);z-index:61}
+.helpline{width:100%;font-size:12.5px;color:var(--vc-charcoal);margin-top:2px}
+.helpline a{color:var(--vc-cerulean);cursor:pointer;text-decoration:underline}
+@media(max-width:640px){.card .head{flex-direction:row}.scorebox{width:54px}.stat{min-width:45%}[data-tip]:hover::after,[data-tip]:hover::before{display:none}}
 </style>
 </head>
 <body>
 
 <header class="top"><div class="wrap">
   <div class="brandrow" style="justify-content:flex-end">
+    <button class="guide-btn" onclick="document.getElementById('guidepop').classList.add('show')">How to read this</button>
     <button class="ai-btn" onclick="document.getElementById('aipop').classList.add('show')">⚠ AI caution</button>
   </div>
   <h1 class="title">City Evidence <span class="rad">Radar</span></h1>
   <p class="dek">A standing scan of new research for scalable, cost-effective ideas that could make city life better &mdash; with an emphasis on public safety, filtered to studies with real causal evidence.</p>
-  <p class="metaline">Updated <b id="updated">—</b> · Scanning <b>NBER · arXiv · 12 peer-reviewed journals · Campbell Collaboration · Urban Institute · J-PAL</b></p>
+  <p class="metaline">Updated <b id="updated">—</b> · Scanning <b>NBER · arXiv · 28 peer-reviewed journals · Campbell Collaboration · World Bank · SocArXiv · Urban Institute · J-PAL</b></p>
   <div class="stats" id="stats"></div>
 </div></header>
 
 <div class="controls"><div class="wrap">
-  <input class="search" id="q" placeholder="Search ideas, authors, topics…">
-  <select id="topic"><option value="">All topics</option></select>
-  <select id="sort">
+  <input class="search" id="q" placeholder="Search ideas, authors, topics…" data-tip="Searches the title, authors, the one-line idea, the summary, topic, journal, effect size and number of people reached.">
+  <select id="topic" data-tip="Narrow to one area, such as public safety, housing, health or transit."><option value="">All topics</option></select>
+  <select id="sort" data-tip="Reorder the list. Top score blends all four ratings; the others rank by a single measure.">
     <option value="score">Sort: top score</option>
     <option value="new">Sort: newest</option>
     <option value="cost">Sort: most cost-effective</option>
-    <option value="nyc">Sort: most NYC-ready</option>
+    <option value="nyc">Sort: most ready for New York</option>
   </select>
-  <span class="chip on" id="causalChip">Causal evidence only</span>
-  <span class="chip" id="safetyChip">Public safety only</span>
+  <span class="chip on" id="causalChip" data-tip="On by default. Shows only studies whose design can establish cause and effect — randomized controlled trials and strong quasi-experimental designs. Turn off to also see observational and descriptive work.">Causal evidence only</span>
+  <span class="chip" id="safetyChip" data-tip="Limits the list to ideas about crime, violence, policing, justice or emergency response. Off by default, so other topics show too.">Public safety only</span>
+  <span class="helpline">Hover any control for a quick note, or read the full <a onclick="document.getElementById('guidepop').classList.add('show')">guide to this page</a>.</span>
   <span class="count" id="count"></span>
 </div></div>
 
@@ -138,27 +150,56 @@ footer a{color:var(--vc-cerulean)}
 
 <footer><div class="wrap">
   <h3>How this works</h3>
-  <p>Each weekly run pulls the newest items from the sources above, then an AI model (Claude) reads the title and abstract of each and scores it on four dimensions you can see on every card: <b>causal strength</b> (is the evidence experimental or quasi-experimental?), <b>scalability</b>, <b>cost-effectiveness</b>, and <b>NYC applicability</b>. Public-safety ideas are weighted up. The overall score (0&ndash;100) blends these, with a bonus for stronger research designs.</p>
-  <p>The default view shows only studies rated as having causal evidence (randomized or strong quasi-experimental designs). Turn that filter off to see the full field, including descriptive and observational work.</p>
-  <h3>Sources &amp; known gaps</h3>
+  <p>Each weekly run pulls the newest items from the sources above, then an artificial intelligence (AI) model reads the title and abstract of each and scores it on four measures you can see on every card: <b>causal strength</b> (is the evidence experimental or quasi-experimental?), <b>scalability</b>, <b>cost-effectiveness</b> and <b>New York City applicability</b>. Public-safety ideas are weighted up. The overall score, from 0 to 100, blends these and adds a bonus for stronger research designs.</p>
+  <p>The default view shows only studies rated as having causal evidence: randomized or strong quasi-experimental designs. Turn that filter off to see the full field, including descriptive and observational work.</p>
+  <h3>Sources and known gaps</h3>
   <p id="gaps" class="gap"></p>
   <h3>About the score</h3>
-  <p>Scores are a triage aid, not a verdict. They are generated from abstracts only &mdash; not full papers &mdash; so they can misjudge a study's true design, cost, or relevance. Always read the linked paper before acting on or publishing anything. The causal-strength label is a heuristic classification, and a paper&rsquo;s real-world cost depends heavily on local context.</p>
+  <p>Scores are a triage aid, not a verdict. They are generated from abstracts only, not full papers, so they can misjudge a study's true design, cost or relevance. Always read the linked paper before acting on or publishing anything. The causal-strength label is a heuristic, and a paper's real-world cost depends heavily on local context.</p>
   <p style="margin-top:18px;color:var(--vc-charcoal)">A Vital City research tool. Built with Claude Code.</p>
 </div></footer>
 
 <div class="ai-pop" id="aipop" onclick="if(event.target===this)this.classList.remove('show')">
   <div class="ai-card">
     <span class="x" onclick="document.getElementById('aipop').classList.remove('show')">×</span>
-    <h4>⚠ A note on AI in this tool</h4>
-    <p>This radar uses an AI model to triage research. Please keep in mind:</p>
+    <h4>⚠ A note on artificial intelligence in this tool</h4>
+    <p>This radar uses an artificial intelligence (AI) model to triage research. Please keep in mind:</p>
     <ul>
-      <li>Every summary, score, method note and causal-strength label is <b>AI-generated from the abstract only</b>, not the full paper. Treat them as a starting point, not ground truth.</li>
-      <li>The AI can misread findings, overstate or understate cost and scalability, or mis-classify a study&rsquo;s research design.</li>
-      <li>Relevance, scalability, cost and NYC-applicability ratings are judgment calls the model makes &mdash; reasonable people (and the authors) may disagree.</li>
-      <li>Coverage is partial: SSRN and several think tanks block automated access and are not included (see footer).</li>
-      <li><b>Always open and read the linked study</b> before citing, publishing, or acting on any idea here.</li>
+      <li>Every summary, score, method note and causal-strength label is <b>generated by AI from the abstract only</b>, not the full paper. Treat them as a starting point, not ground truth.</li>
+      <li>The model can misread findings, overstate or understate cost and scalability or misclassify a study's research design.</li>
+      <li>Relevance, scalability, cost and New York City applicability ratings are judgment calls the model makes. Reasonable people, and the authors, may disagree.</li>
+      <li>Coverage is partial: the Social Science Research Network (SSRN) and several think tanks block automated access and are not included (see footer).</li>
+      <li><b>Always open and read the linked study</b> before citing, publishing or acting on any idea here.</li>
     </ul>
+  </div>
+</div>
+
+<div class="ai-pop" id="guidepop" onclick="if(event.target===this)this.classList.remove('show')">
+  <div class="ai-card" style="max-width:600px;max-height:84vh;overflow:auto">
+    <span class="x" onclick="document.getElementById('guidepop').classList.remove('show')">×</span>
+    <h4>How to read this page</h4>
+    <p>Every week the radar pulls the newest research from a set of credible sources, then rates each study for how strong its evidence is and how useful the idea could be to a city. Here is what the controls and labels mean.</p>
+
+    <div class="term">Causal evidence only <span>— on by default</span></div>
+    <p>Shows only studies whose design can establish cause and effect: randomized controlled trials and strong quasi-experimental designs, such as difference-in-differences, regression discontinuity or natural experiments. Turn it off to also see observational and descriptive studies, which can suggest but not prove that an idea works.</p>
+
+    <div class="term">Public safety only</div>
+    <p>Limits the list to ideas about crime, violence, policing, justice or emergency response. It is off by default, so housing, transit, health, education and other topics also appear.</p>
+
+    <div class="term">Search and sort</div>
+    <p>Search matches the title, authors, the one-line idea, the summary, topic, journal and the two facts on each card. Sort reorders the list by overall score, by date or by a single rating.</p>
+
+    <div class="term">The score <span>— from 0 to 100</span></div>
+    <p>A triage aid, not a verdict. It blends the three ratings below, adds points for stronger research designs and gives extra weight to public-safety ideas.</p>
+
+    <div class="term">The three ratings <span>— each from 1 to 5</span></div>
+    <p>Scalability is how readily the idea could grow citywide or nationwide. Cost-effectiveness is how cheap it is per person helped. Readiness for New York is how directly the city could adopt it given its agencies and existing programs.</p>
+
+    <div class="term">Size of effect and people reached</div>
+    <p>Two facts pulled from each abstract: the magnitude and direction of the main finding, and how many people or places the study covered. When an abstract does not give a number, the card says so rather than guessing.</p>
+
+    <div class="term">The evidence tiers</div>
+    <p>A randomized controlled trial assigns people or places to a program or a comparison group at random, the strongest test of cause and effect. A strong quasi-experimental design mimics that comparison using real-world variation, and a rigorous systematic review pools many such studies. Observational and descriptive work, shown only when the causal filter is off, can point to promising ideas but cannot prove they cause the result.</p>
   </div>
 </div>
 
@@ -206,7 +247,7 @@ function render(){
   const key={score:p=>p.score,new:p=>p.published||'',cost:p=>p.cost*10+p.score/100,nyc:p=>p.nyc_applicability*10+p.score/100}[sort];
   rows.sort((a,b)=>key(b)>key(a)?1:key(b)<key(a)?-1:0);
   $('count').textContent=rows.length+' of '+PAPERS.length+' ideas shown';
-  $('list').innerHTML=rows.length?rows.map(card).join(''):'<div class="empty">No ideas match these filters. Try turning off &ldquo;Causal evidence only&rdquo; or clearing the search.</div>';
+  $('list').innerHTML=rows.length?rows.map(card).join(''):'<div class="empty">No ideas match these filters. Try turning off "Causal evidence only" or clearing the search.</div>';
 }
 
 function meter(label,val,cls,note){

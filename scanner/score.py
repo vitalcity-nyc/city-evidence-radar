@@ -24,7 +24,7 @@ MODEL = "claude-haiku-4-5-20251001"
 API_URL = "https://api.anthropic.com/v1/messages"
 
 # Feeds broad enough to need a relevance keyword gate before spending API calls.
-GATE_SOURCES = {"arXiv", "NBER", "Urban Institute"}
+GATE_SOURCES = {"arXiv", "NBER", "Urban Institute", "World Bank", "SocArXiv"}
 GATE_TERMS = [
     "crime", "police", "polic", "violence", "violent", "gun", "shooting", "homicide",
     "safety", "victim", "incarcerat", "prison", "jail", "recidivism", "reentry", "reoffend",
@@ -222,8 +222,7 @@ def main():
     out = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "count": len(papers),
-        "sources": "NBER, arXiv, Crossref journals (criminology + urban/policy), "
-                   "Campbell Collaboration, Urban Institute, J-PAL",
+        "sources": C.SOURCE_SUMMARY,
         "known_gaps": C.KNOWN_GAPS,
         "papers": papers,
     }
