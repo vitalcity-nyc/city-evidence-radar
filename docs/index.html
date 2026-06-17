@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>City Evidence Radar</title>
+<meta name="description" content="A scanner that vets new research for scalable, cost-effective ideas to improve city life, with an emphasis on public safety.">
+<link rel="stylesheet" href="https://use.typekit.net/qqk2vto.css">
+<style>
+@font-face{font-family:'GascogneTS';src:url('fonts/GascogneTS-Light.ttf') format('truetype');font-weight:300;font-style:normal;font-display:swap;}
+:root{
+  --vc-black:#050507;--vc-white:#fff;--vc-cloud:#dddddd;--vc-chartreuse:#dde44c;
+  --vc-orange:#ff7c53;--vc-periwinkle:#9b9fbc;--vc-magenta:#e7466d;--vc-charcoal:#707175;
+  --vc-indigo:#394882;--vc-cerulean:#217ebe;--vc-green:#57aa4a;
+  --sans:'halyard-text','Inter','Helvetica Neue',Arial,sans-serif;
+  --serif:'GascogneTS','Source Serif 4',Georgia,serif;
+  --paper:#faf9f6;--line:#e6e4df;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--sans);font-weight:300;color:var(--vc-black);background:var(--paper);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+
+/* header */
+header.top{border-bottom:3px solid var(--vc-black);background:var(--vc-white)}
+.top .wrap{padding-top:26px;padding-bottom:22px}
+.brandrow{display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap}
+.wordmark{font-family:var(--sans);font-weight:900;letter-spacing:.14em;font-size:12px;text-transform:uppercase}
+.wordmark .dot{color:var(--vc-orange)}
+h1.title{font-family:var(--sans);font-weight:900;font-size:clamp(30px,5vw,52px);line-height:1.02;letter-spacing:-.015em;margin-top:14px}
+.title .rad{color:var(--vc-orange)}
+.dek{font-family:var(--serif);font-size:clamp(16px,2.2vw,21px);color:#333;margin-top:12px;max-width:62ch}
+.metaline{margin-top:14px;font-size:12.5px;color:var(--vc-charcoal);font-weight:400}
+.metaline b{color:var(--vc-black);font-weight:700}
+
+/* stats strip */
+.stats{display:flex;gap:0;flex-wrap:wrap;margin-top:20px;border:2px solid var(--vc-black)}
+.stat{flex:1;min-width:120px;padding:12px 16px;border-right:2px solid var(--vc-black)}
+.stat:last-child{border-right:none}
+.stat .n{font-family:var(--serif);font-size:30px;line-height:1}
+.stat .l{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--vc-charcoal);font-weight:700;margin-top:5px}
+
+/* controls */
+.controls{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--line);padding:14px 0;margin-top:0}
+.controls .wrap{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.search{flex:1;min-width:220px;padding:10px 12px;border:1.5px solid var(--vc-black);background:#fff;font-family:var(--sans);font-size:14px}
+select,.chip{font-family:var(--sans);font-size:13px;padding:9px 11px;border:1.5px solid var(--vc-black);background:#fff;cursor:pointer}
+.chip{user-select:none;font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:11px}
+.chip.on{background:var(--vc-chartreuse)}
+.count{font-size:12.5px;color:var(--vc-charcoal);font-weight:400;width:100%;}
+
+/* cards */
+main{padding:26px 0 60px}
+.card{background:#fff;border:1.5px solid var(--vc-black);margin-bottom:16px;padding:20px 22px;position:relative}
+.card .head{display:flex;gap:16px;align-items:flex-start}
+.scorebox{flex:none;width:62px;text-align:center;border:2px solid var(--vc-black);padding:6px 0}
+.scorebox .s{font-family:var(--serif);font-size:30px;line-height:1}
+.scorebox .sl{font-size:9px;text-transform:uppercase;letter-spacing:.06em;color:var(--vc-charcoal);font-weight:700}
+.cardmain{flex:1;min-width:0}
+.tags{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:7px}
+.tag{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:3px 7px;border:1px solid var(--vc-black)}
+.tag.safety{background:var(--vc-orange);color:#fff;border-color:var(--vc-orange)}
+.tag.topic{background:var(--vc-black);color:#fff}
+.tag.causal{background:var(--vc-chartreuse)}
+.tag.causal.weak{background:#fff;color:var(--vc-charcoal);border-color:var(--vc-cloud)}
+.tag.src{background:#fff;color:var(--vc-charcoal)}
+h2.t{font-family:var(--sans);font-weight:900;font-size:19px;line-height:1.18;letter-spacing:-.01em}
+h2.t a{text-decoration:none;background:linear-gradient(var(--vc-chartreuse),var(--vc-chartreuse)) 0 100%/0 2px no-repeat;transition:background-size .2s}
+h2.t a:hover{background-size:100% 2px}
+.byline{font-size:12.5px;color:var(--vc-charcoal);font-weight:400;margin-top:5px}
+.idea{font-family:var(--serif);font-size:17px;line-height:1.4;margin:13px 0;padding-left:13px;border-left:3px solid var(--vc-orange)}
+.summary{font-size:14.5px;margin-bottom:10px}
+.method{font-size:13px;color:#444;background:var(--paper);border:1px solid var(--line);padding:9px 11px;margin-bottom:13px}
+.method b{font-weight:700;text-transform:uppercase;font-size:10.5px;letter-spacing:.06em;color:var(--vc-charcoal)}
+.meters{display:flex;gap:18px;flex-wrap:wrap}
+.meter{min-width:150px;flex:1}
+.meter .ml{font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;font-weight:700;color:var(--vc-charcoal);display:flex;justify-content:space-between}
+.bar{height:7px;background:var(--vc-cloud);margin-top:4px}
+.bar i{display:block;height:100%;background:var(--vc-cerulean)}
+.meter.cost .bar i{background:var(--vc-green)}
+.meter.nyc .bar i{background:var(--vc-magenta)}
+.note{font-size:11.5px;color:var(--vc-charcoal);margin-top:3px}
+.conf{font-size:11px;color:var(--vc-charcoal);margin-top:12px;font-style:italic}
+.empty{text-align:center;padding:60px 20px;color:var(--vc-charcoal)}
+
+/* footer */
+footer{border-top:3px solid var(--vc-black);background:#fff;padding:32px 0 50px;font-size:13px;color:#333}
+footer h3{font-family:var(--sans);font-weight:900;font-size:14px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px;margin-top:18px}
+footer p{margin-bottom:8px;max-width:78ch}
+footer a{color:var(--vc-cerulean)}
+.gap{color:var(--vc-charcoal)}
+
+/* AI caution */
+.ai-btn{background:#6b1f2e;color:#fff;border:none;font-family:var(--sans);font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding:8px 12px;cursor:pointer}
+.ai-pop{display:none;position:fixed;inset:0;background:rgba(5,5,7,.55);z-index:100;align-items:center;justify-content:center;padding:20px}
+.ai-pop.show{display:flex}
+.ai-card{background:var(--vc-indigo);color:#fff;max-width:560px;padding:28px;border:2px solid #fff}
+.ai-card h4{font-family:var(--sans);font-weight:900;font-size:18px;margin-bottom:12px}
+.ai-card ul{margin:10px 0 0 18px}
+.ai-card li{margin-bottom:8px;font-size:13.5px}
+.ai-card .x{float:right;cursor:pointer;font-weight:900;font-size:20px;line-height:1}
+@media(max-width:640px){.card .head{flex-direction:row}.scorebox{width:54px}.stat{min-width:45%}}
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <div class="brandrow">
+    <span class="wordmark">Vital City<span class="dot">.</span></span>
+    <button class="ai-btn" onclick="document.getElementById('aipop').classList.add('show')">⚠ AI caution</button>
+  </div>
+  <h1 class="title">City Evidence <span class="rad">Radar</span></h1>
+  <p class="dek">A standing scan of new research for scalable, cost-effective ideas that could make city life better &mdash; with an emphasis on public safety, filtered to studies with real causal evidence.</p>
+  <p class="metaline">Updated <b id="updated">—</b> · Scanning <b>NBER · arXiv · 12 peer-reviewed journals · Campbell Collaboration · Urban Institute · J-PAL</b></p>
+  <div class="stats" id="stats"></div>
+</div></header>
+
+<div class="controls"><div class="wrap">
+  <input class="search" id="q" placeholder="Search ideas, authors, topics…">
+  <select id="topic"><option value="">All topics</option></select>
+  <select id="sort">
+    <option value="score">Sort: top score</option>
+    <option value="new">Sort: newest</option>
+    <option value="cost">Sort: most cost-effective</option>
+    <option value="nyc">Sort: most NYC-ready</option>
+  </select>
+  <span class="chip on" id="causalChip">Causal evidence only</span>
+  <span class="chip" id="safetyChip">Public safety only</span>
+  <span class="count" id="count"></span>
+</div></div>
+
+<main><div class="wrap" id="list"></div></main>
+
+<footer><div class="wrap">
+  <h3>How this works</h3>
+  <p>Each weekly run pulls the newest items from the sources above, then an AI model (Claude) reads the title and abstract of each and scores it on four dimensions you can see on every card: <b>causal strength</b> (is the evidence experimental or quasi-experimental?), <b>scalability</b>, <b>cost-effectiveness</b>, and <b>NYC applicability</b>. Public-safety ideas are weighted up. The overall score (0&ndash;100) blends these, with a bonus for stronger research designs.</p>
+  <p>The default view shows only studies rated as having causal evidence (randomized or strong quasi-experimental designs). Turn that filter off to see the full field, including descriptive and observational work.</p>
+  <h3>Sources &amp; known gaps</h3>
+  <p id="gaps" class="gap"></p>
+  <h3>About the score</h3>
+  <p>Scores are a triage aid, not a verdict. They are generated from abstracts only &mdash; not full papers &mdash; so they can misjudge a study's true design, cost, or relevance. Always read the linked paper before acting on or publishing anything. The causal-strength label is a heuristic classification, and a paper&rsquo;s real-world cost depends heavily on local context.</p>
+  <p style="margin-top:18px;color:var(--vc-charcoal)">A Vital City research tool. Built with Claude Code.</p>
+</div></footer>
+
+<div class="ai-pop" id="aipop" onclick="if(event.target===this)this.classList.remove('show')">
+  <div class="ai-card">
+    <span class="x" onclick="document.getElementById('aipop').classList.remove('show')">×</span>
+    <h4>⚠ A note on AI in this tool</h4>
+    <p>This radar uses an AI model to triage research. Please keep in mind:</p>
+    <ul>
+      <li>Every summary, score, method note and causal-strength label is <b>AI-generated from the abstract only</b>, not the full paper. Treat them as a starting point, not ground truth.</li>
+      <li>The AI can misread findings, overstate or understate cost and scalability, or mis-classify a study&rsquo;s research design.</li>
+      <li>Relevance, scalability, cost and NYC-applicability ratings are judgment calls the model makes &mdash; reasonable people (and the authors) may disagree.</li>
+      <li>Coverage is partial: SSRN and several think tanks block automated access and are not included (see footer).</li>
+      <li><b>Always open and read the linked study</b> before citing, publishing, or acting on any idea here.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+let PAPERS=[],META={};
+const $=id=>document.getElementById(id);
+const STRONG=new Set(['RCT','strong quasi-experimental']);
+
+fetch('papers.json?v='+Date.now()).then(r=>r.json()).then(d=>{
+  META=d; PAPERS=(d.papers||[]).filter(p=>p.relevant);
+  $('updated').textContent=(d.generated_at||'').slice(0,10);
+  $('gaps').textContent='Indexing: '+(d.sources||'')+'. Not covered: '+((d.known_gaps||[]).join('; '))+'.';
+  buildStats(); buildTopics(); render();
+});
+
+function buildStats(){
+  const safety=PAPERS.filter(p=>p.public_safety).length;
+  const causal=PAPERS.filter(p=>STRONG.has(p.causal_strength)).length;
+  const rct=PAPERS.filter(p=>p.causal_strength==='RCT').length;
+  const s=[['',PAPERS.length,'relevant ideas'],['',causal,'causal-evidence'],['',rct,'randomized trials'],['',safety,'public-safety']];
+  $('stats').innerHTML=s.map(x=>`<div class="stat"><div class="n">${x[1]}</div><div class="l">${x[2]}</div></div>`).join('');
+}
+function buildTopics(){
+  const t=[...new Set(PAPERS.map(p=>p.topic))].sort();
+  $('topic').innerHTML='<option value="">All topics</option>'+t.map(x=>`<option>${x}</option>`).join('');
+}
+
+$('q').oninput=render; $('topic').onchange=render; $('sort').onchange=render;
+$('causalChip').onclick=function(){this.classList.toggle('on');render();};
+$('safetyChip').onclick=function(){this.classList.toggle('on');render();};
+
+function render(){
+  const q=$('q').value.toLowerCase().trim();
+  const topic=$('topic').value;
+  const causalOnly=$('causalChip').classList.contains('on');
+  const safetyOnly=$('safetyChip').classList.contains('on');
+  const sort=$('sort').value;
+  let rows=PAPERS.filter(p=>{
+    if(causalOnly&&!STRONG.has(p.causal_strength))return false;
+    if(safetyOnly&&!p.public_safety)return false;
+    if(topic&&p.topic!==topic)return false;
+    if(q){const b=(p.title+' '+p.authors+' '+p.idea+' '+p.summary+' '+p.topic+' '+p.venue).toLowerCase();if(!b.includes(q))return false;}
+    return true;
+  });
+  const key={score:p=>p.score,new:p=>p.published||'',cost:p=>p.cost*10+p.score/100,nyc:p=>p.nyc_applicability*10+p.score/100}[sort];
+  rows.sort((a,b)=>key(b)>key(a)?1:key(b)<key(a)?-1:0);
+  $('count').textContent=rows.length+' of '+PAPERS.length+' ideas shown';
+  $('list').innerHTML=rows.length?rows.map(card).join(''):'<div class="empty">No ideas match these filters. Try turning off &ldquo;Causal evidence only&rdquo; or clearing the search.</div>';
+}
+
+function meter(label,val,cls,note){
+  return `<div class="meter ${cls}"><div class="ml"><span>${label}</span><span>${val}/5</span></div><div class="bar"><i style="width:${val/5*100}%"></i></div>${note?`<div class="note">${esc(note)}</div>`:''}</div>`;
+}
+function card(p){
+  const weak=STRONG.has(p.causal_strength)?'':'weak';
+  const date=p.published?p.published:'';
+  return `<div class="card"><div class="head">
+    <div class="scorebox"><div class="s">${p.score}</div><div class="sl">score</div></div>
+    <div class="cardmain">
+      <div class="tags">
+        ${p.public_safety?'<span class="tag safety">Public safety</span>':''}
+        ${(p.topic&&p.topic!=='public safety')?`<span class="tag topic">${esc(p.topic)}</span>`:''}
+        <span class="tag causal ${weak}">${esc(p.causal_strength)}</span>
+        <span class="tag src">${esc(p.source)}</span>
+      </div>
+      <h2 class="t"><a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
+      <div class="byline">${esc(p.authors||'Authors n/a')}${date?' · '+date:''} · ${esc(p.venue)}</div>
+      ${p.idea?`<div class="idea">${esc(p.idea)}</div>`:''}
+      ${p.summary?`<div class="summary">${esc(p.summary)}</div>`:''}
+      ${p.method?`<div class="method"><b>How it was done — </b>${esc(p.method)}</div>`:''}
+      <div class="meters">
+        ${meter('Scalability',p.scalability,'scal',p.scalability_note)}
+        ${meter('Cost-effective',p.cost,'cost',p.cost_note)}
+        ${meter('NYC-ready',p.nyc_applicability,'nyc',p.nyc_note)}
+      </div>
+      <div class="conf">AI confidence in this read: ${esc(p.confidence)} · <a href="${p.url}" target="_blank" rel="noopener" style="color:var(--vc-cerulean)">open the study →</a></div>
+    </div></div></div>`;
+}
+function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+</script>
+</body>
+</html>
