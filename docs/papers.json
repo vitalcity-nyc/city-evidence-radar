@@ -34,7 +34,9 @@
       "nyc_note": "Study conducted in NYC; directly compatible with NYDOC parole operations and existing high-risk offender supervision.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 88
+      "score": 88,
+      "effect_size": "15% reduction in parole violations",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "30cba1c243474ca6",
@@ -63,7 +65,9 @@
       "nyc_note": "NYPD already uses body-worn cameras citywide; Truleo or similar AI tools could be integrated into existing infrastructure and oversight mechanisms.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 84
+      "score": 84,
+      "effect_size": "Use of force decreased significantly in one department; High Professionalism ratings increased but fell short of statistical significance",
+      "reach": "2 police departments (Apache Junction and Casa Grande Police Departments) over 6 months"
     },
     {
       "id": "b0daade807237833",
@@ -92,7 +96,9 @@
       "nyc_note": "NYC has ongoing streetlight modernization efforts; LED retrofit aligns directly with existing Department of Environmental Protection and local agency programs.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 84
+      "score": 84,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "5f3f9209039ec3af",
@@ -121,7 +127,9 @@
       "nyc_note": "NYPD has extensive BWC deployment; NYC prosecutors can directly apply these findings to optimize case triage and resource allocation.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 81
+      "score": 81,
+      "effect_size": "BWC evidence impacts likelihood of nolle pros decisions and guilty pleas, reduces case-processing time, and alters incarceration sentences; effects vary by crime type and are strongest for on-view arrests",
+      "reach": "29,923 cases over 7 years (2016-2022) from one large urban jurisdiction in Maryland"
     },
     {
       "id": "36fa443c3a5b1738",
@@ -150,7 +158,9 @@
       "nyc_note": "NYC has multiple MLB (Yankees, Mets), NFL (Giants, Jets), and other major venues; NYPD can operationalize differential staffing and tactical plans by game type and location.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 81
+      "score": 81,
+      "effect_size": "Larceny and assault increased within one kilometer of sports venues during games",
+      "reach": "21 U.S. cities from 2015 to 2023"
     },
     {
       "id": "e7cf1284c78c0478",
@@ -179,7 +189,9 @@
       "nyc_note": "NYC DOE manages 1,600+ schools; reducing suspensions aligns with stated equity goals and reduces school-to-prison pipeline.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 81
+      "score": 81,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "552bab97ad1d4eea",
@@ -208,7 +220,9 @@
       "nyc_note": "NYC Department of Corrections runs Rikers Island and borough facilities; NYC Health + Hospitals and COBA could coordinate pre-release MAT. Some barriers: DOC operational constraints, federal versus state jurisdiction nuances.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 80
+      "score": 80,
+      "effect_size": "no significant effect on mortality",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "79f7e03a6d5070c5",
@@ -237,7 +251,9 @@
       "nyc_note": "NYC already has prosecutorial discretion and some diversion programs; this research validates expansion and suggests need for racial-equity audits to ensure fair access.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 77
+      "score": 77,
+      "effect_size": "Reduced probability of new criminal case filing 1-year after diversion (magnitude not quantified in abstract)",
+      "reach": "26,010 individuals across two jurisdictions (4,572 accepted diversion in larger site; 6,335 in moderate-sized jurisdiction)"
     },
     {
       "id": "42d8b7f70c468129",
@@ -266,7 +282,9 @@
       "nyc_note": "NYC is rolling out legal cannabis retail; dispensary siting authority (Office of Cannabis Management) can use foot-traffic insights to inform license approval decisions.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 77
+      "score": 77,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2acc734ff71492be",
@@ -295,7 +313,9 @@
       "nyc_note": "NYC has existing restorative justice programs and court infrastructure; could be piloted in specific precincts or boroughs with DA collaboration.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 77
+      "score": 77,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "bfac6d5112745fe6",
@@ -324,7 +344,9 @@
       "nyc_note": "NYC is the primary implementation site of NY bail reform; directly informs whether current policy is meeting public safety and criminal justice goals.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 77
+      "score": 77,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c3a728872b856a16",
@@ -353,7 +375,9 @@
       "nyc_note": "NYPD has extensive body-worn camera deployment and conducts training; AI could integrate into existing workflows for accountability and training evaluation.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 77
+      "score": 77,
+      "effect_size": "AI analysis reached the same conclusion as the original study regarding treatment effects of de-escalation training",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6e66ba7edc713ae9",
@@ -382,7 +406,9 @@
       "nyc_note": "NYC has a large older adult population and opioid crisis; can influence municipal Medicaid/health insurance policy, advocate to state/federal payers, or create subsidy programs for uninsured methadone treatment.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 77
+      "score": 77,
+      "effect_size": "Increase in Medicare acceptance by OTPs and in the number of methadone treatment episodes post-policy; not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0c7b33feac2a7d31",
@@ -411,7 +437,9 @@
       "nyc_note": "NYC could consider curfews in high-crime areas, though they raise civil liberties concerns and political obstacles; Montreal's results could inform feasibility.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 73
+      "score": 73,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6abc3b685b1d6685",
@@ -440,7 +468,9 @@
       "nyc_note": "NYC has youth services, community boards, schools, and law enforcement partnerships that could incorporate radicalization-prevention programs; relevant to counterterrorism and street violence reduction.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 73
+      "score": 73,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c5271b0b1e1a2016",
@@ -469,7 +499,9 @@
       "nyc_note": "NYC's five-borough prosecutor offices (DA offices) have direct authority to implement these condition-limitation and technical-violation policies immediately.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 72
+      "score": 72,
+      "effect_size": "Not quantified in abstract",
+      "reach": "3.7 million U.S. adults under supervision; 50 states and District of Columbia; 305 prosecutors' offices; 18 prosecutors interviewed; 22 reform-minded prosecutors surveyed; 14 elected prosecutors and chiefs of staff in focus groups"
     },
     {
       "id": "69853739a1003c5c",
@@ -498,7 +530,9 @@
       "nyc_note": "NYC has five borough DAs with existing infrastructure; findings directly inform prosecutor office management and charging policy reform.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 71
+      "score": 71,
+      "effect_size": "Less severe charging and plea-bargaining outcomes across all racial/ethnic groups under progressive administrations, with varying magnitudes between offices",
+      "reach": "Two jurisdictions (exact number of cases not stated in abstract)"
     },
     {
       "id": "754f452742bf2835",
@@ -527,7 +561,9 @@
       "nyc_note": "NYPD uses both uniformed and plainclothes units extensively; study directly informs stop-and-frisk and enforcement equity policy.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 71
+      "score": 71,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c0187d970f25c5e6",
@@ -556,7 +592,9 @@
       "nyc_note": "NYC has existing sanctuary city policies; study directly applies to strengthening implementation and immigrant awareness of protections to improve police cooperation and crime reporting.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 71
+      "score": 71,
+      "effect_size": "Immigrants with lower fear of deportation report greater comfort providing personal information; this relationship is moderated by sanctuary city status with immigrants in sanctuary cities more comfortable sharing information",
+      "reach": "Approximately 1,500 undocumented Mexican nationals"
     },
     {
       "id": "412aed29f72dcd4f",
@@ -585,7 +623,9 @@
       "nyc_note": "NYC has numerous fragmented violence prevention programs (mayor's office, NYPD, nonprofits, agencies); an audit like this could directly improve targeting and coordination of existing resources.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 71
+      "score": 71,
+      "effect_size": "Areas with more community safety activities had higher crime rates (RR = 1.14 to 4.79 depending on crime type)",
+      "reach": "1,147 activities in 1,625 locations across Cleveland, Ohio census tracts (2015-2019)"
     },
     {
       "id": "94945577e5942b6c",
@@ -614,7 +654,9 @@
       "nyc_note": "NYPD and FDNY both maintain detailed dispatch and arrest data; NYC has existing behavioral health intervention programs (mobile crisis teams, mental health courts) that could target high-risk individuals identified by such a model.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 71
+      "score": 71,
+      "effect_size": "20-57% improvement in positive predictive value over baseline approach",
+      "reach": "199,679 unique individuals from one city"
     },
     {
       "id": "a50afb27091ee099",
@@ -643,7 +685,9 @@
       "nyc_note": "NYC DA offices (Manhattan, Brooklyn, Queens, Bronx, Staten Island) directly control prosecutor staffing and caseload allocation; findings directly applicable.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 71
+      "score": 71,
+      "effect_size": "Fewer cases resolved via guilty plea in weeks with higher caseload pressure; effects slightly stronger for misdemeanors than felonies; little relationship between caseload pressure and charge reductions",
+      "reach": "19 prosecutors' offices across Colorado over 3 years (2021-2024)"
     },
     {
       "id": "f90377cefa856f88",
@@ -672,7 +716,9 @@
       "nyc_note": "NYPD and prosecutors can directly apply findings to improve victim engagement in high-police-contact communities (e.g., overpoliced neighborhoods) and redesign complaint procedures.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 71
+      "score": 71,
+      "effect_size": "Frequent and invasive past-year police contacts negatively associated with complaint signing and case clearance; no significant effect on perceived investigatory effort",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "8d14e8ea0cdca6f9",
@@ -701,7 +747,9 @@
       "nyc_note": "NYC has Health Department, DOHMH, and funding mechanisms; can directly incentivize mental health provider placement in high-need neighborhoods. Aligns with mental health crisis response goals.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 70
+      "score": 70,
+      "effect_size": "3% reduction in suicide rates (1.6 fewer suicides per 100,000 population) per 10% improvement in access to mental health care",
+      "reach": "All U.S. counties, 2016-2019"
     },
     {
       "id": "823c7385ddf055bd",
@@ -730,7 +778,9 @@
       "nyc_note": "NYPD has already piloted ShotSpotter in some precincts; findings directly inform whether to expand, sustain, or retool deployment given resource constraints.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 70
+      "score": 70,
+      "effect_size": "6.5% reduction in violent crime, but 8.5% increase in nonviolent crime",
+      "reach": "Detroit neighborhoods from January 2017 to October 2022"
     },
     {
       "id": "bedd8cfd7caffa69",
@@ -759,7 +809,9 @@
       "nyc_note": "NYC has significant gig-work populations and municipal/nonprofit job boards; applicability depends on whether platforms are city-controlled or require private-sector partnership; direct leverage may be limited.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 69
+      "score": 69,
+      "effect_size": "Job-finding rate increased from 57.6% to 70.0% in simulations; field experiment increased realized matches and exposure per active template",
+      "reach": "Timee platform (Japan's largest spot-work platform); prefecture-level randomized field experiment"
     },
     {
       "id": "39f04421e716dc4b",
@@ -788,7 +840,9 @@
       "nyc_note": "NYC could theoretically embed this in civic engagement platforms (e.g., participatory budgeting, community boards, civic tech initiatives), but effect decay and lower participant satisfaction may limit adoption; unclear if polarization reduction translates to actionable municipal outcomes.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 69
+      "score": 69,
+      "effect_size": "Expectation-challenging conversations reduced affective and issue polarization, but effects disappeared over one month",
+      "reach": "1,983 U.S. adults"
     },
     {
       "id": "ccbfe56f0857e043",
@@ -817,7 +871,9 @@
       "nyc_note": "NYC participates in New York State's UI system and RESEA programs already; results suggest targeted enhancement or expansion of existing services could improve outcomes.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 69
+      "score": 69,
+      "effect_size": "$1,153 annualized wage increase, 1.5 percentage point increase in reemployment, and nearly 2-week reduction in UI duration",
+      "reach": "23,549 UI claimants in Rhode Island from February 2022 to September 2023"
     },
     {
       "id": "49ee58aee28b8f95",
@@ -846,7 +902,9 @@
       "nyc_note": "NYC already operates as a sanctuary jurisdiction; findings directly validate and quantify benefits of existing policy for stabilizing earnings and reducing chilling effects on mobility and education.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 69
+      "score": 69,
+      "effect_size": "Sharp erosion of early employment and earnings gains under heightened policy uncertainty; health insurance, schooling, and in-state mobility proved more resilient",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a332fc02925d5625",
@@ -875,7 +933,9 @@
       "nyc_note": "NYC Probation, DOCCS, and reentry nonprofits already assess risk; this study suggests a specific methodology (dynamic change models) to improve monitoring and intervention targeting. Directly applicable to city's large formerly incarcerated population.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 67
+      "score": 67,
+      "effect_size": "Risk factors measured closer to time of death significantly predicted increased mortality risk; greater substance use increased mortality risk; within-individual increases in antisocial attitudes associated with elevated mortality risk",
+      "reach": "1,155 formerly incarcerated Canadian youth followed into adulthood"
     },
     {
       "id": "ee3af2f77a7543ce",
@@ -904,7 +964,9 @@
       "nyc_note": "NYPD has extensive dispatch and force-reporting infrastructure; social network approach could inform peer-led accountability, rotation policies, or early intervention programs.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 67
+      "score": 67,
+      "effect_size": "Greater lagged exposure to peers' prior use of force associated with higher likelihood of officer using physical force; contemporaneous exposure associated with reduced likelihood of force",
+      "reach": "Dallas police officers responding to 911 calls (specific number not stated in abstract)"
     },
     {
       "id": "c2c9cca2e61ced28",
@@ -933,7 +995,9 @@
       "nyc_note": "NYPD and Manhattan/Brooklyn/Queens/Bronx/Staten Island DAs could directly adopt specialized DV prosecution units.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 67
+      "score": 67,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a37595360ed659d7",
@@ -962,7 +1026,9 @@
       "nyc_note": "NYC has comprehensive Google Street View coverage; findings are from a comparable large U.S. city; transit-heavy density differs from Chicago but method directly applicable to NYC precinct/neighborhood prioritization.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 67
+      "score": 67,
+      "effect_size": "Not quantified in abstract",
+      "reach": "187,048 Chicago street-view images"
     },
     {
       "id": "87e890883a2614a5",
@@ -991,7 +1057,9 @@
       "nyc_note": "NYC has high-quality spatial mortality data, robust census tract deprivation indicators, and existing harm-reduction infrastructure; satellite-derived urban metrics (nighttime lights, density) are directly applicable to NYC's grid.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 67
+      "score": 67,
+      "effect_size": "Over 7 times higher fatal overdose risk in most deprived areas compared to least deprived",
+      "reach": "Cook County, Illinois census block groups from 2018 to 2023"
     },
     {
       "id": "a2ec6bcd6b27c9d9",
@@ -1020,7 +1088,9 @@
       "nyc_note": "NYC has extensive youth services, schools, and juvenile-justice diversion programs (e.g., CCRB, DOE partnerships) where such interventions could be embedded; cultural/contextual differences from South Korea merit adaptation.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 67
+      "score": 67,
+      "effect_size": "Victimization increases delinquent peer affiliations, which in turn increases risk of repeat victimization; effect operates during adolescence but not at age 18",
+      "reach": "~South Korean youth aged 13-18 across six waves of longitudinal data"
     },
     {
       "id": "0fe5f78f6951a520",
@@ -1049,7 +1119,9 @@
       "nyc_note": "Directly evaluates NYC's live policy (January 2025); findings support continued operation and refinement of the program already in place.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 66
+      "score": 66,
+      "effect_size": "Bus and subway ridership increased significantly; overall travel demand decreased modestly",
+      "reach": "New York City (bus, subway, and aggregate trip volume data)"
     },
     {
       "id": "4ced9c86df689ecf",
@@ -1078,7 +1150,9 @@
       "nyc_note": "NYC already has emergency rental assistance and Housing Court; abstract's lessons directly applicable to NYC's eviction prevention and rental subsidy policy.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 66
+      "score": 66,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "bdbeda2165e4a0a6",
@@ -1107,7 +1181,9 @@
       "nyc_note": "NYC has active zoning reform (e.g., upzoning East Side, Brooklyn neighborhoods) and inclusionary housing rules; Seattle model directly comparable.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 66
+      "score": 66,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a9b424b6dc8e2532",
@@ -1136,7 +1212,9 @@
       "nyc_note": "NYC has substantial probation population, DA offices, and sentencing policy apparatus; prosecutors and Unified Court System directly control these levers.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 65
+      "score": 65,
+      "effect_size": "Not quantified in abstract",
+      "reach": "23 in-depth interviews in one midsize U.S. jurisdiction"
     },
     {
       "id": "8c90ae5bf1ea6e17",
@@ -1165,7 +1243,9 @@
       "nyc_note": "NYCDOC directly operates jails and can unilaterally modify consensual-intimacy policies; NYC has been a leader in carceral reform and has incentives to reduce sexual violence in custody.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 65
+      "score": 65,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Two national surveys"
     },
     {
       "id": "e85b9423479b9f41",
@@ -1194,7 +1274,9 @@
       "nyc_note": "NYC has substantial mental health, housing, and criminal justice infrastructure; DSM can link NYPD/DOC/HRA/ACS data; directly transferable.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 65
+      "score": 65,
+      "effect_size": "Not quantified in abstract",
+      "reach": "San Francisco city and county data"
     },
     {
       "id": "612efb473f2134d0",
@@ -1223,7 +1305,9 @@
       "nyc_note": "NYPD and other NYC agencies can directly implement plain-language accessible policies on victim accommodations; NYC has strong disability advocacy infrastructure to support compliance.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 65
+      "score": 65,
+      "effect_size": "Policies were rare and often did not directly apply to victims with IDD",
+      "reach": "1,678 policing organization websites across four states and 27 law enforcement professionals"
     },
     {
       "id": "a6a46ddc42fba74f",
@@ -1252,7 +1336,9 @@
       "nyc_note": "NYC Department of Probation is a major agency; this directly applies to implementation of its stated reforms.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 65
+      "score": 65,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "9dad9db5361690a6",
@@ -1281,7 +1367,9 @@
       "nyc_note": "NYC has large reentry population, municipal control over hiring, and partnerships with banks/health systems; directly actionable via DOC, CCRB, HRA, and workforce programs.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 65
+      "score": 65,
+      "effect_size": "Not quantified in abstract",
+      "reach": "~100 formerly incarcerated adults"
     },
     {
       "id": "dbcd2e8155de9d85",
@@ -1310,7 +1398,9 @@
       "nyc_note": "NYPD has a negotiation unit, but study findings are null/exploratory and provide no concrete intervention to implement.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 64
+      "score": 64,
+      "effect_size": "no significant effect of ego depletion on empathy",
+      "reach": "52 police negotiators"
     },
     {
       "id": "633241d241bb12aa",
@@ -1339,7 +1429,9 @@
       "nyc_note": "NYC's notoriously lengthy ULURP and Department of Buildings approval processes are widely cited as housing supply bottlenecks; direct parallel to LA findings.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 63
+      "score": 63,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c0f9840dc161dc65",
@@ -1368,7 +1460,9 @@
       "nyc_note": "NYC operates Rikers Island and borough jails; DOC could pilot expanded job training and visitor accommodation. Women's facilities are smaller cohort, making targeted intervention feasible.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 63
+      "score": 63,
+      "effect_size": "Transitions toward lower offending observed among those with higher preincarceration offending; access to employment/training and lack of visits correspond to reduced offending frequency",
+      "reach": "205 incarcerated women over a ten-year period"
     },
     {
       "id": "b69fe93b113eda82",
@@ -1397,7 +1491,9 @@
       "nyc_note": "NYC is a primary case study in the research; findings directly inform future zoning policy decisions the city can make.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 63
+      "score": 63,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0de6e087b89b2154",
@@ -1426,7 +1522,9 @@
       "nyc_note": "NYC Department of Correction operates education programs; City can expand degree offerings and coordinate with CUNY and employers through existing workforce boards.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 63
+      "score": 63,
+      "effect_size": "Bachelor's degrees increased odds of receiving interview for middle-skill jobs; sub-baccalaureate certificates showed no significant effect",
+      "reach": "2,623 middle-skill job advertisements"
     },
     {
       "id": "964fab81c4bb9e94",
@@ -1455,7 +1553,9 @@
       "nyc_note": "NYC NYCHA is the largest public housing authority in the US and actively uses RAD conversion; findings directly inform local policy decisions.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 62
+      "score": 62,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "63b520cebe1ad777",
@@ -1484,7 +1584,9 @@
       "nyc_note": "Study identifies correlational relationship between headlines and attitudes but offers no actionable lever a city agency could pull; news editorial decisions are outside municipal control.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 62
+      "score": 62,
+      "effect_size": "7 percentage point reduction in approval of police use-of-force",
+      "reach": "2,495 U.S. adults"
     },
     {
       "id": "fb0d46cd91384a3c",
@@ -1513,7 +1615,9 @@
       "nyc_note": "NYC has robust dual enrollment via CUNY and career pathways programs (CTE); findings could directly refine which course offerings are prioritized for equity-focused expansion.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 62
+      "score": 62,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "1038587570bd9473",
@@ -1542,7 +1646,9 @@
       "nyc_note": "NYC DOE manages K\u201312 curriculum and placement policies directly; can pilot in high schools and middle schools similar in scale to Wake County.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 62
+      "score": 62,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "f947e07a0ba40501",
@@ -1571,7 +1677,9 @@
       "nyc_note": "Study is based on NYC data and directly examines NYC's CTE system; findings can immediately inform NYCDOE enrollment, curriculum, and expansion decisions.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 62
+      "score": 62,
+      "effect_size": "Not quantified in abstract",
+      "reach": "New York City high school students (specific number not stated in abstract)"
     },
     {
       "id": "b42508208a14dd58",
@@ -1600,7 +1708,9 @@
       "nyc_note": "NYC has direct control over teacher contracts and compensation; DOE could implement or expand performance-linked pay.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 62
+      "score": 62,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "885d1c9535663e38",
@@ -1629,7 +1739,9 @@
       "nyc_note": "Con Edison and NYC's energy code/retrofit programs can incorporate evidence-based behavioral and pricing levers; strong existing regulatory/utility infrastructure.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 62
+      "score": 62,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7f19ce0a9594191b",
@@ -1658,7 +1770,9 @@
       "nyc_note": "NYC community boards already have mixed gender composition and different power structures than Indian village councils; limited evidence on whether gender quotas would change service provision in a wealthy, diverse urban context with different governance norms.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 62
+      "score": 62,
+      "effect_size": "Not quantified in abstract",
+      "reach": "265 village councils in India (Birbhum and Udaipur)"
     },
     {
       "id": "3b04ed5abaf284e4",
@@ -1687,7 +1801,9 @@
       "nyc_note": "NYC has high-cost Medicaid population, existing care coordination infrastructure, and hospital data systems; easily adapted; relevant to managed long-term care and safety-net hospitals.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 62
+      "score": 62,
+      "effect_size": "No significant effect on six-month hospital readmission rates; increased post-discharge ambulatory care",
+      "reach": "800 patients with complex needs in Camden, New Jersey"
     },
     {
       "id": "76b1ebe1f006c17f",
@@ -1716,7 +1832,9 @@
       "nyc_note": "NYC has major financial institutions, consumer protection agencies (AG, DCA), and 311; could integrate with fraud-reporting pipelines and train customer-service staff on scenario taxonomy.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 61
+      "score": 61,
+      "effect_size": "Not quantified in abstract",
+      "reach": "102,054 scam incident reports from February 2024 to October 2025"
     },
     {
       "id": "10b18f8000b3d3eb",
@@ -1745,7 +1863,9 @@
       "nyc_note": "NYPD and NY law-enforcement agencies already conduct CSAI investigations; tool could reduce officer burnout and speed case processing if validated and legally approved.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 61
+      "score": 61,
+      "effect_size": "91.9% balanced accuracy on RCPD dataset",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "53c8c82a9a07a52d",
@@ -1774,7 +1894,9 @@
       "nyc_note": "NYC has active hospital-based violence intervention programs (e.g., Cure Violence, hospital trauma center programs); findings directly inform expansion and sustainability in existing infrastructure.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 61
+      "score": 61,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "3c05dc38994db76e",
@@ -1803,7 +1925,9 @@
       "nyc_note": "NYC has a centralized DA office, robust (if strained) social services infrastructure, and active policy focus on justice-system equity; recommendations align with prosecutorial discretion and existing diversion programs.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 61
+      "score": 61,
+      "effect_size": "Not quantified in abstract",
+      "reach": "2 midwestern District Attorney offices"
     },
     {
       "id": "4bb70b01a089d579",
@@ -1832,7 +1956,9 @@
       "nyc_note": "NYC has established drug court programs and criminal justice diversion infrastructure; findings directly applicable to local practice reform.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 61
+      "score": 61,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "9e0cb66d211aef3f",
@@ -1861,7 +1987,9 @@
       "nyc_note": "NYC has prosecutorial agencies, can leverage criminal-justice data systems, and faces similar drug-policy pressures; findings directly inform how NYPD and DA offices may adapt to decriminalization or diversion mandates.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 61
+      "score": 61,
+      "effect_size": "Defelonization associated with significant drop in felony PCS charges and significant increase in misdemeanor PCS charges; decriminalization associated with immediate decline in both misdemeanor and felony PCS charges",
+      "reach": "Oregon statewide, 2008\u20132024"
     },
     {
       "id": "0e8b85849acba0f4",
@@ -1890,7 +2018,9 @@
       "nyc_note": "NYC has established public safety infrastructure, multiple city agencies (NYPD, DOE, DOE, Parks, Buildings), and community organizations; the ecosystem model maps directly onto existing governance structure.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 61
+      "score": 61,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6a676d1446a55a4c",
@@ -1919,7 +2049,9 @@
       "nyc_note": "NYC already has victim services but could expand hotline accessibility and staff capacity; model fits within existing Office of the Victim Advocate and NYPD victim services.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 61
+      "score": 61,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "ac6f39ac44fa20ca",
@@ -1948,7 +2080,9 @@
       "nyc_note": "NYC has high crime rates, large victim population, and existing victim services infrastructure (law enforcement, DA offices) that could integrate or expand such a helpline.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 61
+      "score": 61,
+      "effect_size": "Not quantified in abstract",
+      "reach": "nearly 1,000 visitors surveyed, over 36,000 helpline visitors served, more than 350 interactions observed"
     },
     {
       "id": "66b7579ec9a2b2ed",
@@ -1977,7 +2111,9 @@
       "nyc_note": "NYC probation, parole, and reentry agencies (DOCCS, DOP) already work with clients and families; could integrate structured network-communication protocols into existing programs.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 60
+      "score": 60,
+      "effect_size": "Partner and peer criminal behavior linked to within-individual variations in crime; network encapsulation shows negative effect on desistance",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7ce694d7888c272c",
@@ -2006,7 +2142,9 @@
       "nyc_note": "NYC has advanced criminal justice IT (e.g., CJIS) and established pretrial agencies (Criminal Justice Agency); however, real-time cross-agency data linkage and shift from bail-heavy practices would require significant institutional coordination.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 60
+      "score": 60,
+      "effect_size": "57% recall of individuals arrested for violent crimes while maintaining stable false positive rates",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "cbb29da856fab6c6",
@@ -2035,7 +2173,9 @@
       "nyc_note": "NYC already operates many social services; applicability depends on whether state would shift criminal justice costs to city, creating fiscal incentive; less clear absent such realignment.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 60
+      "score": 60,
+      "effect_size": "Cities with higher shares of arrestees increased their social policy expenditures post-Realignment",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0a276827cba6954e",
@@ -2064,7 +2204,9 @@
       "nyc_note": "NYC has extensive experience with upzoning (e.g., East Midtown, Hudson Yards, recent East Side rezoning); directly relevant to ongoing housing policy.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 59
+      "score": 59,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a0734d4066e29565",
@@ -2093,7 +2235,9 @@
       "nyc_note": "NYC schools use tutoring and ITS systems; finding is relevant to curriculum design but requires translation to classroom context and doesn't address a NYC-specific policy lever or urgent systemic problem.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 58
+      "score": 58,
+      "effect_size": "Students with lower baseline self-efficacy achieved greater learning gains regardless of practice format; ITS-based practice did not significantly improve post-training self-efficacy relative to paper-based methods",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7390c826da8540b1",
@@ -2122,7 +2266,9 @@
       "nyc_note": "NYC has aging population and existing home care programs, but the Korean program model would require integration with Medicaid/Medicare structures and political will for subsidy expansion.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 58
+      "score": 58,
+      "effect_size": "20% reduction in out-of-pocket medical spending, 16% reduction in prescription drug spending, 12% lower likelihood of inpatient hospital admission",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "00d754f14d959d97",
@@ -2151,7 +2297,9 @@
       "nyc_note": "NYC has significant child obesity burden and established health department/school systems; findings from similar socioeconomic contexts applicable to high-poverty neighborhoods.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 58
+      "score": 58,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "8da9970197c4670a",
@@ -2180,7 +2328,9 @@
       "nyc_note": "NYC regularly faces housing displacement via redevelopment; findings directly inform NYCHA reform, community land trusts, and anti-displacement policy. Caveat: Chile's periphery geography may differ from NYC's transit-integrated model.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 58
+      "score": 58,
+      "effect_size": "0.62 fewer years of schooling, 10.2% lower earnings, higher labor informality, and residence in higher poverty areas for displaced children 40 years post-policy",
+      "reach": "Slum-dwelling families in Chile between 1979 and 1984 (two-thirds relocated, one-third received on-site redevelopment)"
     },
     {
       "id": "fabd782f304bce59",
@@ -2209,7 +2359,9 @@
       "nyc_note": "Findings specific to Minneapolis may not transfer directly; NYC has different policing structure, demographics, and homicide drivers.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 57
+      "score": 57,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "3e13a7ec6e3af533",
@@ -2238,7 +2390,9 @@
       "nyc_note": "NYC already has a higher minimum wage; this research could inform expansion to other worker categories, wage-subsidy programs, or policy refinement.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 56
+      "score": 56,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2483e75846526f60",
@@ -2267,7 +2421,9 @@
       "nyc_note": "Directly relevant to NYC's MetroCard system operated by MTA; easily testable and implementable.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 56
+      "score": 56,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "17327135fcb6d61e",
@@ -2296,7 +2452,9 @@
       "nyc_note": "NYC schools could adopt online harassment prevention curricula, but study is Korean-focused and provides limited implementation guidance.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 55
+      "score": 55,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "354c0df20ff9c057",
@@ -2325,7 +2483,9 @@
       "nyc_note": "NYC has robust reentry programs and public assistance infrastructure; expanding employment support or assistance eligibility for returning citizens is directly feasible.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 55
+      "score": 55,
+      "effect_size": "Substantial income loss upon release from prison; increased reliance on public assistance",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "addcfb8017cb10d1",
@@ -2354,7 +2514,9 @@
       "nyc_note": "NYC already has strong air quality rules; findings suggest continued PM\u2082.\u2085 reduction (e.g., phase-out of fossil fuel heating, industrial emissions) supports population stability and attracts residents, but city has limited direct control over regional power plants.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 55
+      "score": 55,
+      "effect_size": "2% increase in net migration (in-migration minus out-migration) per 3.85 \u03bcg/m\u00b3 decrease in PM\u2082.\u2085",
+      "reach": "Commuting zones in the United States over 2005-2019"
     },
     {
       "id": "26f0af7b7660eb30",
@@ -2383,7 +2545,9 @@
       "nyc_note": "NYC has satellite coverage and agencies capable of spatial analysis; could inform place-based prevention.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 54
+      "score": 54,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "5a5a382889826c71",
@@ -2412,7 +2576,9 @@
       "nyc_note": "NYC has robust DV service infrastructure and existing social safety-net programs (HCVP, emergency assistance) that could integrate or pilot guaranteed income for survivors.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 54
+      "score": 54,
+      "effect_size": "Notable reduction in anxiety and depression from program start to one-year follow-up; improvements in anxiety faded by two-year exit",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "256d99ca445a79a6",
@@ -2441,7 +2607,9 @@
       "nyc_note": "NYC already operates major safety net programs (SNAP, NYCHA, etc.); enrollment barriers among youth are a known issue applicable here.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 53
+      "score": 53,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Children and young adults in DC (12% of children and 33% of young adults in households below poverty threshold)"
     },
     {
       "id": "778cf573ae905189",
@@ -2470,7 +2638,9 @@
       "nyc_note": "NYC's municipal health dept and Medicaid administration can directly influence cessation coverage, outreach, and provider reimbursement; aligns with existing harm-reduction priorities.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 53
+      "score": 53,
+      "effect_size": "Not quantified in abstract",
+      "reach": "42 million adults covered by Medicaid as of mid-2024"
     },
     {
       "id": "78a8379fbf2baf53",
@@ -2499,7 +2669,9 @@
       "nyc_note": "NYC has existing Medicaid infrastructure, aging population, and health department capacity to run targeted outreach and enrollment campaigns for identified eligible seniors.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 53
+      "score": 53,
+      "effect_size": "64.3% of QMB eligibles, 62.5% of SLMB eligibles, and 55.9% of QI eligibles participated in Medicaid",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "fdc95e4eaa648274",
@@ -2528,7 +2700,9 @@
       "nyc_note": "NYC already regulates restaurant nutrition labeling and has active health department oversight; could expand via menu-review requirements or zoning/licensing incentives targeting lower-opportunity areas.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 52
+      "score": 52,
+      "effect_size": "2.41 points higher nutrition environment scores in neighborhoods with above-median socioeconomic opportunity",
+      "reach": "191 restaurants in New Orleans, Louisiana"
     },
     {
       "id": "a25f74d499a745fb",
@@ -2557,7 +2731,9 @@
       "nyc_note": "NYC has high homeownership and rental housing; can advocate for federal/state loss-mitigation mandates, partner with servicers, or create local down-payment/refinancing assistance tied to pandemic learnings.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 52
+      "score": 52,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d4fdde750c28bcd7",
@@ -2586,7 +2762,9 @@
       "nyc_note": "Some DC evidence may transfer to NYC contexts (housing, safety, labor), but the document targets DC politics and is not NYC-specific.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 52
+      "score": 52,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "632e9bf6c03482dd",
@@ -2615,7 +2793,9 @@
       "nyc_note": "NYC already operates child care subsidy program (NYCCARE); waitlist management and funding allocation are direct levers for city policy; directly parallel to DC context.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 52
+      "score": 52,
+      "effect_size": "Not quantified in abstract",
+      "reach": "over 7,000 children annually"
     },
     {
       "id": "d5542dc362e55ac4",
@@ -2644,7 +2824,9 @@
       "nyc_note": "NYC already uses LIHTC extensively; study provides evidence to justify expanded LIHTC deployment and multi-agency coordination around housing-as-economic-driver strategy.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 52
+      "score": 52,
+      "effect_size": "43 cents of tax revenue returned to public coffers for every $1 of public investment",
+      "reach": "45 multifamily housing projects in Oklahoma"
     },
     {
       "id": "9fd8f78eef6c9202",
@@ -2673,7 +2855,9 @@
       "nyc_note": "NYC has large, digitized transcript systems and growing postsecondary outcome data infrastructure; tool could be adapted for counseling dashboards and course-recommendation systems.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 52
+      "score": 52,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0771642b6fd20704",
@@ -2702,7 +2886,9 @@
       "nyc_note": "NYC has existing CTE infrastructure (Career and Technical Education); finding could directly inform DOE credential strategy and align with economic-mobility goals.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 52
+      "score": 52,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "5c88ee36fb70a287",
@@ -2731,7 +2917,9 @@
       "nyc_note": "NYC DOE already administers SEL curricula and surveys; could adapt this longitudinal growth-tracking methodology into existing data infrastructure.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 52
+      "score": 52,
+      "effect_size": "Not quantified in abstract",
+      "reach": "27,000 students in a California school district"
     },
     {
       "id": "3ec64799b147dc56",
@@ -2760,7 +2948,9 @@
       "nyc_note": "NYC has multiple homicide data sources (NYPD, medical examiner, health dept); alignment is feasible but requires inter-agency cooperation.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 52
+      "score": 52,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d734474ad6153517",
@@ -2789,7 +2979,9 @@
       "nyc_note": "Identifies a risk (AI out-persuading humans in civic/political contexts) but offers no ready-made policy or program NYC could adopt; would require downstream work on guardrails, disclosure rules, or training responses.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 51
+      "score": 51,
+      "effect_size": "AI systems ~3x more effective than professional canvassers at raising donations",
+      "reach": "18,978 conversations from 6,923 people across four experiments"
     },
     {
       "id": "2b87c00b7cccdaa4",
@@ -2818,7 +3010,9 @@
       "nyc_note": "NYC does not operate state prisons (NY State does); limited direct municipal lever, though findings could inform DOC jail practices.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 51
+      "score": 51,
+      "effect_size": "Black individuals cited for more violations but convicted on fewer violations; lower odds of placement in disciplinary segregation and served less time in segregation",
+      "reach": "39,356 Black and White persons admitted to Ohio prisons over a 5-year period"
     },
     {
       "id": "bcc58bb7d099329b",
@@ -2847,7 +3041,9 @@
       "nyc_note": "Student loan policy is federal. NYC has no direct authority over loan forgiveness or repayment terms.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 51
+      "score": 51,
+      "effect_size": "$40 per month reduction in student loan payments and $100 per month increase in non-durable spending for optimistic borrowers; 7.5 percentage points higher delinquency likelihood",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "25807e55ef43da21",
@@ -2876,7 +3072,9 @@
       "nyc_note": "NYC FOIL law exists; city maintains FOI request data; municipal agencies already digitized; framework directly applicable to audit compliance.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Not quantified in abstract",
+      "reach": "15,277 Dutch FOI dossiers comprising 139,449 documents"
     },
     {
       "id": "c88a0d61a89f22f0",
@@ -2905,7 +3103,9 @@
       "nyc_note": "NYC has Con Edison utility regulation, LIHEAP/assistance programs, and municipal authority over utility commission; framework directly transferable.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Wholesale prices increased more than 400% in 2025 compared with 2024; generation charges increased 119%",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "301d9445f20f28ce",
@@ -2934,7 +3134,9 @@
       "nyc_note": "NYC has extensive transit infrastructure and existing TOD around subway stations; directly applicable to zoning reform and development policy in the five boroughs.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "cbae3a734c753813",
@@ -2963,7 +3165,9 @@
       "nyc_note": "NYC has extensive transit (MTA), ongoing housing shortage, and existing TOD concepts (e.g., MTA joint development); straightforward to expand zoning near stations.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "923a188274049c44",
@@ -2992,7 +3196,9 @@
       "nyc_note": "NYC operates substantial child care subsidy programs (ACS) and faces similar budget and waitlist pressures; provider feedback model is directly applicable.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2dcf1b2de7446077",
@@ -3021,7 +3227,9 @@
       "nyc_note": "NYC already regulates housing and has agencies (HPD, DHPD) that could mandate algorithm transparency/audits in procurement and licensing; directly actionable.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "9e5422e7c3b1d591",
@@ -3050,7 +3258,9 @@
       "nyc_note": "NYC has extensive housing preservation programs (HPD, HDFC) and ongoing affordable housing debates; preservation-plus-construction is already NYC policy framework.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Not quantified in abstract",
+      "reach": "1 in 10 people in DC (survey of DC residents)"
     },
     {
       "id": "d663afdf8c382461",
@@ -3079,7 +3289,9 @@
       "nyc_note": "Directly mandated by NYC voters and legislature in 2022; Urban Institute developed it for this specific requirement.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "84f26de3e5ad5bf3",
@@ -3108,7 +3320,9 @@
       "nyc_note": "NYC already has apprenticeship infrastructure and a large SMB sector facing hiring challenges; program could leverage existing workforce boards and CUNY partnerships.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0f2ab77082bbf79f",
@@ -3137,7 +3351,9 @@
       "nyc_note": "MTA directly operates buses and rail; increased city/state funding for labor costs is a proven policy lever in NYC transit.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Not quantified in abstract",
+      "reach": "20 million daily riders"
     },
     {
       "id": "231c7aa2fb56b6e6",
@@ -3166,7 +3382,9 @@
       "nyc_note": "NYC's hospital system (HHC, major private systems) could adopt reviewed interventions, but this is not a direct policy lever for city government and does not address immediate resident welfare.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "813069e63c61805e",
@@ -3195,7 +3413,9 @@
       "nyc_note": "NYC has food-assistance and sustainability programs that could theoretically adopt this, but upcycled food acceptance is niche; broader food waste/procurement infrastructure would need to exist first.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 50
+      "score": 50,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2977b4c3ec07d442",
@@ -3224,7 +3444,9 @@
       "nyc_note": "Hotels are a tourist/commercial sector; no direct city-service or resident-welfare lever. NYC could theoretically audit or regulate AI intermediaries, but lacks clear authority and the problem affects travelers (not residents primarily) and hotel operators.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 49
+      "score": 49,
+      "effect_size": "Top guest rating increases selection probability by 31.6 percentage points; high price decreases it by 30.0 percentage points; list position shifts recommendations worth ~$12 per night",
+      "reach": "12 open-weight and proprietary LLM models tested across multiple personas and prompt templates"
     },
     {
       "id": "d11304c1a0e5a3bc",
@@ -3253,7 +3475,9 @@
       "nyc_note": "NYC already operates child care subsidy programs (e.g., CCAMPIS, ACD); this brief offers direct design and policy lessons for optimization.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 48
+      "score": 48,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "b5a1765a9cdbd271",
@@ -3282,7 +3506,9 @@
       "nyc_note": "NYC has substantial housing policy apparatus (HPD, DCP, etc.) and data infrastructure; scorecard could be integrated into existing performance-management frameworks.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 48
+      "score": 48,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c31097f7981976bf",
@@ -3311,7 +3537,9 @@
       "nyc_note": "NYC already administers robust human services; coordination between ACS, DSS, and housing/income support agencies to target neglect prevention is directly actionable.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 48
+      "score": 48,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "41e07c1a8b293161",
@@ -3340,7 +3568,9 @@
       "nyc_note": "NYC Department of Education could integrate findings into high school redesign initiatives and opportunity youth programs; aligns with existing equity and student support priorities.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 48
+      "score": 48,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Wake County Public School System students (eighth to ninth grade transition)"
     },
     {
       "id": "26444f6086353aa0",
@@ -3369,7 +3599,9 @@
       "nyc_note": "Study is Florida-specific; NYC's vastly larger scale, different geography, transit system, and business mix limit direct transferability. Would require NYC-specific crime data analysis first.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 47
+      "score": 47,
+      "effect_size": "Female suspects travel further distances than male suspects and disproportionately target neighborhoods with more disorder",
+      "reach": "Over 3,000 theft arrests in St. Petersburg, FL"
     },
     {
       "id": "43b410b74462c035",
@@ -3398,7 +3630,9 @@
       "nyc_note": "NYC has existing vacant property data infrastructure and tax incentive programs (e.g., 421-a); could enhance targeting and systematization of conversion pipelines.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "814a704f591e321a",
@@ -3427,7 +3661,9 @@
       "nyc_note": "NYC has severe zoning constraints and high land costs that factory-building alone cannot fully solve; but zoning reform on lot sizes and density is politically difficult and limited by geography.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "66c2f3d222b7a725",
@@ -3456,7 +3692,9 @@
       "nyc_note": "NYC MTA operates OMNY fare system with similar transaction data; framework could directly support ridership retention strategy.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "~4 years of smart card data from Shanghai metro system (2021-2024)"
     },
     {
       "id": "e1435b374b181760",
@@ -3485,7 +3723,9 @@
       "nyc_note": "NYC Dept. of Social Services manages ~70k families in shelter; chronic placement delays and affordability matching are acute pain points; system logic (rules-based filtering + LLM ranking) is domain-transferable; regulatory/privacy framework differs but analogous.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Substantial reductions in search time and improved adherence to placement constraints; not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "5ea7cea996072514",
@@ -3514,7 +3754,9 @@
       "nyc_note": "NYC does not control state redistricting (state legislature does), but technique could apply to city council or community board boundary review if those processes exist or are created.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "808 community of interest testimonies from Missouri's mid-cycle redistricting"
     },
     {
       "id": "8152b5fb0c077f2e",
@@ -3543,7 +3785,9 @@
       "nyc_note": "NYC administers Medicaid through NYC Health + Hospitals and coordinates with state; can audit local plan coverage and remove barriers for city residents; could pilot integrated screening in primary care and safety-net settings.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "592f13cbb54aa75f",
@@ -3572,7 +3816,9 @@
       "nyc_note": "NYC administers Medicaid locally, runs public health campaigns, and can integrate cessation outreach into existing safety-net clinics and health programs.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "~43 million Medicaid-covered adults"
     },
     {
       "id": "8fc55851668ea4c6",
@@ -3601,7 +3847,9 @@
       "nyc_note": "NYC controls local zoning, financing incentives, and developer partnerships. Study can identify whether NYC underperforms peers and which policy levers (streamlined approvals, co-financing, density bonuses) work elsewhere.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "3.3 to 3.7 million affordable rental units financed over 40 years",
+      "reach": "All US states and metropolitan areas, 1986 to 2022"
     },
     {
       "id": "ddc15695f2e5f5e0",
@@ -3630,7 +3878,9 @@
       "nyc_note": "NYC has existing youth corps infrastructure (e.g., NYC Service Corps, DYCD programs), strong municipal employment demand in water, power, transit, and construction; directly expandable.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "8 youth service corps programs"
     },
     {
       "id": "7b8eec2a46067369",
@@ -3659,7 +3909,9 @@
       "nyc_note": "NYC is served by the FHLB of New York; the city and its housing authorities can directly engage with this regional bank to increase AHP allocations and community development lending.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "11 regional FHLBanks, ~$147 billion directed between 2015 and 2024"
     },
     {
       "id": "7d4fd81c52c5d65f",
@@ -3688,7 +3940,9 @@
       "nyc_note": "NYC heavily relies on CDBG, LIHTC, and New Markets Tax Credit. Understanding these trends could inform how city aligns its deployment of federal dollars with equity goals.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Overall spending increased in past 15 years, but direct program spending has not",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "aab612e2fcf74c98",
@@ -3717,7 +3971,9 @@
       "nyc_note": "NYC has multiple homebuyer counseling agencies and nonprofits; data consolidation and cross-sector coordination are directly feasible; strong existing housing advocacy ecosystem.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "ead2e08d3c77358f",
@@ -3746,7 +4002,9 @@
       "nyc_note": "NYC has comparable early care/education infrastructure gaps post-COVID; similar stakeholder-driven needs assessment could inform ACS/DOE relief spending.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "more than 7,000 families, early childhood educators, operators, and DECAL staff across rural and urban Georgia"
     },
     {
       "id": "3c9cd1ff2d20c95f",
@@ -3775,7 +4033,9 @@
       "nyc_note": "NYC has extensive food-assistance infrastructure (DCP, food banks, SNAP administration); municipal action to map gaps, fund expansion, and coordinate with state/federal SNAP implementation is directly actionable.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Nearly 1 in 6 adults (approximately 17%) reported charitable food participation in 2025",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "750c235681ee5a4e",
@@ -3804,7 +4064,9 @@
       "nyc_note": "NYC has significant heirs' property issues (especially in outer boroughs and among communities of color); existing legal-aid infrastructure and city housing agencies could pilot programs; aligns with affordable housing/wealth-building goals.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "8fbbf1adf4b81d3f",
@@ -3833,7 +4095,9 @@
       "nyc_note": "NYC DOE already uses performance-based capstone assessments; these AI-literacy tasks align with CUNY pathway goals and could integrate into existing high school redesign initiatives. Large Latino student population could benefit from linguistically responsive validation.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "9ff60625ce1050e7",
@@ -3862,7 +4126,9 @@
       "nyc_note": "NYC uses LIHTC extensively via HPD/HDC; study's economic impact framework directly applicable to justify/expand local affordable housing policy.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Not quantified in abstract",
+      "reach": "45 affordable multifamily housing projects in Oklahoma between 2019 and 2023"
     },
     {
       "id": "2588913b19868391",
@@ -3891,7 +4157,9 @@
       "nyc_note": "NYC already has lower urban mortality than rural comparison regions; study offers no actionable policy or program NYC could adopt to replicate Brazil's external-cause mortality reductions.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 46
+      "score": 46,
+      "effect_size": "Emerging urban mortality advantage in male life expectancy beginning mid-2000s; female urban survival penalty shifted to urban advantage by 2019",
+      "reach": "Brazil's five macro-regions from 2006 to 2023"
     },
     {
       "id": "63325c9cfd6a28a2",
@@ -3920,7 +4188,9 @@
       "nyc_note": "NYC has critical infrastructure and city agencies; could adopt survey + targeted training. But abstract offers no evidence that demographic targeting improves outcomes or reduces actual breaches\u2014only that groups differ in survey responses.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 45
+      "score": 45,
+      "effect_size": "Small to moderate demographic effects on cybersecurity culture",
+      "reach": "6,502 employees (from 21,148 total) in a global organisation"
     },
     {
       "id": "dfcc21f1e253f331",
@@ -3949,7 +4219,9 @@
       "nyc_note": "NYC could adopt zoning/land-use reforms, though the study does not isolate which reforms work or NYC-specific barriers.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 45
+      "score": 45,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "856864c0f5121e7c",
@@ -3978,7 +4250,9 @@
       "nyc_note": "NYPD has ballistic database and hot-spot mapping capacity; method could transfer but requires ballistic linking workflow and criminal justice coordination.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 45
+      "score": 45,
+      "effect_size": "Gun violence hot spots more likely to be connected to one another than expected by chance",
+      "reach": "Street segments in Kansas City, Missouri"
     },
     {
       "id": "8a5a8afcc6e489b1",
@@ -4007,7 +4281,9 @@
       "nyc_note": "Directly relevant to NYC's existing Racial Equity Plan and True Cost of Living Measure; requires city collaboration but no new programs.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 45
+      "score": 45,
+      "effect_size": "63% of Asian American and Native Hawaiian/Pacific Islander New Yorkers don't earn enough to meet true cost of living, compared to 44% of White counterparts",
+      "reach": "New York City population (specific number not stated in abstract)"
     },
     {
       "id": "9d1e9825dbae4486",
@@ -4036,7 +4312,9 @@
       "nyc_note": "NYC has large middle school population, established ed-tech partnerships, and strong interest in equity-linked interventions; would require buy-in on classroom recording and staff capacity.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 45
+      "score": 45,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "613f9bfbde891991",
@@ -4065,7 +4343,9 @@
       "nyc_note": "NYC could strengthen financial-crime reporting and oversight (already mandated federally), but the study identifies no city-specific policy lever or intervention.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 45
+      "score": 45,
+      "effect_size": "High quality financial services deter both selection of countries for laundering and volume of funds laundered; wealthier countries attract higher levels of illicit financial flows",
+      "reach": "Suspicious Activity Reports from 2007 to 2017; global scope not quantified in abstract"
     },
     {
       "id": "8c224e93eb3bf3eb",
@@ -4094,7 +4374,9 @@
       "nyc_note": "NYC is not in a seismic risk zone at the scale studied; findings describe attachment to nation/religion, not a city policy lever.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 44
+      "score": 44,
+      "effect_size": "Stronger national in-group orientation (more pride, willingness to fight, priority for nationals in job allocation) in high-risk earthquake zones; effect conditional on state-religion alignment",
+      "reach": "494 subnational regions across 63 countries, 1981-2022"
     },
     {
       "id": "9f75d407da1b69c6",
@@ -4123,7 +4405,9 @@
       "nyc_note": "NYC has established apprenticeship networks, robust CUNY system, and strong union/industry partnerships; direct fit with existing workforce development infrastructure.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 44
+      "score": 44,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "16050ec9b1b76ea9",
@@ -4152,7 +4436,9 @@
       "nyc_note": "Published in criminology journal but focuses on pandemic spread, not crime or safety interventions. Limited NYC relevance without seeing full paper.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 44
+      "score": 44,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "32bfc85ddaae0e06",
@@ -4181,7 +4467,9 @@
       "nyc_note": "NYC has high inequality and segregation, making findings contextually relevant, but the study offers no concrete policy levers or NYC-specific analysis.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 44
+      "score": 44,
+      "effect_size": "36.3% increase in injurious assault incident rates against police",
+      "reach": "2,953 jurisdictions"
     },
     {
       "id": "8e0ca167e1405345",
@@ -4210,7 +4498,9 @@
       "nyc_note": "No actionable city policy or program identified. Theoretical/methodological paper on research bias in economics literature.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 44
+      "score": 44,
+      "effect_size": "no significant effect of gender on responsiveness to treatment",
+      "reach": "over 200 experimental economics papers"
     },
     {
       "id": "e949dab38b11cb2d",
@@ -4239,7 +4529,9 @@
       "nyc_note": "NYC already has its own minimum wage; findings could inform future adjustments or sub-regional variation, but city has limited independent wage-setting authority for many sectors.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 43
+      "score": 43,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "9de6685937cd3dbc",
@@ -4268,7 +4560,9 @@
       "nyc_note": "NYC could apply governance recommendations to NYPD surveillance systems and city data platforms, but paper provides only high-level mitigation strategies, not concrete implementation blueprints.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 43
+      "score": 43,
+      "effect_size": "Not quantified in abstract",
+      "reach": "6 AI systems across different political regimes (US to China)"
     },
     {
       "id": "a74c61835157dd93",
@@ -4297,7 +4591,9 @@
       "nyc_note": "Provides sociological understanding of street violence dynamics but offers no explicit lever for NYC policy or program design.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 43
+      "score": 43,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "05d1c9de83548cd9",
@@ -4326,7 +4622,9 @@
       "nyc_note": "NYC has no control over monetary policy, fiscal dominance, or eurozone debt; findings are structural-macro, not amenable to municipal action.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 43
+      "score": 43,
+      "effect_size": "Pessimistic debt news increases one- and three-year inflation expectations with no detectable effect at five years",
+      "reach": "German firms in a survey experiment (specific number not stated in abstract)"
     },
     {
       "id": "819761b4af82fea7",
@@ -4355,7 +4653,9 @@
       "nyc_note": "NYC uses Regents exams, SAT, and other standardized assessments; the pipeline could be applied to these. However, the method is designed for high-stakes entrance exams (NEET, JEE); applicability to K\u201312 or college-readiness exams depends on data availability and curriculum structure similarity.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "NEET's latent skill distribution stable within syllabus regime (KL divergence 0.004-0.032) but shifts significantly with 2023 syllabus rationalization (KL=0.040, p=0.0005), with Elimination/Negation questions rising from ~20-29% to ~31-35%",
+      "reach": "9 years of NEET questions (2016-2024, n=1,496 total; n=1,072 for 2016-2021 regime, n=392 for 2023-2024 regime)"
     },
     {
       "id": "89c713e9d99ae3b7",
@@ -4384,7 +4684,9 @@
       "nyc_note": "ConEd could pilot dynamic tariffs in constrained zones, but NYC faces regulatory, political, and consumer-acceptance barriers; feasible but requires buy-in from PSC and coordination with existing rate structures.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "13-48 million DKK in potential grid savings per constrained substation",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c6be7c5698c074ef",
@@ -4413,7 +4715,9 @@
       "nyc_note": "NYC has existing healthy homes ordinance framework; heat vulnerability is rising in outer boroughs; landlord compliance infrastructure in place; summer heat deaths rising.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Households without AC, using window AC, or not running central AC struggled to maintain 80\u00b0F overnight once outdoor temperatures exceeded 90\u00b0F",
+      "reach": "114 households across two New Orleans wards during 2023-2024"
     },
     {
       "id": "3563c82879bd4ad1",
@@ -4442,7 +4746,9 @@
       "nyc_note": "NYC has existing homeownership and foreclosure-prevention programs (HPD, legal aid); could expand collaborative model and heirs'-property resolution specifically.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6b9158bad3b7370d",
@@ -4471,7 +4777,9 @@
       "nyc_note": "NYC has existing single-mother support infrastructure (TANF, childcare vouchers, education programs); findings could refine targeting and design of current services.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "955f925f4fc5d918",
@@ -4500,7 +4808,9 @@
       "nyc_note": "NYC has large outdoor workforce (construction, delivery, parks, sanitation); city agencies (OSHA, DOH) could adopt local heat/air-quality rules independent of stalled federal action.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "~one in five US workers (national portrait)"
     },
     {
       "id": "4fea048c7dcec6d4",
@@ -4529,7 +4839,9 @@
       "nyc_note": "National data aggregation with no NYC-specific analysis; limited direct policy lever without deeper local adaptation.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "3c593d01d4c72dc5",
@@ -4558,7 +4870,9 @@
       "nyc_note": "CUNY serves ~250k students; NYC could systematize childcare, transit, food access partnerships across campuses.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d75659cfdace0946",
@@ -4587,7 +4901,9 @@
       "nyc_note": "NYC has extensive child care workforce and regulatory infrastructure; city could replicate survey design, use findings to target expansion of nontraditional care slots via existing subsidy/partnership programs (e.g., NYC DOE).",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "161a5cdb05fffa3d",
@@ -4616,7 +4932,9 @@
       "nyc_note": "NYC has extensive FQHC network and could partner with existing health/social service providers (e.g., Federally Qualified Health Centers, DOHMH); model fits health equity and housing stability goals.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "299763cc536cb8ae",
@@ -4645,7 +4963,9 @@
       "nyc_note": "NYC has child care quality oversight and subsidy programs (NYCDOE, ACS); a similar stakeholder review could improve transparency and participation in existing systems.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "79a4595ba1102954",
@@ -4674,7 +4994,9 @@
       "nyc_note": "NYC already has strong multi-stakeholder governance structures and agencies; dignity-centered convening model could integrate into existing economic mobility initiatives.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "8a303d950babd93a",
@@ -4703,7 +5025,9 @@
       "nyc_note": "NYC has large, diverse AANHPI populations and existing housing/wealth programs (HPD, community development organizations) that could integrate ethnicity-specific barriers and pathways.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "592c1242b8ed54a2",
@@ -4732,7 +5056,9 @@
       "nyc_note": "NYC has large AANHPI population, existing homeless services infrastructure, and agencies (DHS, HPD) that could adopt AANHPI-responsive programming.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "cdfe821efe4e03c2",
@@ -4761,7 +5087,9 @@
       "nyc_note": "NYC operates MTA with existing OMNY fare system and safety-net programs (NYCTA); could adapt automatic enrollment for low-income riders through existing infrastructure.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "f84355a0e9202126",
@@ -4790,7 +5118,9 @@
       "nyc_note": "NYC could push for state-level regulation or adopt local transparency/anti-predation standards for city contractors; federal/state authority may limit city-only action, but advocacy and worker-protection measures are feasible.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "~10 million workers in 2022"
     },
     {
       "id": "31cde0a733253240",
@@ -4819,7 +5149,9 @@
       "nyc_note": "NYC has robust small-business ecosystem and existing apprenticeship infrastructure (DOLLY, NYC Apprenticeship); intermediary model aligns with city economic-mobility goals and workforce development priorities.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Small and medium-sized businesses in North Carolina and South Carolina from 2023 to 2026"
     },
     {
       "id": "6d466e70841d0fa1",
@@ -4848,7 +5180,9 @@
       "nyc_note": "NYC has major tech employers, CUNY/NYU systems, and economic mobility imperatives; could integrate with existing workforce development and higher-ed partnerships.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d5218b49aaa732f1",
@@ -4877,7 +5211,9 @@
       "nyc_note": "NYC has extensive housing agencies and rental stock; strategies from peer cities likely adaptable, though NYC's scale and cost structure differ from midsize cities studied.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 42
+      "score": 42,
+      "effect_size": "Not quantified in abstract",
+      "reach": "9 midsize cities"
     },
     {
       "id": "51fd815e7953c7a6",
@@ -4906,7 +5242,9 @@
       "nyc_note": "South Korean police system differs materially from NYPD in structure, labor law, and culture; transferability unproven without actionable findings.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 41
+      "score": 41,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "84a3f2846c7ff19a",
@@ -4935,7 +5273,9 @@
       "nyc_note": "NYC could adopt LLMs as a data-query interface for residents, but only if reliability problems documented here are resolved first; education/workforce focus is relevant but abstract is incomplete.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 41
+      "score": 41,
+      "effect_size": "Not quantified in abstract",
+      "reach": "100 questions across 10 education and workforce topics"
     },
     {
       "id": "f2ea9b492728b983",
@@ -4964,7 +5304,9 @@
       "nyc_note": "NYC has substantial ride-sharing use and Taxi & Limousine Commission oversight; findings could inform congestion or emissions policy. However, NYC's transit-rich environment differs from many U.S. cities studied.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "dbceed5da0f204d8",
@@ -4993,7 +5335,9 @@
       "nyc_note": "NYC could pilot GLP-1 access via Medicaid/health dept. or criminal-justice reentry programs, but evidence is observational and causal mechanisms unproven; medication cost and medical contraindications limit reach.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "62% reduction in the impulsivity-violent crime association (IRR = 0.38) and 52% reduction in the alcohol use-violent crime association (IRR = 0.48) among current GLP-1 RA users",
+      "reach": "7,521 US adults (597 current GLP-1 RA users)"
     },
     {
       "id": "8d41293774bbf94b",
@@ -5022,7 +5366,9 @@
       "nyc_note": "This is a computer science infrastructure tool for AI researchers; no direct hook to city services, policy, or resident welfare.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Not quantified in abstract",
+      "reach": "22,235 models, 2,273 unique benchmarks, and 31 evaluation formats"
     },
     {
       "id": "03858d12040eb4ae",
@@ -5051,7 +5397,9 @@
       "nyc_note": "NYC operates Head Start programs and could pressure federal rulemakers or directly supplement wages via city funds; aligns with municipal early childhood expansion goals.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7f9520747ba55737",
@@ -5080,7 +5428,9 @@
       "nyc_note": "NYC funds CUNY Accelerated Study in Associate Programs and could layer living stipends via existing financial-aid offices; aligns with city workforce-development priorities.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "63175d2265045605",
@@ -5109,7 +5459,9 @@
       "nyc_note": "NYC already has extensive transit; study uses Chinese context (different exam system, geography). Relevance requires adaptation to SAT/Regents access disparities.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "073ae060b62cc597",
@@ -5138,7 +5490,9 @@
       "nyc_note": "NYC Department of Education operates large network of high schools and community colleges; existing programs could integrate these supports; substantial young-parent population.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "10% of young parents enroll in college within a few years of high school, compared with 50% of peers",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d57c84cc2f71c751",
@@ -5167,7 +5521,9 @@
       "nyc_note": "NYC has existing apprenticeship infrastructure (NYATEP, DOE programs); could extend support explicitly to SMBs; aligns with workforce-development priorities.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "b9c6d92866aed1fd",
@@ -5196,7 +5552,9 @@
       "nyc_note": "NYC has large CUNY system, strong union apprenticeship tradition, and multiple high-demand sectors (construction, healthcare, technology); requires coordination with CUNY and NYC Department of Small Business Services.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7d7a8e60966f1669",
@@ -5225,7 +5583,9 @@
       "nyc_note": "NYC has CUNY, community colleges, and industry partnerships (construction, healthcare, tech) suited to hybrid apprenticeship-degree models.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "da3ae862cca5f824",
@@ -5254,7 +5614,9 @@
       "nyc_note": "NYC already has apprenticeship programs (CUNY, union partnerships, NYSERDA); adding degree pathways via existing agencies (CUNY, DCWP, DOE) is feasible.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "353e54123721dcd0",
@@ -5283,7 +5645,9 @@
       "nyc_note": "Study is Chicago-based; findings are neighborhood-level patterns, not tested interventions that NYC could readily deploy.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Low self-control increases victimization risk; effect is contingent on neighborhood collective efficacy, age, and poverty (not quantified)",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "dbf3b1f7f5ba38e5",
@@ -5312,7 +5676,9 @@
       "nyc_note": "Schools could map peer networks, but doing so ethically and sustainably poses privacy and operational challenges; compatible in theory with restorative justice programs already piloted in NYC schools.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Not quantified in abstract",
+      "reach": "~20,000 adolescents (Add Health study participants)"
     },
     {
       "id": "057ff5d009cb20d5",
@@ -5341,7 +5707,9 @@
       "nyc_note": "NYC has existing health department infrastructure and community health worker networks; could integrate evidence-based visiting protocols into maternal/child health services.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "65dd6aa53a30b06d",
@@ -5370,7 +5738,9 @@
       "nyc_note": "NYPD/prosecutors could mine trial data similarly, but study offers no concrete tactical or policy intervention for local implementation.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "Friendship and meeting ties showed the strongest associations with drug crimes and criminal collaboration; familial ties lost significance when controlling for shared cartel affiliation",
+      "reach": "188 actors from the Sinaloa Cartel"
     },
     {
       "id": "c87449a0adff3e90",
@@ -5399,7 +5769,9 @@
       "nyc_note": "Identifies legacy demographic shifts but offers no policy lever or programmatic intervention for NYC to adopt.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 40
+      "score": 40,
+      "effect_size": "2.4 percentage points lower population growth among ages 18-64 per one-standard-deviation increase in exposure",
+      "reach": "U.S. commuting zones through 2020"
     },
     {
       "id": "c37dc6bf5334cfbd",
@@ -5428,7 +5800,9 @@
       "nyc_note": "NYC has different constraints (density, geography, existing built fabric) than Texas exurbs; zoning reforms are applicable but results may differ significantly.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 39
+      "score": 39,
+      "effect_size": "Texas metropolitan areas increased housing supply by more than 12% from 2000-2025",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "e38562b5cfe1c03b",
@@ -5457,7 +5831,9 @@
       "nyc_note": "Relevant conceptually to justice and city services sectors, but abstract offers no concrete policy, program, or operational lever; no pilot data or implementation case study shown.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 39
+      "score": 39,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "f1894c354512bb88",
@@ -5486,7 +5862,9 @@
       "nyc_note": "Applicable only to university capstone programs within CUNY/NYU; no direct lever for city agencies or public safety, housing, transit, or other civic-policy domains.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 39
+      "score": 39,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "19e6b32fa12a2b1d",
@@ -5515,7 +5893,9 @@
       "nyc_note": "NYC has heat and crime data and agencies (NYPD, DoH, Parks) that could theoretically collaborate; however, the paper offers no concrete program or policy, only a conceptual scaffold.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 39
+      "score": 39,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "5662bbb21f2e3654",
@@ -5544,7 +5924,9 @@
       "nyc_note": "NYC could pilot automatic enrollment in savings programs for eligible children; applies to any city-administered or city-aligned child wealth program.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 39
+      "score": 39,
+      "effect_size": "Not quantified in abstract",
+      "reach": "6 million children"
     },
     {
       "id": "928af70d21ed9961",
@@ -5573,7 +5955,9 @@
       "nyc_note": "NYC cannot unilaterally change federal education accountability rules; relevance is only through advocacy, lobbying, or alignment with state-level action on prison education.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 39
+      "score": 39,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "535d4853b70e7f0b",
@@ -5602,7 +5986,9 @@
       "nyc_note": "NYC has many banks in FHLBank system; city could lobby for prioritization of NYC affordable housing in AHP/CIP allocations, but direct city control is limited.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 39
+      "score": 39,
+      "effect_size": "$47.1 billion in economic impact (range: $16.5-$94.8 billion)",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "15da144270da335a",
@@ -5631,7 +6017,9 @@
       "nyc_note": "NYC has a large prosecutor system (DA offices); declination policy is relevant, but applicability depends on study's actual scope and recommendations.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 39
+      "score": 39,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0ee99720b2059ced",
@@ -5660,7 +6048,9 @@
       "nyc_note": "NYC DA's office could in principle adopt guidelines, but relevance depends on whether study identifies a specific, tested intervention vs. descriptive analysis of existing practice.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 39
+      "score": 39,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "404ba348a9db9ff4",
@@ -5689,7 +6079,9 @@
       "nyc_note": "NYC has many struggling commercial corridors, but abstract provides no actionable policy or program for city to adopt",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 38
+      "score": 38,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c0d097cf7b25d202",
@@ -5718,7 +6110,9 @@
       "nyc_note": "Paper offers pattern-detection infrastructure but no concrete NYC consumer-protection policy, enforcement, or resident intervention. Would require downstream translation into alerts, education, or fraud task-force guidance.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 38
+      "score": 38,
+      "effect_size": "Not quantified in abstract",
+      "reach": "21,304 posts from scam-related subreddits (2023-2025)"
     },
     {
       "id": "041cc17509618d82",
@@ -5747,7 +6141,9 @@
       "nyc_note": "Attitude research with no actionable policy or program for NYC agencies to implement.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 38
+      "score": 38,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a210081763ff7fdc",
@@ -5776,7 +6172,9 @@
       "nyc_note": "Study identifies a problem (stereotype-driven victim-blaming) but offers no tested solution; no actionable policy lever or program prototype is evaluated.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 38
+      "score": 38,
+      "effect_size": "Stereotype-congruent victims more likely to be categorized as hate crimes, less likely to be blamed, and more likely to see perpetrators punished; pre-existing stereotypes associated with greater hate crime categorization and victim blaming",
+      "reach": "1,300 respondents in a national survey"
     },
     {
       "id": "f49f1f55edfebb71",
@@ -5805,7 +6203,9 @@
       "nyc_note": "Title suggests potential relevance to NYC's segregation and violence patterns, but no concrete policy lever evident without abstract.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 38
+      "score": 38,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "59a7f41c28aa2ed7",
@@ -5834,7 +6234,9 @@
       "nyc_note": "Study is purely descriptive and correlational; no tested intervention or implementation pathway for NYC agencies (NYPD, courts, DOC) is proposed or evaluated.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 38
+      "score": 38,
+      "effect_size": "30% willing to offend if all crimes were legal (compared to 18% in prior study)",
+      "reach": "865 community participants"
     },
     {
       "id": "c58439de2ff5677a",
@@ -5863,7 +6265,9 @@
       "nyc_note": "Findings could inform gang intervention strategy design, but the abstract proposes no concrete program NYC could implement; 'best practices' mentioned but not specified.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 38
+      "score": 38,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "35c0c40241510804",
@@ -5892,7 +6296,9 @@
       "nyc_note": "No local policy lever; global atmospheric monitoring with no city-specific intervention or decision point.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 37
+      "score": 37,
+      "effect_size": "Orders of magnitude faster inference; superior predictive accuracy compared to baseline methods; better-calibrated uncertainty estimates",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d86482bf018d8db2",
@@ -5921,7 +6327,9 @@
       "nyc_note": "This is foundational theory, not a policy or program; NYC would need applied research translating it into specific interventions before adoption.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 37
+      "score": 37,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c06882f19f55de1f",
@@ -5950,7 +6358,9 @@
       "nyc_note": "NYC Dept. of Education already operates CTE programs; expansion aligns with existing governance and funding mechanisms.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 37
+      "score": 37,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "02650093647ce5d7",
@@ -5979,7 +6389,9 @@
       "nyc_note": "Tells NYC candidates that highlighting transit may help them win, but does not identify a concrete service, policy, or program NYC government could adopt.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 37
+      "score": 37,
+      "effect_size": "Not quantified in abstract",
+      "reach": "548 candidates for local office in the United States"
     },
     {
       "id": "90e4985065bde363",
@@ -6008,7 +6420,9 @@
       "nyc_note": "NYC already operates child care subsidy programs; pay-equity model could be layered onto existing infrastructure, though funding allocation would need approval.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 37
+      "score": 37,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6be42d2eab72f92a",
@@ -6037,7 +6451,9 @@
       "nyc_note": "NYC faces growth and density challenges, not depopulation. Finding concerns fiscal accounting in shrinking towns, not city operations or resident welfare.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 37
+      "score": 37,
+      "effect_size": "Depopulation associated with higher expenditure and revenue per capita; debt association significant only in full sample and smallest municipalities",
+      "reach": "Spanish municipalities with fewer than 20,000 inhabitants, 2015-2022"
     },
     {
       "id": "6024c32783fb929a",
@@ -6066,7 +6482,9 @@
       "nyc_note": "NYC already funds childcare through ACS/NYCHA; educator pay equity aligns with existing policy goals and infrastructure.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 37
+      "score": 37,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "5f528122f7052762",
@@ -6095,7 +6513,9 @@
       "nyc_note": "NYC has large school system with potential AI tool adoption, but abstract provides no concrete actionable policy or program a city could adopt\u2014only measurement development.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 37
+      "score": 37,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "38df88b3505d218d",
@@ -6124,7 +6544,9 @@
       "nyc_note": "NYC's focus is on retrofitting legacy systems and fixing specific projects; the paper's insights apply mainly to greenfield infrastructure (renewables, EVs) where NYC has limited direct control.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 36
+      "score": 36,
+      "effect_size": "Modular natives operate under finite and predictable risk versus infinite and unpredictable risk for non-natives (statistically significant at high level)",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d83f35b67aaa6040",
@@ -6153,7 +6575,9 @@
       "nyc_note": "NYC has minimal wildfire risk; suburban/exurban areas of NY, NJ, PA may benefit, but not NYC proper.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 35
+      "score": 35,
+      "effect_size": "53.3% AUPRC for IA failure prediction with public data",
+      "reach": "38,128 naturally caused wildfire events across the United States"
     },
     {
       "id": "39207cdff29c95a6",
@@ -6182,7 +6606,9 @@
       "nyc_note": "NYC has existing housing and homeownership programs; supply constraints and affordability are urgent policy issues.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 35
+      "score": 35,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "1ca732ca296bf2a6",
@@ -6211,7 +6637,9 @@
       "nyc_note": "NYC maternal/newborn mortality rates are substantially lower than urban India; applicable mainly as comparative benchmark for equity-focused service delivery in underserved neighborhoods.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 35
+      "score": 35,
+      "effect_size": "Improvements in maternal and newborn health service coverage were steeper among the poorest groups; neonatal mortality rates were lower at public than private facilities, particularly among the poorest",
+      "reach": "200,000 births over two decades (94,826 births in 2002-2008; 108,152 births in 2015-2021) across urban India"
     },
     {
       "id": "0b71ec2f329452a9",
@@ -6240,7 +6668,9 @@
       "nyc_note": "NYC already has sophisticated demographic data and gentrification tracking; unclear what new policy action these measures would enable beyond existing monitoring.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 35
+      "score": 35,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "3f0d79b559edffba",
@@ -6269,7 +6699,9 @@
       "nyc_note": "NYC has limited manufactured-home stock due to high land costs and zoning; more relevant to outer boroughs or regions with existing manufactured communities. State-level policy (NYS Building Code) would be the key lever.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 35
+      "score": 35,
+      "effect_size": "Not quantified in abstract",
+      "reach": "22 million Americans"
     },
     {
       "id": "7cc0b7583147d37b",
@@ -6298,7 +6730,9 @@
       "nyc_note": "Potentially useful for NYC agencies managing sensitive datasets, but requires agency adoption and integration into existing workflows.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 35
+      "score": 35,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "9869a90a08f7042f",
@@ -6327,7 +6761,9 @@
       "nyc_note": "NYC publishes education and workforce data (CUNY, workforce boards); audit results could inform vendor selection or API design, but impact on resident outcomes is indirect.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 35
+      "score": 35,
+      "effect_size": "Not quantified in abstract",
+      "reach": "3 large language models evaluated on 100 questions"
     },
     {
       "id": "46916ae572d2ec8b",
@@ -6356,7 +6792,9 @@
       "nyc_note": "NYC already has extensive transit data (MTA, Citibike, taxi) and mobility studies; this adds incremental methodological value but no concrete policy lever or novel actionable recommendation is identified.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 34
+      "score": 34,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "3ac76576ddde8227",
@@ -6385,7 +6823,9 @@
       "nyc_note": "NYC Department of Education could adopt in public schools, but limited direct city-policy lever; primarily a district/school-level intervention.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 34
+      "score": 34,
+      "effect_size": "Not quantified in abstract",
+      "reach": "19 computing students"
     },
     {
       "id": "301b451f6d9eeaab",
@@ -6414,7 +6854,9 @@
       "nyc_note": "NYC has child care subsidy programs (ACS, DOE pre-K) but Georgia's CAPS structure and findings may not directly transfer.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 34
+      "score": 34,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "e34f87cebc082ac6",
@@ -6443,7 +6885,9 @@
       "nyc_note": "NYC has existing housing, small-business, and retirement-savings programs but abstract offers no concrete policy levers\u2014only diagnostic insight.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 34
+      "score": 34,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "86edcb17f1ad6b85",
@@ -6472,7 +6916,9 @@
       "nyc_note": "Technical infrastructure improvement for companies using LLM evaluation; no direct relevance to NYC city services, safety, or resident welfare.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 33
+      "score": 33,
+      "effect_size": "60/60 runs with zero judge-to-system misattribution for silent version bump detection; 110/120 correct attributions for prompt change at guard width 300; rolling z-test false-alarms on 75% of drift-free streams",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "4d906381123c4c3e",
@@ -6501,7 +6947,9 @@
       "nyc_note": "DOHMH could in principle adopt better forecasting; but paper offers no guidance on when/how to act on forecasts, integration with response systems, or local validation.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 33
+      "score": 33,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "5374d84bb73dc324",
@@ -6530,7 +6978,9 @@
       "nyc_note": "NYC has no independent authority over federal banking capital requirements or mortgage market regulation; this is purely a federal policy domain.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 33
+      "score": 33,
+      "effect_size": "Moderate impact on mortgage market; potential for more substantial impact with policy clarifications",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6c3e91ee4a0ef0b0",
@@ -6559,7 +7009,9 @@
       "nyc_note": "NYC agencies do not yet systematically use synthetic data generation; framework is a tool for *if* they do, not a direct service improvement.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 32
+      "score": 32,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "40d8467455abca27",
@@ -6588,7 +7040,9 @@
       "nyc_note": "Study population (older Mediterranean adults with metabolic syndrome) and findings (walkability-SES interaction) may not generalize to NYC's diverse age/ethnicity/climate; abstract offers no actionable lever beyond vague 'equity-focused approaches.'",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 32
+      "score": 32,
+      "effect_size": "Larger waist circumference and higher body shape index in deprived areas within highly walkable neighborhoods (specific magnitude not quantified)",
+      "reach": "1,286 adults aged 55-75 years across 6 Andalusian cities"
     },
     {
       "id": "0e838101f1e91d8f",
@@ -6617,7 +7071,9 @@
       "nyc_note": "NYC cannot create or directly manage FHLBanks (federal entities); can only advocate for member institutions to participate or lobby for program expansion.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 32
+      "score": 32,
+      "effect_size": "Not quantified in abstract",
+      "reach": "11 Federal Home Loan Banks"
     },
     {
       "id": "4a9a6957648ac16d",
@@ -6646,7 +7102,9 @@
       "nyc_note": "Study documents a phenomenon rather than a concrete policy or program NYC could adopt. Could inform sentencing or re-entry reform advocacy but does not itself propose actionable mechanics.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 32
+      "score": 32,
+      "effect_size": "Not quantified in abstract",
+      "reach": "30 formerly incarcerated individuals"
     },
     {
       "id": "6b98a2d19abe3345",
@@ -6675,7 +7133,9 @@
       "nyc_note": "NYC courts are bound by state judicial processes; replacing judges would require state-level legislation and face massive legal/ethical barriers.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 32
+      "score": 32,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2ddfdc222746c637",
@@ -6704,7 +7164,9 @@
       "nyc_note": "NYC could adopt improved evidence communication practices across agencies, but abstract provides no concrete NYC-relevant interventions.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 32
+      "score": 32,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "9babe9674411422a",
@@ -6733,7 +7195,9 @@
       "nyc_note": "NYC does not operate a public AI travel-booking system; no direct lever for city policy. Animal welfare is important but orthogonal to the civic-safety/housing/transit/health priorities of urban governance.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 31
+      "score": 31,
+      "effect_size": "All models scored below 64% chance level, with best performer at 53%; welfare-aware system prompt improved performance by 26-63 percentage points",
+      "reach": "7 frontier AI models from 4 labs evaluated on 48 travel booking scenarios"
     },
     {
       "id": "6308e8d60a8b0a54",
@@ -6762,7 +7226,9 @@
       "nyc_note": "NYC agencies do not yet widely rely on LLM search agents for public services. Relevant only if/when they do. No immediate policy or program lever.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 31
+      "score": 31,
+      "effect_size": "Attack success rate ranges from 0.0% to 31.4% across LLM backends",
+      "reach": "13 LLM backends evaluated on 308 cases each"
     },
     {
       "id": "1b05073fa989431d",
@@ -6791,7 +7257,9 @@
       "nyc_note": "NYC has no direct asylum-application forecasting role; EU asylum policy is national/supranational. Tangential relevance only to immigrant services planning if NYC wished to forecast intake.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 31
+      "score": 31,
+      "effect_size": "Joint EU-27 models improve on country-by-country benchmarks, with largest gains in upper-tail forecasting",
+      "reach": "EU-27 countries, monthly data from 2008 to 2026"
     },
     {
       "id": "134585aebb698a56",
@@ -6820,7 +7288,9 @@
       "nyc_note": "While NYC could theoretically monitor mental health discourse on social platforms, the study offers no actionable policy lever, intervention design, or evidence base for a city program. It is descriptive only.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 31
+      "score": 31,
+      "effect_size": "Not quantified in abstract",
+      "reach": "28,341 TikTok videos and 80,130 comments from May 2023 and 2024"
     },
     {
       "id": "de4e03493ed7f73e",
@@ -6849,7 +7319,9 @@
       "nyc_note": "Identifies revenue pressures NYC faces but offers no actionable lever for city policy.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 31
+      "score": 31,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a905262f1af32c80",
@@ -6878,7 +7350,9 @@
       "nyc_note": "Identifies a problem but offers no actionable NYC policy or program; housing affordability solutions require separate evidence.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 31
+      "score": 31,
+      "effect_size": "10 percentage point decline in homeownership rate from 47% (2005) to 37% (2015)",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "cf727c97b8e616ad",
@@ -6907,7 +7381,9 @@
       "nyc_note": "NYC operates as a single unified school district; school district secession is not a live governance issue in the city. Research is primarily relevant to suburban/regional contexts.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 31
+      "score": 31,
+      "effect_size": "Not quantified in abstract",
+      "reach": "19 states with school district secessions since 2000"
     },
     {
       "id": "edd3310fc038ee0d",
@@ -6936,7 +7412,9 @@
       "nyc_note": "NYC could incorporate these principles into caregiving AI deployed via public health programs or DOHMH digital health initiatives, but the study offers no specific policy mechanism or local proof of concept.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 30
+      "score": 30,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "4caf17715d7d4d5c",
@@ -6965,7 +7443,9 @@
       "nyc_note": "Relevant only if/when NYC schools consider adopting LLM tutoring systems; currently a niche use case with no indication of city-scale deployment.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 30
+      "score": 30,
+      "effect_size": "Correlation of 0.421 between solving and pedagogy composites across models",
+      "reach": "8 publicly reported LLM models"
     },
     {
       "id": "d893249f200660df",
@@ -6994,7 +7474,9 @@
       "nyc_note": "Provides ethical guidance for weighting distributional impacts in policy evaluation, but is UK-based, abstract, and requires institutional adoption of wellbeing-focused CBA methodology not yet standard in NYC agencies.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 30
+      "score": 30,
+      "effect_size": "Median isoelastic parameter \u03b1=0.48, implying least satisfied individuals' wellbeing valued roughly twice as much as most satisfied individuals'",
+      "reach": "2,068 UK respondents"
     },
     {
       "id": "b27d2e1cff32fb86",
@@ -7023,7 +7505,9 @@
       "nyc_note": "NYC does not set Medicaid policy (state does); city has limited direct leverage over MCO contracting. Value mainly as input to state advocacy.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 30
+      "score": 30,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "954549e3b92430ec",
@@ -7052,7 +7536,9 @@
       "nyc_note": "NYC has service programs but no equivalent statewide lieutenant governor\u2013backed initiative; would require new infrastructure and data integration.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 30
+      "score": 30,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7d1eb6c7a1245ad4",
@@ -7081,7 +7567,9 @@
       "nyc_note": "Once completed, findings might inform city counter-extremism strategy, but the protocol stage offers no actionable policy input.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 30
+      "score": 30,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a8b94dbbcb8638a9",
@@ -7110,7 +7598,9 @@
       "nyc_note": "NYC has aging and poverty services but no explicit reverse-transfer policy lever; would require new program design.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 29
+      "score": 29,
+      "effect_size": "13% of adult children provided financial support to aging parents between 2010-2022, more than double the 5% share before 2010",
+      "reach": "Health and Retirement Study (HRS) participants from 2010-2022"
     },
     {
       "id": "1f6ba8a676881c90",
@@ -7139,7 +7629,9 @@
       "nyc_note": "No direct policy or program lever for NYC. Could potentially support future research infrastructure, but requires subsequent applied work to yield any public health benefit.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 29
+      "score": 29,
+      "effect_size": "Not quantified in abstract",
+      "reach": "MIMIC-III dataset (specific number of patients/records not stated in abstract)"
     },
     {
       "id": "24af00f9cea9d043",
@@ -7168,7 +7660,9 @@
       "nyc_note": "Study is retrospective measurement of wage correlations with no program design, implementation pathway, or NYC-specific context.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 29
+      "score": 29,
+      "effect_size": "Not quantified in abstract",
+      "reach": "26 countries"
     },
     {
       "id": "60aca46ea6b602f1",
@@ -7197,7 +7691,9 @@
       "nyc_note": "NYC could require CUNY/SUNY systems to adopt, but this is higher-ed policy not core municipal governance or public-facing service; indirect city benefit.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 29
+      "score": 29,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d78e32c48b4484f9",
@@ -7226,7 +7722,9 @@
       "nyc_note": "Findings may inform NYC housing policy but study presents no concrete actionable lever or program design",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 29
+      "score": 29,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "8a3cb7d263794f59",
@@ -7255,7 +7753,9 @@
       "nyc_note": "NYC has no independent authority over FHA underwriting standards; relies on federal policy change. NYC could advocate for it but cannot implement unilaterally.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 29
+      "score": 29,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "ae1f4d3ac097d4ef",
@@ -7284,7 +7784,9 @@
       "nyc_note": "No NYC-specific data or interventions proposed; would require separate NYC analysis before any local policy adoption.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 29
+      "score": 29,
+      "effect_size": "Skill gap between white and Hispanic students widens sharply at middle school entry",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "990b9c91bdb5345c",
@@ -7313,7 +7815,9 @@
       "nyc_note": "NYC has large Asian immigrant populations and school-choice dynamics, but paper does not identify actionable policy or program city could adopt.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 29
+      "score": 29,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c34f916d3044d880",
@@ -7342,7 +7846,9 @@
       "nyc_note": "NYC health department could use findings to inform screening guidance, but study offers no new intervention model or city-specific lever.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 29
+      "score": 29,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "22a8111a29bb6afb",
@@ -7371,7 +7877,9 @@
       "nyc_note": "Historical analysis of a defunct federal program; no municipal policy lever or implementation pathway.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 29
+      "score": 29,
+      "effect_size": "5-percentage-point (47 percent) widening of the racial college gap across generations; GI Bill doubled white veterans' college completion while steering Black veterans into vocational programs with no earnings returns",
+      "reach": "Veterans from 1940 and 1950 censuses and their sons' outcomes through 2025"
     },
     {
       "id": "f94a880ed3ef5751",
@@ -7400,7 +7908,9 @@
       "nyc_note": "NYC has seafood markets and restaurants subject to fraud, but IUU fishing is not a municipal enforcement lever; DSNY/DOH food safety roles do not typically target supply-chain IUU incidents. Relevant to state/federal/international agencies, not city government.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "93b8fe954c58c4ea",
@@ -7429,7 +7939,9 @@
       "nyc_note": "NYC could influence city-contracted platforms or public digital services, but most child-facing technology is privately owned; limited direct city policy lever.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "423231738f5dd25c",
@@ -7458,7 +7970,9 @@
       "nyc_note": "Chicago-specific analysis; NYC would need its own ECE asset mapping and SES-neighborhood-change linkage study to act on findings.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "No significant effect on ECE availability between descending and stable neighborhoods",
+      "reach": "Chicago Metropolitan Area zip code tabulation areas between 2009 and 2019"
     },
     {
       "id": "dc2ddd11897096f3",
@@ -7487,7 +8001,9 @@
       "nyc_note": "NYC already has major university and hospital systems; abstract offers no guidance on what to do with that fact.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "67d090c85442525e",
@@ -7516,7 +8032,9 @@
       "nyc_note": "NYC cannot unilaterally adopt or reform federal FHLBank system; could only work through member banks or federal advocacy, neither direct city lever.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "$94.2 billion to $133.2 billion in annual economic value generated",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "18612786f22f02b0",
@@ -7545,7 +8063,9 @@
       "nyc_note": "NYC has similar racial wealth gaps and housing/affordability debates, but applicability depends on specific DC recommendations not visible in abstract.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "8ec062f76e745411",
@@ -7574,7 +8094,9 @@
       "nyc_note": "NYC already has complex, high property taxes on luxury properties; this is a Florida-specific proposal with limited novel applicability.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "bfca99cb4160aab7",
@@ -7603,7 +8125,9 @@
       "nyc_note": "NYC has no control over federal higher-education accountability rules; the item offers no lever for municipal action.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "Omitting calculations with fewer than 30 observations would have minimal effects on outcomes for the 'do no harm' test",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "ace69b2ede7c81d1",
@@ -7632,7 +8156,9 @@
       "nyc_note": "NYC operates a unified school district, not a county-based multi-district system; secession dynamics do not directly apply.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "Not quantified in abstract",
+      "reach": "School district secession attempts across the US from 2000 to 2026"
     },
     {
       "id": "ceed050ab82155cb",
@@ -7661,7 +8187,9 @@
       "nyc_note": "No clear path to implementation in NYC courts; raises ethical/legal concerns about requiring judges/jurors to undergo neuroimaging; findings too preliminary to inform policy.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "White male defendant photos linked with larger amplitudes on two ERPs (expectation violation and effortful processing)",
+      "reach": "30 participants viewing 500 defendant photos from Minneapolis, MN"
     },
     {
       "id": "67b0de33ad526711",
@@ -7690,7 +8218,9 @@
       "nyc_note": "Provides context on public sentiment but does not propose a city policy, program, or practice NYC could adopt.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "Both types of police-related anger strongly predict support for policing reforms",
+      "reach": "2,250 survey respondents across two national surveys"
     },
     {
       "id": "81984b95f4cdea97",
@@ -7719,7 +8249,9 @@
       "nyc_note": "NYC has limited scope for mangrove/wetland restoration; focus on flood mitigation via hard infrastructure and urban green infrastructure is more typical. LMIC context limits direct applicability.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6de0799d994af346",
@@ -7748,7 +8280,9 @@
       "nyc_note": "NYC could theoretically fund local biomedical research or offer incentives, but the core problem (federal funding policy) lies outside city control.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 28
+      "score": 28,
+      "effect_size": "22 percentage point decrease in likelihood of staying in academia",
+      "reach": "916 young biomedical scientists (PhD students and postdoctoral researchers)"
     },
     {
       "id": "4538e4a4655902c3",
@@ -7777,7 +8311,9 @@
       "nyc_note": "Theoretical contribution to learning sciences; no specific NYC agency, school system, or program intervention proposed or tested.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 26
+      "score": 26,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "e5fd53027e9c8f37",
@@ -7806,7 +8342,9 @@
       "nyc_note": "Could theoretically help NYC analyze heterogeneous treatment effects from existing program evaluations, but abstract provides no concrete example or policy hook.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 26
+      "score": 26,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "9a86ce934139c91f",
@@ -7835,7 +8373,9 @@
       "nyc_note": "NYC's health department could adopt this forecasting method, but the paper offers no guidance on *which behavioral interventions* to deploy based on heterogeneity; useful only as a prediction tool, not a concrete program.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 26
+      "score": 26,
+      "effect_size": "Significantly improved parameter recovery, epidemic trajectory estimation, and forecasting precision compared to traditional models; traditional models produce biased peak estimates and artificially stretched epidemic curves",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "3814aaeab2852a5e",
@@ -7864,7 +8404,9 @@
       "nyc_note": "Could support NYC's environmental monitoring (lead, water quality, air), but the paper does not propose a concrete city intervention or program change.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 26
+      "score": 26,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c4580594e330fd47",
@@ -7893,7 +8435,9 @@
       "nyc_note": "Study focused on Bangladesh context; would require NYC-specific minority community engagement and corpus work; depends on platform policies outside city control.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 26
+      "score": 26,
+      "effect_size": "RAG-enhanced moderation responses are more contextually accurate and perceived differently across ethnic lines",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "f6466a3d15e41c82",
@@ -7922,7 +8466,9 @@
       "nyc_note": "NYC has different federal employment exposure and nonprofit ecosystem; relevance depends on whether recommendations address generic nonprofit challenges or DC-specific policy gaps not disclosed in abstract.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 26
+      "score": 26,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "68d7b1e4110c695a",
@@ -7951,7 +8497,9 @@
       "nyc_note": "NYC could potentially coordinate local financial counseling or credit repair services to complement federal Fresh Start, but the policy lever itself is federal.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 26
+      "score": 26,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "04ca39b72d4b3492",
@@ -7980,7 +8528,9 @@
       "nyc_note": "Public housing context is relevant to NYC NYCHA, but without findings/recommendations cannot evaluate fit.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 26
+      "score": 26,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "8dc5d6f823a358a3",
@@ -8009,7 +8559,9 @@
       "nyc_note": "NYC cannot unilaterally reform federal disability measurement; applicability limited to alignment with future federal standards if adopted.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 26
+      "score": 26,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "cab25c3d4a1c33e0",
@@ -8038,7 +8590,9 @@
       "nyc_note": "NYC cannot unilaterally mandate credit reporting or hard inquiries; this requires state/federal action or DFS coordination, limiting city-level action.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 26
+      "score": 26,
+      "effect_size": "37-fold increase in BNPL spending from $2 billion to $75 billion",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "aff9c28ed542f5e4",
@@ -8067,7 +8621,9 @@
       "nyc_note": "No city-level policy lever; concerns academic discourse within criminology as a discipline.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 26
+      "score": 26,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "1406a66ce5ed3136",
@@ -8096,7 +8652,9 @@
       "nyc_note": "NYC has no active fracking; paper is of historical/policy interest only, not actionable locally.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 25
+      "score": 25,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7d42de073702651e",
@@ -8125,7 +8683,9 @@
       "nyc_note": "NYC's built environment is mostly fixed; insights may apply only to limited redevelopment projects in outer boroughs or new mixed-use districts.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 25
+      "score": 25,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a983677181e4e486",
@@ -8154,7 +8714,9 @@
       "nyc_note": "NYC has reliable grid supply and does not face chronic electricity shortages; findings address grid-failure coping, not standard urban challenges.",
       "confidence": "medium",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "1,000 households"
     },
     {
       "id": "404c5e5b1b1e05a3",
@@ -8183,7 +8745,9 @@
       "nyc_note": "Abstract contains no concrete guidance on implementing audits in NYC agencies; would require substantial downstream work to operationalize.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "fb923120d30796de",
@@ -8212,7 +8776,9 @@
       "nyc_note": "Relevant to NYC governance (algorithm audits in criminal justice, welfare, education) but paper provides no concrete implementation guidance, metrics, or case studies for a city to operationalize.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d2a66c5e804dfafe",
@@ -8241,7 +8807,9 @@
       "nyc_note": "No concrete policy, program, or practice lever. City agencies would need to first decide *why* to profile online learners and *how* to use profiles to change instruction\u2014neither addressed here.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "No significant effect of engagement quantity metrics on ability drift",
+      "reach": "198 undergraduates in a 9-chapter online statistics course"
     },
     {
       "id": "733c3ab52759470c",
@@ -8270,7 +8838,9 @@
       "nyc_note": "City has limited direct leverage over AI vendor practices; would require procurement standards or regulation that aligns with vendor incentives.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d4c7c19129325be6",
@@ -8299,7 +8869,9 @@
       "nyc_note": "NYC has limited inland waterway freight logistics; the intervention targets a niche transport mode with minimal city-policy lever.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "28.3% reduction in fuel-related costs",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a8d15d60328c3210",
@@ -8328,7 +8900,9 @@
       "nyc_note": "NYC already has sophisticated municipal data systems; private-data integration would require governance, privacy, and legal agreements not yet outlined.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "b690653601be34f3",
@@ -8357,7 +8931,9 @@
       "nyc_note": "No concrete city-level policy lever articulated. Estate and retirement rules are primarily federal/state; brief notes policymakers need data but stops short of actionable recommendations.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "$124 trillion projected between now and 2048"
     },
     {
       "id": "8747aef20f7e8a40",
@@ -8386,7 +8962,9 @@
       "nyc_note": "NYC cannot unilaterally reform federal GSEs; relevant only if advocating to federal policymakers.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "050c169726992328",
@@ -8415,7 +8993,9 @@
       "nyc_note": "NYC has limited direct authority over insurance pricing/products (NY State Department of Financial Services regulates); could coordinate mitigation/resilience programs but no concrete city intervention is identifiable.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0e6de958918f6402",
@@ -8444,7 +9024,9 @@
       "nyc_note": "NYC cannot control federal rates or HMDA data collection. Could inform local affordable-housing policy but no concrete lever is specified.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a9a264c553fb3de6",
@@ -8473,7 +9055,9 @@
       "nyc_note": "Study is contextual to Danish governance and housing policy; offers no concrete NYC-actionable intervention or program model.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "10 Danish cities with 15 designated areas"
     },
     {
       "id": "6b4f75537f275d24",
@@ -8502,7 +9086,9 @@
       "nyc_note": "NYC could theoretically apply similar benchmarking to municipal employee health plans or safety-net hospital procurement, but the abstract does not discuss city-level levers.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d2135207d1ff293d",
@@ -8531,7 +9117,9 @@
       "nyc_note": "NYC cannot unilaterally reform federal OZ program; could only influence local OZ project selection/oversight.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "3be6fb7b32524391",
@@ -8560,7 +9148,9 @@
       "nyc_note": "NYC cannot unilaterally create federal tax credits; could only advocate or design supplemental local credit (uncommon and complex).",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "5d410d5a29f18847",
@@ -8589,7 +9179,9 @@
       "nyc_note": "Relevant to NYC health systems and research institutions, but this is a protocol/methods paper with no concrete NYC-ready intervention yet.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 24
+      "score": 24,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "cf20c10958e57696",
@@ -8618,7 +9210,9 @@
       "nyc_note": "Methodological papers on GDP estimation do not directly inform actionable city policy levers unless paired with applied case studies.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 23
+      "score": 23,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "12f41b986b0c6aef",
@@ -8647,7 +9241,9 @@
       "nyc_note": "NYC already has major stadiums; study appears retrospective/observational rather than prescriptive for new policy.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 23
+      "score": 23,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7310212f455f7b96",
@@ -8676,7 +9272,9 @@
       "nyc_note": "Private provision of public goods operates differently in NYC (e.g., rent-stabilization, public housing, school funding); London lessons may not transfer.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 23
+      "score": 23,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "b761502fc99d3464",
@@ -8705,7 +9303,9 @@
       "nyc_note": "NYC operates within NY State regulatory regime; limited direct city-level control over charity regulation unless state delegates authority.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 23
+      "score": 23,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "f406d178cc0e6a33",
@@ -8734,7 +9334,9 @@
       "nyc_note": "German housing policy context differs substantially from NYC; unclear if findings translate to regulatory/market structure of NYC housing.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 23
+      "score": 23,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "965ea67d02fa84ee",
@@ -8763,7 +9365,9 @@
       "nyc_note": "Potential relevance to aging-in-place and intergenerational housing, but no concrete policy recommendation evident.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 23
+      "score": 23,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "671f3e852195d2d7",
@@ -8792,7 +9396,9 @@
       "nyc_note": "Florida planned communities differ structurally from NYC's urban context; applicability unclear without knowing findings and recommendations.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 23
+      "score": 23,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "86c746fe31d89995",
@@ -8821,7 +9427,9 @@
       "nyc_note": "Pure descriptive research on attitudes; identifies no actionable policy lever a city could operationalize.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 23
+      "score": 23,
+      "effect_size": "White-led gentrification with substantial rent increases associated with more negative views toward Whites; no significant effect for Latino-led or Asian-led gentrification",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "4f05499bbc9e5807",
@@ -8850,7 +9458,9 @@
       "nyc_note": "Methods/analysis paper with no concrete policy lever identified from title alone.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 23
+      "score": 23,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2e3391ae3a2348da",
@@ -8879,7 +9489,9 @@
       "nyc_note": "NYC cannot independently adopt national energy system pathways; results are for UK/EU national grids. City can only influence through procurement and local policy within state/federal constraints.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 22
+      "score": 22,
+      "effect_size": "Not quantified in abstract",
+      "reach": "2 European power systems (Germany and Great Britain) with 10,000 Monte Carlo simulation runs"
     },
     {
       "id": "5993c2a6927d152f",
@@ -8908,7 +9520,9 @@
       "nyc_note": "NYC does not directly operate wholesale electricity markets or set battery bidding rules; NYISO (operator) does, and this paper offers no concrete policy lever for city agencies.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 22
+      "score": 22,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "e1fe47dc6387c2a9",
@@ -8937,7 +9551,9 @@
       "nyc_note": "NYC has existing nonprofit oversight (charities bureau) but this is general U.S. regulation theory with no NYC-specific lens or actionable recommendation.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 22
+      "score": 22,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "90f5c266cca9b8eb",
@@ -8966,7 +9582,9 @@
       "nyc_note": "No city policy or program lever; purely a research infrastructure tool.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 22
+      "score": 22,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "fa74cbf5efde5a58",
@@ -8995,7 +9613,9 @@
       "nyc_note": "NYC's five-borough structure is constitutionally fixed; applicability depends on study's actual recommendations, which are unknown.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "4bda362633ff468f",
@@ -9024,7 +9644,9 @@
       "nyc_note": "Abstract offers no concrete policy levers a city government could directly adopt; mostly addresses social media platforms and media outlets, not municipal agencies.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "600ce2120c6f59cf",
@@ -9053,7 +9675,9 @@
       "nyc_note": "NYC operates within an existing regulated utility structure (Con Edison); grid federalization is a long-term systemic change with unclear regulatory levers for city government.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "e7bd9276745e4007",
@@ -9082,7 +9706,9 @@
       "nyc_note": "Could inform NYC schools' AI literacy curricula, but paper offers no policy specifics or evidence of efficacy in classroom or municipal settings.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "5f3e2b55936d363a",
@@ -9111,7 +9737,9 @@
       "nyc_note": "Paper offers vocabulary and taxonomy but no tested models for NYC agencies to adopt; would require separate pilot work.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "77f3fb8cc2eb4178",
@@ -9140,7 +9768,9 @@
       "nyc_note": "Model is abstract and stylized; no grounding in NYC economy, institutions, or empirical baselines. General insights (e.g., inequality matters for climate transition) already known; no NYC-specific intervention emerges.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Beyond inequality thresholds observed in most developed countries, economy remains locked in Brown regime even with substantial agent sensitivity to externalities",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2e3db7402151ee59",
@@ -9169,7 +9799,9 @@
       "nyc_note": "NYC is a high-density infill context; comparative regional sprawl analysis may have limited direct lever for city action.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d808ca24385b80af",
@@ -9198,7 +9830,9 @@
       "nyc_note": "Commission is federal-level; NYC could eventually adopt resulting recommendations but no concrete city-level intervention identified in abstract.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "264d40f96f5342e5",
@@ -9227,7 +9861,9 @@
       "nyc_note": "NYC has significant algorithmic deployment in housing allocation (NYCHA, eviction screening, tenant screening), but abstract does not specify settings or recommendations.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "edee9a1cc424efc1",
@@ -9256,7 +9892,9 @@
       "nyc_note": "NYC operates within New York State's marketplace; limited city-level lever unless state delegates insurance regulation authority.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6e8868bd5f02cead",
@@ -9285,7 +9923,9 @@
       "nyc_note": "Athens' debt-crisis context and austerity constraints are structurally different from NYC's fiscal environment; abstract offers no concrete policy tools or programs NYC could adopt.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "8b6cc6589e37fcf6",
@@ -9314,7 +9954,9 @@
       "nyc_note": "Cannot assess without content.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6ef67947a7da792d",
@@ -9343,7 +9985,9 @@
       "nyc_note": "NYC has limited direct lever over medical liability law (state/federal domain); could influence through hospital systems or pilot programs.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 21
+      "score": 21,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "cbffd27ba13d9ea8",
@@ -9372,7 +10016,9 @@
       "nyc_note": "NYC is not an offshore wind operator; whales are federal/regional concern, not municipal responsibility; application would be to state/federal ocean managers.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 20
+      "score": 20,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c0d8426ccdf77171",
@@ -9401,7 +10047,9 @@
       "nyc_note": "NYC's industrial footprint, zoning, and labor market fundamentally differ from Ethiopia; no concrete policy lever apparent.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 19
+      "score": 19,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "914db38ee875e462",
@@ -9430,7 +10078,9 @@
       "nyc_note": "Consumer protection falls mainly to state/federal regulators; NYC has limited jurisdiction over AI platforms' recommendation algorithms.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 19
+      "score": 19,
+      "effect_size": "Well-known brands recommended 100% of the time (IAI = 10.0) with same specifications; dominance disappears with <+0.1-star rating advantage for competitor; authority marketing breaks monopoly at +0.17 rating points bias surplus value",
+      "reach": "3 commercial LLMs (GPT-4o-mini, Claude Sonnet, Gemini 3 Flash) tested with skincare products"
     },
     {
       "id": "cad1c1c7fa7cbd56",
@@ -9459,7 +10109,9 @@
       "nyc_note": "NYC schools could theoretically adopt this, but practical hurdles (sensor procurement, consent, data privacy, integration into testing protocols) are substantial; purely predictive rather than interventional.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 19
+      "score": 19,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "79a8f61fd59b1b6f",
@@ -9488,7 +10140,9 @@
       "nyc_note": "NYC lacks DC's federal-employment dominance; trends and policy implications are jurisdiction-specific.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 19
+      "score": 19,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "370418cfcf7981f4",
@@ -9517,7 +10171,9 @@
       "nyc_note": "NYC has a unified citywide district; secession is not currently a live policy option or threat.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 19
+      "score": 19,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c9ae542d82793fab",
@@ -9546,7 +10202,9 @@
       "nyc_note": "NYC has a unified city-run school system; secession risk is minimal. Study focuses on state-level secession law, not NYC-specific policy.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 19
+      "score": 19,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "41f910eac5e024b8",
@@ -9575,7 +10233,9 @@
       "nyc_note": "No actionable city-level intervention; addresses EU regulatory compliance and academic methodology in legal AI, not NYC policy or service delivery.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 18
+      "score": 18,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6a546b9fa64fc235",
@@ -9604,7 +10264,9 @@
       "nyc_note": "Would require downstream validation, training of educators, and demonstration of impact on student outcomes before any city adoption would be justified.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 18
+      "score": 18,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "927f380f9a4cfffb",
@@ -9633,7 +10295,9 @@
       "nyc_note": "While NYC agencies do share synthetic data for research, this paper offers only methodological critique, not a deployable policy or practice.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 18
+      "score": 18,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7f121c86ec05667c",
@@ -9662,7 +10326,9 @@
       "nyc_note": "No concrete program, policy, or intervention is proposed; NYC cannot adopt a grant announcement. Any actionable insights would emerge only after the 2026\u20132028 research cycle concludes.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 18
+      "score": 18,
+      "effect_size": "Not quantified in abstract",
+      "reach": "13 research teams across multiple states"
     },
     {
       "id": "1aaf59aa882f8b9e",
@@ -9691,7 +10357,9 @@
       "nyc_note": "NYC has no authority over tariffs or international trade policy; these are federal/national instruments. EV incentives exist but at state/federal level.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 18
+      "score": 18,
+      "effect_size": "More than doubles EV market share and generates over $45 billion in annual welfare gains for the United States",
+      "reach": "13 countries accounting for vast majority of global EV sales"
     },
     {
       "id": "e50dc60fb4646d2f",
@@ -9720,7 +10388,9 @@
       "nyc_note": "Italian higher-ed policy; unclear relevance to NYC housing/transit policy.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 17
+      "score": 17,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "b4d9eebf8c4ba465",
@@ -9749,7 +10419,9 @@
       "nyc_note": "Aviation policy is federal/international; NYC has minimal regulatory authority over airline emissions charges or inter-jurisdictional transfers.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 17
+      "score": 17,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "61e02abcc8270933",
@@ -9778,7 +10450,9 @@
       "nyc_note": "No city-level policy, service, enforcement, or programmatic lever identified.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 17
+      "score": 17,
+      "effect_size": "15% soft block rate for Chromium headless vs 7% for other configurations",
+      "reach": "10,000 websites across 40,000 page visits"
     },
     {
       "id": "ccffa8faa52bfe6e",
@@ -9807,7 +10481,9 @@
       "nyc_note": "Documents a problem (health affordability) salient to NYC but offers no actionable policy lever for city to pull; mostly federal insurance policy.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 17
+      "score": 17,
+      "effect_size": "Nearly half of working-age adults had difficulties affording health care",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "395706f852ea71e3",
@@ -9836,7 +10512,9 @@
       "nyc_note": "Topics (wage policy, CTE, housing supply) are broadly relevant to NYC, but incomplete abstract prevents assessing whether recommendations fit NYC context or constraints.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 17
+      "score": 17,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "b054413f093e1aa3",
@@ -9865,7 +10543,9 @@
       "nyc_note": "NYC is not divided across political jurisdictions in the way European cities discussed likely are; limited policy hook for city administrators.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 17
+      "score": 17,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a52f235bce51b2c6",
@@ -9894,7 +10574,9 @@
       "nyc_note": "Fannie Mae and Freddie Mac are federal entities; paper likely addresses national housing finance architecture, not municipal levers.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 17
+      "score": 17,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "9dd5d5f29349d3d7",
@@ -9923,7 +10605,9 @@
       "nyc_note": "NYC is not explicitly included in the 13-state study; this is a national data-collection effort, not a city program or initiative.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 17
+      "score": 17,
+      "effect_size": "Not quantified in abstract",
+      "reach": "more than 50,000 people across 13 states"
     },
     {
       "id": "aae6776c15205597",
@@ -9952,7 +10636,9 @@
       "nyc_note": "Health insurance risk adjustment is a federal/state regulatory function; NYC has no direct lever over Medicare, Medicaid, or commercial insurers' risk models.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 17
+      "score": 17,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7f115c6942a8905e",
@@ -9981,7 +10667,9 @@
       "nyc_note": "Relevant to NYC education policy in principle, but the paper offers no actionable program, curriculum model, teacher training module, or measurable implementation strategy that a school district could adopt.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 15
+      "score": 15,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "a984990c3543c3bd",
@@ -10010,7 +10698,9 @@
       "nyc_note": "Could potentially support NYC data analysis (e.g., health surveys mixing continuous and binary outcomes), but is a statistical method, not a concrete intervention.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 15
+      "score": 15,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6e95f843a6aabc15",
@@ -10039,7 +10729,9 @@
       "nyc_note": "Tangentially relevant only if NYC agencies deploy frontier AI systems; no concrete policy or program lever for city government identified.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 15
+      "score": 15,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "3dec48ba2cf3c030",
@@ -10068,7 +10760,9 @@
       "nyc_note": "NYC has not pursued school district secession; dataset may inform future policy debate but offers no actionable guidance on improving schools or safety.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 15
+      "score": 15,
+      "effect_size": "Not quantified in abstract",
+      "reach": "School district secessions from 2000 to February 2026"
     },
     {
       "id": "50a43ca1b2029e7d",
@@ -10097,7 +10791,9 @@
       "nyc_note": "Pure robotics research with no connection to NYC governance, housing, transit, safety, health, education, or services.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "9df556e5534ea070",
@@ -10126,7 +10822,9 @@
       "nyc_note": "No direct relevance to NYC city policy or resident outcomes; targets academic publishing standards.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "Nearly half of all journals change quartile when policy and patent indicators are incorporated into rankings",
+      "reach": "53 FT50 and recently removed journals with more than 60,000 publications from 2005 to 2019"
     },
     {
       "id": "5020979093d5f6d8",
@@ -10155,7 +10853,9 @@
       "nyc_note": "No connection to NYC municipal services, policy, or resident welfare. Purely theoretical study of AI agent discourse patterns.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "PSI colloquial cues strongly associated with OP re-engagement and reciprocal reply structure",
+      "reach": "4,434 posts and 50,338 comments from Moltbook"
     },
     {
       "id": "f792d14d07ef187b",
@@ -10184,7 +10884,9 @@
       "nyc_note": "Abstract offers no concrete policy lever, procurement recommendation, or agency application; discussion is abstract architectural philosophy without operational guidance for city government.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "28cc9a6cb48a4044",
@@ -10213,7 +10915,9 @@
       "nyc_note": "No mechanism, program, or policy lever for city adoption. Concerns AI productivity for economic research, not public outcomes.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "808ff37e88c54797",
@@ -10242,7 +10946,9 @@
       "nyc_note": "No relevance to NYC agencies, infrastructure, or resident safety/welfare; purely maritime engineering.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "Ridge regression improved prediction accuracy and mitigated multicollinearity better than other methods",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "5b6b66cf0e2228a1",
@@ -10271,7 +10977,9 @@
       "nyc_note": "Study documents private-sector developer practices. No lever for city agency action identified; would require federal AI governance frameworks, not local policy.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "Not quantified in abstract",
+      "reach": "35 industry developers"
     },
     {
       "id": "2ae7307261ebdacb",
@@ -10300,7 +11008,9 @@
       "nyc_note": "No municipal policy, program, or intervention hook; purely academic study of AI-to-AI trust dynamics.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "60-85% reduction in verification behavior when paired with reliable teammate (in four frontier models)",
+      "reach": "6 frontier model snapshots (Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.1, Gemini 3.1 Pro, and 2 smaller models)"
     },
     {
       "id": "9f0a37cdd18c212d",
@@ -10329,7 +11039,9 @@
       "nyc_note": "No city policy or program that NYC could adopt. The findings concern LLM bias detection, not a concrete urban intervention.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "Significant variations in political responses appear from one run to the next and between models despite general stability",
+      "reach": "11 LLMs, each tested in 20 independent runs across 62 political statements"
     },
     {
       "id": "ceb4fdd658200248",
@@ -10358,7 +11070,9 @@
       "nyc_note": "No mechanism by which a city agency could adopt this finding to improve resident safety, services, or outcomes.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "Promotional language significantly correlates with reviewer disagreement on novelty for moderately innovative papers; negligible impact for very high or very low novelty papers",
+      "reach": "15,328 academic papers from Nature Communications (2016-2021)"
     },
     {
       "id": "45215bb41e00d321",
@@ -10387,7 +11101,9 @@
       "nyc_note": "Studies historical Latin American fertility patterns with no policy recommendation for NYC.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "Children ever born fell one-for-one with mortality decline; women's education and sectoral composition were dominant predictors of fertility decline",
+      "reach": "17 Latin American countries, female birth cohorts from 1920s to 1970s tracked by subnational region"
     },
     {
       "id": "5286dea9500184ae",
@@ -10416,7 +11132,9 @@
       "nyc_note": "Historical study of early 20th-century migration patterns; no contemporary policy or program lever identified for NYC implementation.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 13
+      "score": 13,
+      "effect_size": "Larger income gaps between immigrant and US-born women than men, with minimal change after 20 years",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "124e92408eb91d04",
@@ -10445,7 +11163,9 @@
       "nyc_note": "NYC has no jurisdiction over federal tax code or Johnson Amendment enforcement; this is a federal legal matter with no actionable city-level policy hook.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "c7fb393b727f26f5",
@@ -10474,7 +11194,9 @@
       "nyc_note": "No city policy, program, or service intervention proposed; abstract markets in LLM agency are distant from municipal governance.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2a394581b5e183ca",
@@ -10503,7 +11225,9 @@
       "nyc_note": "No actionable policy, program, or practice for NYC to adopt. Descriptive theory only.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "721a0e61ea14b1ec",
@@ -10532,7 +11256,9 @@
       "nyc_note": "No concrete actionable lever for NYC agencies; abstract math with no city-policy hook.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "f31e8c557da7dcc9",
@@ -10561,7 +11287,9 @@
       "nyc_note": "NYC does not govern EU ETS or carbon futures markets; analysis is purely financial/technical for EU regulators, not a replicable city policy.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "20 daily variables across EU ETS Phases 3 and 4 (2013-2025)"
     },
     {
       "id": "b55870033e21f6f8",
@@ -10590,7 +11318,9 @@
       "nyc_note": "Pure theory paper with no lever for city policy adoption or implementation.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2f80a89472e62702",
@@ -10619,7 +11349,9 @@
       "nyc_note": "Pure methods research in medical imaging. No lever for city policy, healthcare procurement, or public safety. Hospitals may eventually adopt better MRI reconstruction, but that is not a civic intervention.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7ea8c22b8ca60fda",
@@ -10648,7 +11380,9 @@
       "nyc_note": "No mechanism for NYC agencies to adopt; addresses computer science benchmarking standards, not policy levers.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "4ec3a13c7c7335f6",
@@ -10677,7 +11411,9 @@
       "nyc_note": "No city-policy application; ecological/computational research only.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "2.25x enrichment for feeding buzzes in robust foraging segments (95% CI: 1.73-2.85); 0.27x for robust commuting segments (95% CI: 0.16-0.44)",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0001bc3c6f92b732",
@@ -10706,7 +11442,9 @@
       "nyc_note": "No actionable city policy, program, or practice proposed. Relevant only to researchers designing microbiome studies.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "30 real-world microbiome datasets"
     },
     {
       "id": "4f362dd00527e08b",
@@ -10735,7 +11473,9 @@
       "nyc_note": "Statistical method for academic researchers, not a lever for NYC policy or service delivery.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "OXC significantly associated with lower risk of side effects than CBZ",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "fce4bfdcd9a0c612",
@@ -10764,7 +11504,9 @@
       "nyc_note": "No city-level policy lever; addresses U.S.\u2013China geopolitical tech competition, not local public services or safety.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d96b4bd11fd58662",
@@ -10793,7 +11535,9 @@
       "nyc_note": "No actionable policy or program for a city agency to adopt; addresses private firm labor allocation decisions.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0d042aaa7e5dbec5",
@@ -10822,7 +11566,9 @@
       "nyc_note": "No actionable intervention NYC could adopt; addresses global platform policy and philosophical frames, not a city-level program or practice.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0c380210b0c8969b",
@@ -10851,7 +11597,9 @@
       "nyc_note": "No city policy, regulation, program, or service implication. Topic is private intimate communication, not a municipal domain.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "ec247fbff9c8a08e",
@@ -10880,7 +11628,9 @@
       "nyc_note": "No policy or program lever; improves internal consistency of existing epidemiological estimation methods but does not propose new public health action.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "50c010c755a9dd6c",
@@ -10909,7 +11659,9 @@
       "nyc_note": "No connection to NYC governance, services, or policy domains.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "b5731bb5fac79b4c",
@@ -10938,7 +11690,9 @@
       "nyc_note": "No concrete policy or program a city agency could adopt. Relevant only to ML researchers' internal terminology practices.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2290439d7b0b3a11",
@@ -10967,7 +11721,9 @@
       "nyc_note": "No city policy lever or practical application identified.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "b756e5c19ad94781",
@@ -10996,7 +11752,9 @@
       "nyc_note": "Theoretical computer science paper with no concrete city-policy application, implementation pathway, or empirical validation.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0baea7edaf4c88bd",
@@ -11025,7 +11783,9 @@
       "nyc_note": "No policy or program content to apply.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2d524dfb3a282da9",
@@ -11054,7 +11814,9 @@
       "nyc_note": "Malaria is not endemic to NYC; global supply-chain / WHO policy lessons may have limited direct local relevance.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "70aedfc3978fc00d",
@@ -11083,7 +11845,9 @@
       "nyc_note": "No actionable content for city policymakers.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "aaf2b3c6cff1b6ef",
@@ -11112,7 +11876,9 @@
       "nyc_note": "No actionable policy or program lever identified for city implementation.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "baef25195bd96aea",
@@ -11141,7 +11907,9 @@
       "nyc_note": "Cannot assess; document does not describe actionable policies or programs.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "5979475fd6a2ce37",
@@ -11170,7 +11938,9 @@
       "nyc_note": "This is a methodological audit of review practices, not a city-implementable intervention.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "6b837171bba05884",
@@ -11199,7 +11969,9 @@
       "nyc_note": "No policy lever or actionable content identified.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "1bd77e99339ca66a",
@@ -11228,7 +12000,9 @@
       "nyc_note": "No direct city-policy lever; relevant only to how researchers conduct reviews.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "004529e9c655718c",
@@ -11257,7 +12031,9 @@
       "nyc_note": "Protocol paper with no actionable program or policy lever for NYC agencies.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "b31fbcc467dd69fb",
@@ -11286,7 +12062,9 @@
       "nyc_note": "No city-level policy lever or actionable recommendation identified.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "42% and 210% of increases in relative wages of high- and low-skill workers; 26% and 51% of increase in hours-worked shares",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "9cb60b16337d8075",
@@ -11315,7 +12093,9 @@
       "nyc_note": "No city-level policy, program, or practice can be derived from this macroeconomic theory paper.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7b51af7609482afb",
@@ -11344,7 +12124,9 @@
       "nyc_note": "Theory paper offers no concrete policy tool, pilot, or program NYC could adopt. Wage stagnation insight is noted but no remedy is proposed or tested.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "72afbbe701a57859",
@@ -11373,7 +12155,9 @@
       "nyc_note": "Retirement annuity decisions are private financial choices; no direct municipal policy lever or city program implied.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d281471b86ca9398",
@@ -11402,7 +12186,9 @@
       "nyc_note": "Reserve currency status is a federal/global macroeconomic question entirely outside NYC's policy scope.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "8.8% real depreciation of the dollar and 90 basis points rise in U.S. real interest rate",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "d5f068cb78405dba",
@@ -11431,7 +12217,9 @@
       "nyc_note": "No city-policy mechanism identified; macro labor-supply reconciliation does not translate to concrete NYC program or lever.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7f43731d294f6a50",
@@ -11460,7 +12248,9 @@
       "nyc_note": "NYC cannot implement monetary policy or directly alter firm-level monopsony power; the paper offers no local labor-market interventions.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "10% increase in output response to monetary policy; 15% of Phillips curve flattening explained by decline in labor market power since 1980s",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "36c416892c3f76c6",
@@ -11489,7 +12279,9 @@
       "nyc_note": "Addresses how to conduct better research generally, not a specific NYC policy or program lever.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "495ca52b50f92589",
@@ -11518,7 +12310,9 @@
       "nyc_note": "Concerns US-China geoeconomic competition at nation-state level; no municipal policy lever.",
       "confidence": "high",
       "scored_at": "2026-06-17",
-      "score": 11
+      "score": 11,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "47ec7fe7a37e9bfb",
@@ -11547,7 +12341,9 @@
       "nyc_note": "Historical case study of NYC may offer contextual lessons but no concrete actionable policy recommendation evident from available metadata.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 10
+      "score": 10,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "54c188c2360c860d",
@@ -11576,7 +12372,9 @@
       "nyc_note": "NYC has no significant beet sugar processing industry; findings unlikely transferable to urban manufacturing or services.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 8
+      "score": 8,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "f324ee01f485064d",
@@ -11605,7 +12403,9 @@
       "nyc_note": "Without abstract or concrete intervention, applicability cannot be evaluated.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 8
+      "score": 8,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "12837f9e81cb2d4c",
@@ -11634,7 +12434,9 @@
       "nyc_note": "Historical perspective on wage dynamics does not propose actionable city policy; NYC cannot adopt a wage premium that already exists.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 8
+      "score": 8,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "7a8b43445c47c9f2",
@@ -11663,7 +12465,9 @@
       "nyc_note": "Study of historical trade routes and gold persistence; no modern urban policy application evident.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 8
+      "score": 8,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "2923d86279e59de0",
@@ -11692,7 +12496,9 @@
       "nyc_note": "Editor's notes lack concrete policy lever or evidence base.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 6
+      "score": 6,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "0c0524ba51039872",
@@ -11721,7 +12527,9 @@
       "nyc_note": "Cannot assess without content.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 6
+      "score": 6,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "72636ed0ce0080e4",
@@ -11750,7 +12558,9 @@
       "nyc_note": "Spanish housing-market structure may not translate directly; no concrete policy recommendation evident.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 6
+      "score": 6,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "8bcf14f441c27c52",
@@ -11779,7 +12589,9 @@
       "nyc_note": "Analyzes Chinese foreign policy and Belt and Road urbanization; no clear lever for NYC municipal action.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 6
+      "score": 6,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "f8ac9fe86948cd72",
@@ -11808,7 +12620,9 @@
       "nyc_note": "GSE reform is a federal lever, not a city-level policy tool. NYC agencies cannot unilaterally reform Fannie Mae or Freddie Mac.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 6
+      "score": 6,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "930be9d5f55d45e2",
@@ -11837,7 +12651,9 @@
       "nyc_note": "Cannot assess applicability without knowing which dissertations are included or their content.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 6
+      "score": 6,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "08c4df553de24212",
@@ -11866,7 +12682,9 @@
       "nyc_note": "Federal tax-policy commentary; no local application path.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 6
+      "score": 6,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "3adb1c85e4a2d859",
@@ -11895,7 +12713,9 @@
       "nyc_note": "Cannot assess without knowing what the announcement contains.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 6
+      "score": 6,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "8a929ad9180ec2f0",
@@ -11924,7 +12744,9 @@
       "nyc_note": "Focus is low/middle-income countries; NYC is high-income and already has mature land management frameworks.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 6
+      "score": 6,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "cb56c808b865cd57",
@@ -11953,7 +12775,9 @@
       "nyc_note": "Protocol announces a future review; actionability depends on eventual findings (not yet available).",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 6
+      "score": 6,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     },
     {
       "id": "b1351a44fad15a9a",
@@ -11982,7 +12806,9 @@
       "nyc_note": "Cannot assess; no intervention identified.",
       "confidence": "low",
       "scored_at": "2026-06-17",
-      "score": 6
+      "score": 6,
+      "effect_size": "Not quantified in abstract",
+      "reach": "Not stated in abstract"
     }
   ]
 }

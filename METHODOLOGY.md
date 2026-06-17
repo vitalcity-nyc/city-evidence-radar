@@ -59,6 +59,15 @@ from the abstract only**, not from the full paper.
 It also tags **topic**, a **public-safety** flag, a one-sentence **idea**, a 2–3 sentence
 **summary**, a one-sentence **method** note, and its own **confidence** (low/med/high).
 
+For every paper it also extracts two scannable facts, shown on each card:
+- **Size of effect** — the magnitude and direction of the study's main finding as the
+  abstract reports it (e.g. "15% fewer parole violations", "0.18 SD higher test scores",
+  "no significant effect"). Marked "Not quantified in abstract" when none is given.
+- **People reached** — how many people/units the study covered (e.g. "1,156 parolees",
+  "~30,000 court cases", "12 cities over 6 years"). Marked "Not stated in abstract" when
+  the abstract omits it. This is the study's sample/scope, not a projection of how many a
+  city-wide rollout would reach.
+
 ## The overall score (0–100)
 
 ```

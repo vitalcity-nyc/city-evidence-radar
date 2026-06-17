@@ -69,6 +69,12 @@ h2.t a{text-decoration:none;background:linear-gradient(var(--vc-chartreuse),var(
 h2.t a:hover{background-size:100% 2px}
 .byline{font-size:12.5px;color:var(--vc-charcoal);font-weight:400;margin-top:5px}
 .idea{font-family:var(--serif);font-size:17px;line-height:1.4;margin:13px 0;padding-left:13px;border-left:3px solid var(--vc-orange)}
+.facts{display:flex;gap:0;margin:13px 0;border:1.5px solid var(--vc-black)}
+.fact{flex:1;padding:9px 13px;border-right:1.5px solid var(--vc-black)}
+.fact:last-child{border-right:none}
+.fact .fl{font-size:10px;text-transform:uppercase;letter-spacing:.06em;font-weight:700;color:var(--vc-charcoal)}
+.fact .fv{font-family:var(--serif);font-size:16px;line-height:1.25;margin-top:3px}
+.fact.eff .fv{color:var(--vc-black)}
 .summary{font-size:14.5px;margin-bottom:10px}
 .method{font-size:13px;color:#444;background:var(--paper);border:1px solid var(--line);padding:9px 11px;margin-bottom:13px}
 .method b{font-weight:700;text-transform:uppercase;font-size:10.5px;letter-spacing:.06em;color:var(--vc-charcoal)}
@@ -194,7 +200,7 @@ function render(){
     if(causalOnly&&!STRONG.has(p.causal_strength))return false;
     if(safetyOnly&&!p.public_safety)return false;
     if(topic&&p.topic!==topic)return false;
-    if(q){const b=(p.title+' '+p.authors+' '+p.idea+' '+p.summary+' '+p.topic+' '+p.venue).toLowerCase();if(!b.includes(q))return false;}
+    if(q){const b=(p.title+' '+p.authors+' '+p.idea+' '+p.summary+' '+p.topic+' '+p.venue+' '+(p.effect_size||'')+' '+(p.reach||'')).toLowerCase();if(!b.includes(q))return false;}
     return true;
   });
   const key={score:p=>p.score,new:p=>p.published||'',cost:p=>p.cost*10+p.score/100,nyc:p=>p.nyc_applicability*10+p.score/100}[sort];
@@ -221,6 +227,10 @@ function card(p){
       <h2 class="t"><a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
       <div class="byline">${esc(p.authors||'Authors n/a')}${date?' · '+date:''} · ${esc(p.venue)}</div>
       ${p.idea?`<div class="idea">${esc(p.idea)}</div>`:''}
+      ${(p.effect_size||p.reach)?`<div class="facts">
+        <div class="fact eff"><div class="fl">Size of effect</div><div class="fv">${esc(p.effect_size||'—')}</div></div>
+        <div class="fact"><div class="fl">People reached</div><div class="fv">${esc(p.reach||'—')}</div></div>
+      </div>`:''}
       ${p.summary?`<div class="summary">${esc(p.summary)}</div>`:''}
       ${p.method?`<div class="method"><b>How it was done — </b>${esc(p.method)}</div>`:''}
       <div class="meters">

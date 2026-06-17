@@ -41,6 +41,8 @@ def build_message(picks, site_url):
         lines.append(f"{flag}[{p['score']}] {p['title']}")
         if p.get("idea"):
             lines.append(f"   {p['idea']}")
+        if p.get("effect_size"):
+            lines.append(f"   Effect: {p['effect_size']} · Reached: {p.get('reach','n/a')}")
         lines.append(f"   {p['causal_strength']} · {p['source']} · {p['url']}\n")
     if len(picks) > 8:
         lines.append(f"…and {len(picks)-8} more.\n")

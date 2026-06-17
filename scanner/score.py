@@ -62,6 +62,13 @@ topics with no city-policy hook.
 emergency response, or community safety?)
 - "idea": one sentence stating the actionable idea/intervention.
 - "summary": 2-3 sentences on what the study actually found.
+- "effect_size": the magnitude AND direction of the study's MAIN finding as a short phrase \
+with the number (e.g. "15% fewer parole violations", "0.18 SD higher test scores", \
+"34% drop in nighttime crime", "no statistically significant effect"). If the abstract \
+gives no quantified effect, return "Not quantified in abstract".
+- "reach": how many people/units the study covered, as a short phrase with the number and \
+unit (e.g. "1,156 parolees", "~30,000 court cases", "12 cities over 6 years", \
+"8 RCTs, 11,000 students"). If not stated, return "Not stated in abstract".
 - "method": one sentence on how it was conducted (design, data, setting, sample size if stated).
 - "causal_strength": one of {causal}. Use "RCT" only for randomized experiments; \
 "strong quasi-experimental" for credible diff-in-diff / RD / IV / natural experiments; \
@@ -186,6 +193,8 @@ def main():
                 "public_safety": bool(s.get("public_safety")),
                 "idea": txt("idea"),
                 "summary": txt("summary"),
+                "effect_size": txt("effect_size"),
+                "reach": txt("reach"),
                 "method": txt("method"),
                 "causal_strength": txt("causal_strength") or "non-empirical",
                 "scalability": num("scalability"),
