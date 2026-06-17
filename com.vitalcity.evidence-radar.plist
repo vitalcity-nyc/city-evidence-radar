@@ -16,7 +16,7 @@
   <key>EnvironmentVariables</key>
   <dict>
     <key>RADAR_SITE_URL</key>
-    <string>REPLACE_WITH_LIVE_URL</string>
+    <string>https://vitalcity-nyc.github.io/city-evidence-radar/</string>
   </dict>
   <key>StartCalendarInterval</key>
   <dict>
