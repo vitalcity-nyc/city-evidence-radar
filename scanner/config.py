@@ -102,3 +102,40 @@ SOURCE_SUMMARY = ("NBER, arXiv, 28 peer-reviewed journals (criminology, urban ec
 
 # How many days back to keep an item as "recent" for the digest
 RECENT_DAYS = 9
+
+# ---------------------------------------------------------------------------
+# Editorial themes (narrative bundles). The model assigns each idea its single
+# best-fit theme key; the label + blurb drive the "group by theme" view.
+# Seed list (Josh's bundles) plus emergent public-safety / urban themes.
+# ---------------------------------------------------------------------------
+THEMES = [
+    ("alcohol-addiction", "Alcohol and addiction",
+     "Cutting the harm that flows from alcohol and drugs, from outlet density and pricing to medication for opioid use disorder."),
+    ("reentry-employment", "Reentry and reemployment",
+     "Smoothing the path home from jail and prison, including health coverage, benefits and a real shot at a job."),
+    ("lead-environment", "Lead and environmental exposure",
+     "Removing the environmental insults, lead chief among them, that quietly shape violence, health and learning."),
+    ("domestic-violence", "Domestic and intimate-partner violence",
+     "Better ways to interrupt and respond to a category of harm that has stayed stubbornly sticky in New York City."),
+    ("schools-pipeline", "Schools and the school-to-prison pipeline",
+     "Keeping young people in class and out of the justice system by rethinking discipline, attendance and support."),
+    ("gun-violence", "Gun and community violence intervention",
+     "Concentrating help and deterrence on the small networks of people and places that drive most shootings."),
+    ("behavioral", "Behavioral and cognitive programs",
+     "Low-cost programs, from cognitive behavioral therapy to summer jobs and mentoring, that shift behavior at the margin."),
+    ("place-environment", "Place and the built environment",
+     "Treating physical space, lighting, vacant lots, greening and design, as a lever on safety."),
+    ("policing-courts", "Policing, courts and enforcement",
+     "How police, prosecutors and courts deploy their tools, from diversion and sentencing to body cameras."),
+    ("housing-homelessness", "Housing and homelessness",
+     "Stable housing and homelessness response as upstream public-safety and public-health infrastructure."),
+    ("health-overdose", "Health and overdose response",
+     "Public-health responses, including naloxone, treatment and crisis care, that save lives and reduce harm."),
+    ("youth-family", "Youth and family supports",
+     "Early and family-centered investments that pay off in safety and mobility years later."),
+    ("economic-security", "Jobs and economic security",
+     "Income, work and economic stability as foundations for safer, healthier neighborhoods."),
+    ("other", "Other ideas",
+     "Promising ideas that do not yet fit one of the bundles above."),
+]
+THEME_KEYS = [k for k, _, _ in THEMES]

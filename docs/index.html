@@ -78,14 +78,28 @@ h2.t a:hover{background-size:100% 2px}
 .summary{font-size:14.5px;margin-bottom:10px}
 .method{font-size:13px;color:#444;background:var(--paper);border:1px solid var(--line);padding:9px 11px;margin-bottom:13px}
 .method b{font-weight:700;text-transform:uppercase;font-size:10.5px;letter-spacing:.06em;color:var(--vc-charcoal)}
-.meters{display:flex;gap:18px;flex-wrap:wrap}
-.meter{min-width:150px;flex:1}
-.meter .ml{font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;font-weight:700;color:var(--vc-charcoal);display:flex;justify-content:space-between}
+.meters{display:grid;grid-template-columns:repeat(3,1fr);gap:14px 18px}
+.meter{min-width:0}
+.meter .ml{font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;font-weight:700;color:var(--vc-charcoal);display:flex;justify-content:space-between;gap:6px}
 .bar{height:7px;background:var(--vc-cloud);margin-top:4px}
 .bar i{display:block;height:100%;background:var(--vc-cerulean)}
+.meter.eff .bar i{background:var(--vc-orange)}
 .meter.cost .bar i{background:var(--vc-green)}
 .meter.nyc .bar i{background:var(--vc-magenta)}
+.meter.under .bar i{background:var(--vc-indigo)}
+.meter.nov .bar i{background:var(--vc-periwinkle)}
 .note{font-size:11.5px;color:var(--vc-charcoal);margin-top:3px}
+.tag.big{background:var(--vc-orange);color:#fff;border-color:var(--vc-orange)}
+.tag.nul{background:#fff;color:var(--vc-charcoal);border-color:var(--vc-cloud)}
+.tag.under{background:var(--vc-chartreuse)}
+/* theme grouping */
+.theme-head{margin:30px 0 14px;padding-bottom:9px;border-bottom:2px solid var(--vc-black)}
+.theme-head:first-child{margin-top:6px}
+.theme-head h3{font-family:var(--sans);font-weight:900;font-size:22px;letter-spacing:-.01em}
+.theme-head .tb{font-family:var(--serif);font-size:15px;color:#333;margin-top:5px;max-width:75ch}
+.theme-head .tc{font-size:11px;text-transform:uppercase;letter-spacing:.06em;font-weight:700;color:var(--vc-charcoal);margin-top:6px}
+@media(max-width:720px){.meters{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:430px){.meters{grid-template-columns:1fr}}
 .conf{font-size:11px;color:var(--vc-charcoal);margin-top:12px;font-style:italic}
 .empty{text-align:center;padding:60px 20px;color:var(--vc-charcoal)}
 
@@ -134,14 +148,19 @@ footer a{color:var(--vc-cerulean)}
 <div class="controls"><div class="wrap">
   <input class="search" id="q" placeholder="Search ideas, authors, topics…" data-tip="Searches the title, authors, the one-line idea, the summary, topic, journal, effect size and number of people reached.">
   <select id="topic" data-tip="Narrow to one area, such as public safety, housing, health or transit."><option value="">All topics</option></select>
-  <select id="sort" data-tip="Reorder the list. Top score blends all four ratings; the others rank by a single measure.">
+  <select id="theme" data-tip="Bundle ideas into editorial themes, such as reentry, domestic violence or schools."><option value="">All themes</option></select>
+  <select id="sort" data-tip="Reorder the list. Top score blends every rating; the others rank by a single measure.">
     <option value="score">Sort: top score</option>
+    <option value="effect">Sort: biggest effect</option>
+    <option value="under">Sort: most underused</option>
     <option value="new">Sort: newest</option>
     <option value="cost">Sort: most cost-effective</option>
     <option value="nyc">Sort: most ready for New York</option>
   </select>
   <span class="chip on" id="causalChip" data-tip="On by default. Shows only studies whose design can establish cause and effect — randomized controlled trials and strong quasi-experimental designs. Turn off to also see observational and descriptive work.">Causal evidence only</span>
   <span class="chip" id="safetyChip" data-tip="Limits the list to ideas about crime, violence, policing, justice or emergency response. Off by default, so other topics show too.">Public safety only</span>
+  <span class="chip" id="nullChip" data-tip="Hides studies that found no significant or only negligible effect, so the list shows ideas with demonstrated promise.">Hide null results</span>
+  <span class="chip" id="groupChip" data-tip="Groups the ideas under editorial themes, each with a short framing, instead of one ranked list.">Group by theme</span>
   <span class="helpline">Hover any control for a quick note, or read the full <a onclick="document.getElementById('guidepop').classList.add('show')">guide to this page</a>.</span>
   <span class="count" id="count"></span>
 </div></div>
@@ -150,7 +169,7 @@ footer a{color:var(--vc-cerulean)}
 
 <footer><div class="wrap">
   <h3>How this works</h3>
-  <p>Each weekly run pulls the newest items from the sources above, then an artificial intelligence (AI) model reads the title and abstract of each and scores it on four measures you can see on every card: <b>causal strength</b> (is the evidence experimental or quasi-experimental?), <b>scalability</b>, <b>cost-effectiveness</b> and <b>New York City applicability</b>. Public-safety ideas are weighted up. The overall score, from 0 to 100, blends these and adds a bonus for stronger research designs.</p>
+  <p>Each weekly run pulls the newest items from the sources above, then an artificial intelligence (AI) model reads the title and abstract of each and rates it on the measures you can see on every card: the <b>size of the demonstrated effect</b>, <b>causal strength</b> (is the evidence experimental or quasi-experimental?), <b>scalability</b>, <b>cost-effectiveness</b>, <b>New York City applicability</b>, how <b>underused</b> the idea is and how <b>fresh</b> its angle is. The overall score, from 0 to 100, weights effect size and rigor most heavily, treats underuse and novelty as secondary and adds a small lift for public-safety ideas. A rigorously evaluated study that found no effect ranks below one that worked.</p>
   <p>The default view shows only studies rated as having causal evidence: randomized or strong quasi-experimental designs. Turn that filter off to see the full field, including descriptive and observational work.</p>
   <h3>Sources and known gaps</h3>
   <p id="gaps" class="gap"></p>
@@ -167,7 +186,7 @@ footer a{color:var(--vc-cerulean)}
     <ul>
       <li>Every summary, score, method note and causal-strength label is <b>generated by AI from the abstract only</b>, not the full paper. Treat them as a starting point, not ground truth.</li>
       <li>The model can misread findings, overstate or understate cost and scalability or misclassify a study's research design.</li>
-      <li>Relevance, scalability, cost and New York City applicability ratings are judgment calls the model makes. Reasonable people, and the authors, may disagree.</li>
+      <li>Every rating — effect size, scalability, cost, New York City applicability, how underused or fresh an idea is, and which theme it belongs to — is a judgment call the model makes. Reasonable people, and the authors, may disagree, especially on whether an idea is truly underused.</li>
       <li>Coverage is partial: the Social Science Research Network (SSRN) and several think tanks block automated access and are not included (see footer).</li>
       <li><b>Always open and read the linked study</b> before citing, publishing or acting on any idea here.</li>
     </ul>
@@ -190,13 +209,16 @@ footer a{color:var(--vc-cerulean)}
     <p>Search matches the title, authors, the one-line idea, the summary, topic, journal and the two facts on each card. Sort reorders the list by overall score, by date or by a single rating.</p>
 
     <div class="term">The score <span>— from 0 to 100</span></div>
-    <p>A triage aid, not a verdict. It blends the three ratings below, adds points for stronger research designs and gives extra weight to public-safety ideas.</p>
+    <p>A triage aid, not a verdict. The size of the demonstrated effect counts most, so a rigorously run study that found no effect ranks below one that moved the needle. Research design, scalability, cost and readiness for New York also weigh heavily, and how underused or fresh an idea is gives it a secondary lift. Public-safety ideas get a small added weight.</p>
 
-    <div class="term">The three ratings <span>— each from 1 to 5</span></div>
-    <p>Scalability is how readily the idea could grow citywide or nationwide. Cost-effectiveness is how cheap it is per person helped. Readiness for New York is how directly the city could adopt it given its agencies and existing programs.</p>
+    <div class="term">The six ratings <span>— each from 1 to 5</span></div>
+    <p>Effect and promise is how large and robust the main finding is; a null result scores low. Scalability is how readily the idea could grow citywide. Cost-effectiveness is how cheap it is per person helped. Readiness for New York is how directly the city could adopt it. Underused is the gap between how strong the evidence is and how little the idea is actually tried or funded, so a well-evidenced but rarely used idea scores high while a mainstream one scores low. Fresh angle is how new the way of thinking is.</p>
 
     <div class="term">Size of effect and people reached</div>
     <p>Two facts pulled from each abstract: the magnitude and direction of the main finding, and how many people or places the study covered. When an abstract does not give a number, the card says so rather than guessing.</p>
+
+    <div class="term">Themes and grouping</div>
+    <p>Each idea is sorted into one editorial theme, such as reentry, domestic violence or schools. Turn on "Group by theme" to read the ideas as bundles, each with a short framing, rather than as a single ranked list. "Hide null results" drops studies that found no meaningful effect.</p>
 
     <div class="term">The evidence tiers</div>
     <p>A randomized controlled trial assigns people or places to a program or a comparison group at random, the strongest test of cause and effect. A strong quasi-experimental design mimics that comparison using real-world variation, and a rigorous systematic review pools many such studies. Observational and descriptive work, shown only when the causal filter is off, can point to promising ideas but cannot prove they cause the result.</p>
@@ -208,49 +230,78 @@ let PAPERS=[],META={};
 const $=id=>document.getElementById(id);
 const STRONG=new Set(['RCT','strong quasi-experimental']);
 
+let THEMES=[],THEMEMAP={};
 fetch('papers.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   META=d; PAPERS=(d.papers||[]).filter(p=>p.relevant);
+  THEMES=d.themes||[]; THEMEMAP=Object.fromEntries(THEMES.map(t=>[t.key,t]));
   $('updated').textContent=(d.generated_at||'').slice(0,10);
   $('gaps').textContent='Indexing: '+(d.sources||'')+'. Not covered: '+((d.known_gaps||[]).join('; '))+'.';
-  buildStats(); buildTopics(); render();
+  buildStats(); buildTopics(); buildThemes(); render();
 });
 
 function buildStats(){
   const safety=PAPERS.filter(p=>p.public_safety).length;
   const causal=PAPERS.filter(p=>STRONG.has(p.causal_strength)).length;
-  const rct=PAPERS.filter(p=>p.causal_strength==='RCT').length;
-  const s=[['',PAPERS.length,'relevant ideas'],['',causal,'causal-evidence'],['',rct,'randomized trials'],['',safety,'public-safety']];
-  $('stats').innerHTML=s.map(x=>`<div class="stat"><div class="n">${x[1]}</div><div class="l">${x[2]}</div></div>`).join('');
+  const under=PAPERS.filter(p=>(p.underused||0)>=4&&(p.effect_magnitude||0)>=3).length;
+  const s=[[PAPERS.length,'relevant ideas'],[causal,'causal-evidence'],[under,'underused and promising'],[safety,'public-safety']];
+  $('stats').innerHTML=s.map(x=>`<div class="stat"><div class="n">${x[0]}</div><div class="l">${x[1]}</div></div>`).join('');
 }
 function buildTopics(){
   const t=[...new Set(PAPERS.map(p=>p.topic))].sort();
-  $('topic').innerHTML='<option value="">All topics</option>'+t.map(x=>`<option>${x}</option>`).join('');
+  $('topic').innerHTML='<option value="">All topics</option>'+t.map(x=>`<option>${esc(x)}</option>`).join('');
+}
+function buildThemes(){
+  const present=new Set(PAPERS.map(p=>p.theme));
+  const opts=THEMES.filter(t=>present.has(t.key)).map(t=>`<option value="${t.key}">${esc(t.label)}</option>`).join('');
+  $('theme').innerHTML='<option value="">All themes</option>'+opts;
 }
 
-$('q').oninput=render; $('topic').onchange=render; $('sort').onchange=render;
-$('causalChip').onclick=function(){this.classList.toggle('on');render();};
-$('safetyChip').onclick=function(){this.classList.toggle('on');render();};
+$('q').oninput=render; $('topic').onchange=render; $('sort').onchange=render; $('theme').onchange=render;
+['causalChip','safetyChip','nullChip','groupChip'].forEach(id=>
+  $(id).onclick=function(){this.classList.toggle('on');render();});
 
-function render(){
+function filtered(){
   const q=$('q').value.toLowerCase().trim();
-  const topic=$('topic').value;
+  const topic=$('topic').value, theme=$('theme').value;
   const causalOnly=$('causalChip').classList.contains('on');
   const safetyOnly=$('safetyChip').classList.contains('on');
-  const sort=$('sort').value;
-  let rows=PAPERS.filter(p=>{
+  const hideNull=$('nullChip').classList.contains('on');
+  return PAPERS.filter(p=>{
     if(causalOnly&&!STRONG.has(p.causal_strength))return false;
     if(safetyOnly&&!p.public_safety)return false;
+    if(hideNull&&(p.effect_magnitude||0)<2)return false;
     if(topic&&p.topic!==topic)return false;
+    if(theme&&p.theme!==theme)return false;
     if(q){const b=(p.title+' '+p.authors+' '+p.idea+' '+p.summary+' '+p.topic+' '+p.venue+' '+(p.effect_size||'')+' '+(p.reach||'')).toLowerCase();if(!b.includes(q))return false;}
     return true;
   });
-  const key={score:p=>p.score,new:p=>p.published||'',cost:p=>p.cost*10+p.score/100,nyc:p=>p.nyc_applicability*10+p.score/100}[sort];
-  rows.sort((a,b)=>key(b)>key(a)?1:key(b)<key(a)?-1:0);
+}
+function sorter(sort){
+  const k={score:p=>p.score,effect:p=>(p.effect_magnitude||0)*100+p.score/100,
+    under:p=>(p.underused||0)*100+p.score/100,new:p=>p.published||'',
+    cost:p=>(p.cost||0)*100+p.score/100,nyc:p=>(p.nyc_applicability||0)*100+p.score/100}[sort];
+  return (a,b)=>k(b)>k(a)?1:k(b)<k(a)?-1:0;
+}
+function render(){
+  let rows=filtered();
+  rows.sort(sorter($('sort').value));
   $('count').textContent=rows.length+' of '+PAPERS.length+' ideas shown';
-  $('list').innerHTML=rows.length?rows.map(card).join(''):'<div class="empty">No ideas match these filters. Try turning off "Causal evidence only" or clearing the search.</div>';
+  if(!rows.length){$('list').innerHTML='<div class="empty">No ideas match these filters. Try turning off a filter or clearing the search.</div>';return;}
+  if($('groupChip').classList.contains('on')){
+    let html='';
+    THEMES.forEach(t=>{
+      const g=rows.filter(p=>p.theme===t.key);
+      if(!g.length)return;
+      html+=`<div class="theme-head"><h3>${esc(t.label)}</h3><div class="tb">${esc(t.blurb)}</div><div class="tc">${g.length} idea${g.length>1?'s':''}</div></div>`+g.map(card).join('');
+    });
+    $('list').innerHTML=html;
+  }else{
+    $('list').innerHTML=rows.map(card).join('');
+  }
 }
 
 function meter(label,val,cls,note){
+  val=val||0;
   return `<div class="meter ${cls}"><div class="ml"><span>${label}</span><span>${val}/5</span></div><div class="bar"><i style="width:${val/5*100}%"></i></div>${note?`<div class="note">${esc(note)}</div>`:''}</div>`;
 }
 function card(p){
@@ -263,6 +314,9 @@ function card(p){
         ${p.public_safety?'<span class="tag safety">Public safety</span>':''}
         ${(p.topic&&p.topic!=='public safety')?`<span class="tag topic">${esc(p.topic)}</span>`:''}
         <span class="tag causal ${weak}">${esc(p.causal_strength)}</span>
+        ${(p.effect_magnitude||0)>=4?'<span class="tag big">Large effect</span>':''}
+        ${(p.effect_magnitude||0)<=1?'<span class="tag nul">No effect found</span>':''}
+        ${(p.underused||0)>=4?'<span class="tag under">Underused</span>':''}
         <span class="tag src">${esc(p.source)}</span>
       </div>
       <h2 class="t"><a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
@@ -275,9 +329,12 @@ function card(p){
       ${p.summary?`<div class="summary">${esc(p.summary)}</div>`:''}
       ${p.method?`<div class="method"><b>How it was done — </b>${esc(p.method)}</div>`:''}
       <div class="meters">
+        ${meter('Effect / promise',p.effect_magnitude,'eff',p.effect_magnitude_note)}
         ${meter('Scalability',p.scalability,'scal',p.scalability_note)}
         ${meter('Cost-effective',p.cost,'cost',p.cost_note)}
         ${meter('NYC-ready',p.nyc_applicability,'nyc',p.nyc_note)}
+        ${meter('Underused',p.underused,'under',p.underused_note)}
+        ${meter('Fresh angle',p.novelty,'nov',p.novelty_note)}
       </div>
       <div class="conf">AI confidence in this read: ${esc(p.confidence)} · <a href="${p.url}" target="_blank" rel="noopener" style="color:var(--vc-cerulean)">open the study →</a></div>
     </div></div></div>`;

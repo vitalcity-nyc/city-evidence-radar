@@ -75,12 +75,27 @@ unit (e.g. "1,156 parolees", "~30,000 court cases", "12 cities over 6 years", \
 "observational" for controlled correlational; "descriptive" for descriptive/measurement; \
 "non-empirical" for theory/review-of-others (note: a rigorous systematic review/meta-analysis \
 of experiments counts as "strong quasi-experimental").
+- "effect_magnitude": integer 1-5 for how LARGE and PROMISING the demonstrated effect is. \
+1 = null / no significant effect / negligible; 2 = small; 3 = moderate; 4 = large; \
+5 = very large and robust. A rigorously evaluated study that found NO effect must get 1-2.
+- "effect_magnitude_note": short phrase justifying the rating.
 - "scalability": integer 1-5 (5 = easily scaled city- or nationwide).
 - "scalability_note": short phrase why.
 - "cost": integer 1-5 (5 = very cheap / highly cost-effective per person helped).
 - "cost_note": short phrase; include a per-unit cost if the abstract gives one.
 - "nyc_applicability": integer 1-5 (5 = directly implementable in NYC given its agencies/programs).
 - "nyc_note": short phrase why.
+- "underused": integer 1-5 for the GAP between the strength of the evidence and how much \
+this idea is actually deployed or invested in, especially in large US cities like New York. \
+1 = already mainstream and widely adopted (e.g. hot-spot policing, focused deterrence, body \
+cameras); 5 = strong or promising evidence but rarely tried or underfunded. Weight toward \
+ideas a city is NOT already doing.
+- "underused_note": short phrase why.
+- "novelty": integer 1-5 for how fresh or counterintuitive the framing is for public-safety \
+or urban policy. 1 = conventional/well-worn; 5 = a genuinely new way of thinking about the problem.
+- "novelty_note": short phrase why.
+- "theme": the SINGLE best-fit editorial theme key from this list: {themes}. Use "other" \
+only if none fit.
 - "confidence": "low"/"medium"/"high" — your confidence given only the abstract.
 """
 
@@ -104,14 +119,14 @@ def gated_out(item):
 def call_claude(key, item):
     body = {
         "model": MODEL,
-        "max_tokens": 700,
+        "max_tokens": 900,
         "messages": [{
             "role": "user",
             "content": PROMPT.format(
                 title=item["title"], venue=item["venue"],
                 source_type=item["source_type"], authors=item["authors"][:300],
                 abstract=(item["abstract"] or "(no abstract available)")[:4000],
-                topics=TOPICS, causal=CAUSAL),
+                topics=TOPICS, causal=CAUSAL, themes=C.THEME_KEYS),
         }],
     }
     headers = {"x-api-key": key, "anthropic-version": "2023-06-01",
@@ -140,14 +155,26 @@ def call_claude(key, item):
 
 
 def compute_score(s):
-    """0-100 overall, blending the four dimensions with a causal gate + safety weight."""
-    causal_bonus = {"RCT": 25, "strong quasi-experimental": 18,
-                    "observational": 8, "descriptive": 2, "non-empirical": 0}
-    dims = (s.get("scalability", 1) + s.get("cost", 1) + s.get("nyc_applicability", 1))
-    score = (dims / 15) * 55  # up to 55 pts from scalability+cost+nyc
-    score += causal_bonus.get(s.get("causal_strength"), 0)  # up to 25
+    """0-100 overall (balanced weighting).
+
+    Effect magnitude is the single largest factor, so rigorously-evaluated nulls
+    rank below high-promise findings. Rigor and feasibility still dominate;
+    underused + novelty are meaningful but secondary. Public-safety nudge on top.
+    Max from dimensions = 100: effect 26 + causal 20 + scalability 13 + cost 13
+    + NYC 12 + underused 9 + novelty 7.
+    """
+    causal_bonus = {"RCT": 20, "strong quasi-experimental": 14,
+                    "observational": 6, "descriptive": 1, "non-empirical": 0}
+    n = lambda k: max(1, min(5, s.get(k, 1) or 1))
+    score = (n("effect_magnitude") / 5) * 26
+    score += causal_bonus.get(s.get("causal_strength"), 0)
+    score += (n("scalability") / 5) * 13
+    score += (n("cost") / 5) * 13
+    score += (n("nyc_applicability") / 5) * 12
+    score += (n("underused") / 5) * 9
+    score += (n("novelty") / 5) * 7
     if s.get("public_safety"):
-        score += 15  # public-safety weighting
+        score += 8  # public-safety emphasis
     if s.get("confidence") == "low":
         score -= 5
     return round(max(0, min(100, score)))
@@ -197,12 +224,19 @@ def main():
                 "reach": txt("reach"),
                 "method": txt("method"),
                 "causal_strength": txt("causal_strength") or "non-empirical",
+                "effect_magnitude": num("effect_magnitude"),
+                "effect_magnitude_note": txt("effect_magnitude_note"),
                 "scalability": num("scalability"),
                 "scalability_note": txt("scalability_note"),
                 "cost": num("cost"),
                 "cost_note": txt("cost_note"),
                 "nyc_applicability": num("nyc_applicability"),
                 "nyc_note": txt("nyc_note"),
+                "underused": num("underused"),
+                "underused_note": txt("underused_note"),
+                "novelty": num("novelty"),
+                "novelty_note": txt("novelty_note"),
+                "theme": (txt("theme") or "other") if (txt("theme") or "other") in C.THEME_KEYS else "other",
                 "confidence": txt("confidence") or "low",
                 "scored_at": time.strftime("%Y-%m-%d"),
             })
@@ -224,6 +258,7 @@ def main():
         "count": len(papers),
         "sources": C.SOURCE_SUMMARY,
         "known_gaps": C.KNOWN_GAPS,
+        "themes": [{"key": k, "label": l, "blurb": b} for k, l, b in C.THEMES],
         "papers": papers,
     }
     with open("data/papers.json", "w") as f:

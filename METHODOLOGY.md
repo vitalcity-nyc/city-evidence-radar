@@ -62,11 +62,22 @@ from the abstract only**, not from the full paper.
   `descriptive` / `non-empirical`. A rigorous systematic review or meta-analysis of
   experiments counts as strong quasi-experimental. The web app defaults to showing only
   the top two tiers ("causal evidence only").
+- **Effect magnitude** (1–5) — how large and robust the demonstrated effect is. A null or
+  statistically insignificant result scores 1–2, so a rigorously evaluated study that found
+  nothing ranks below one that moved the needle. This is the single heaviest factor.
 - **Scalability** (1–5) — how readily the idea scales city- or nationwide.
 - **Cost-effectiveness** (1–5) — cheapness per person helped; per-unit costs noted when
   the abstract states them.
 - **NYC applicability** (1–5) — how directly NYC could implement it given its agencies
   and existing programs.
+- **Underused** (1–5) — the gap between how strong the evidence is and how little the idea
+  is actually deployed or funded in big US cities. Mainstream interventions (hot-spot
+  policing, focused deterrence, body cameras) score low; well-evidenced but neglected ideas
+  score high.
+- **Novelty** (1–5) — how fresh or counterintuitive the framing is for public-safety or
+  urban policy.
+- **Theme** — the single best-fit editorial bundle (see below), used for the "group by
+  theme" view.
 
 It also tags **topic**, a **public-safety** flag, a one-sentence **idea**, a 2–3 sentence
 **summary**, a one-sentence **method** note, and its own **confidence** (low/med/high).
@@ -82,20 +93,40 @@ For every paper it also extracts two scannable facts, shown on each card:
 
 ## The overall score (0–100)
 
+Balanced weighting: effect size and rigor dominate; feasibility matters; underuse and
+novelty are meaningful but secondary.
+
 ```
-score  = (scalability + cost + nyc_applicability) / 15 * 55      # up to 55
-       + causal_bonus                                            # up to 25
-       + 15  if public_safety                                    # safety weighting
+score  = effect_magnitude / 5 * 26      # up to 26 — the heaviest factor
+       + causal_bonus                   # up to 20
+       + scalability      / 5 * 13      # up to 13
+       + cost             / 5 * 13      # up to 13
+       + nyc_applicability/ 5 * 12      # up to 12
+       + underused        / 5 * 9       # up to 9
+       + novelty          / 5 * 7       # up to 7
+       + 8   if public_safety           # public-safety emphasis
        - 5   if AI confidence is "low"
 clamped to 0–100
 ```
 
-`causal_bonus`: RCT 25 · strong quasi-experimental 18 · observational 8 · descriptive 2 ·
+`causal_bonus`: RCT 20 · strong quasi-experimental 14 · observational 6 · descriptive 1 ·
 non-empirical 0.
 
-The weights encode Josh's stated priorities: a causal-evidence bar, explicit
-scalability + cost flags, NYC applicability, and extra weight on public safety. They are
-deliberately simple and visible — adjust them in `scanner/score.py` (`compute_score`).
+The weights encode Josh's priorities: effect size first (so rigorously evaluated nulls
+sink), then rigor and feasibility, then a secondary lift for underused and novel ideas,
+with a small public-safety emphasis. They are deliberately simple and visible — adjust
+them in `scanner/score.py` (`compute_score`).
+
+## Editorial themes
+
+Every idea is assigned one best-fit theme. The list seeds Josh's bundles — alcohol and
+addiction, reentry and reemployment, lead and environmental exposure, domestic violence,
+schools and the school-to-prison pipeline — plus emergent ones (gun and community violence
+intervention, behavioral and cognitive programs, place and the built environment, policing
+and courts, housing, health and overdose response, youth and family, economic security).
+The "group by theme" view bundles ideas under each theme with a short narrative framing,
+so they read as policy directions rather than isolated studies. Themes live in
+`scanner/config.py` (`THEMES`).
 
 ## Limitations
 
