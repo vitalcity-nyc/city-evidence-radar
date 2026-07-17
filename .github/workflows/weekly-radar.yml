@@ -1,0 +1,39 @@
+name: Weekly evidence radar
+
+# Weekly City Evidence Radar run: fetch new papers -> score with Claude Haiku ->
+# publish data to the site -> commit & push -> digest. Runs remotely on GitHub,
+# so it no longer depends on Josh's laptop being open. The iMessage digest is
+# skipped off-Mac (it saves to logs/ instead); a failed run emails Josh via GitHub.
+#
+# Requires one repo secret: ANTHROPIC_API_KEY (Claude Haiku scoring — tiny cost).
+#   Settings -> Secrets and variables -> Actions -> New repository secret
+
+on:
+  schedule:
+    - cron: '0 13 * * 1'     # Mondays, ~08:00 ET
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Configure git identity
+        run: |
+          git config user.name "Vital City Radar"
+          git config user.email "josh.greenman@gmail.com"
+      - name: Run radar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RADAR_SITE_URL: https://vitalcity-nyc.github.io/city-evidence-radar/
+        run: bash run.sh
