@@ -16,6 +16,12 @@ on:
 permissions:
   contents: write
 
+# Never let a manual run and the scheduled run overlap — they both commit and
+# push data/papers.json, which would race.
+concurrency:
+  group: weekly-radar
+  cancel-in-progress: false
+
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -26,8 +32,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      # `python -m pip` guarantees deps land in THIS interpreter (the one we
+      # hand to run.sh below), not some other python that happens to be on PATH.
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: python -m pip install --upgrade pip -r requirements.txt
+      # Fail fast with a clear message if a dep is missing, instead of dying
+      # deep inside run.sh with a cryptic ModuleNotFoundError.
+      - name: Verify dependencies
+        run: python -c "import feedparser, requests; print('deps OK')"
       - name: Configure git identity
         run: |
           git config user.name "Vital City Radar"
@@ -36,6 +48,10 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RADAR_SITE_URL: https://vitalcity-nyc.github.io/city-evidence-radar/
+          # Pin the interpreter run.sh uses to the exact one we installed deps
+          # into — immune to any PATH ordering. This is the permanent fix for
+          # the "wrong python / feedparser not found" failures.
+          PYTHON: python
         run: bash run.sh
       - name: Show run log
         if: always()
