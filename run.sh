@@ -29,7 +29,18 @@ SITE_URL="${RADAR_SITE_URL:-}"
   if [ -n "$(git status --porcelain data/papers.json docs/papers.json)" ]; then
     git add data/papers.json docs/papers.json
     git commit -q -m "Radar refresh $STAMP [skip ci]" || true
-    git push -q || echo "push skipped/failed"
+    # Push with rebase-and-retry so a concurrent commit landing during the run
+    # never silently drops the scored data. If it still can't push after the
+    # retries, exit non-zero so the run fails loudly (GitHub emails Josh) rather
+    # than reporting success while quietly publishing nothing.
+    branch=$(git rev-parse --abbrev-ref HEAD)
+    pushed=0
+    for attempt in 1 2 3; do
+      if git push -q origin "$branch"; then pushed=1; break; fi
+      echo "push rejected (attempt $attempt/3); rebasing on remote and retrying"
+      git pull --rebase --autostash -q origin "$branch" || true
+    done
+    [ "$pushed" = 1 ] || { echo "ERROR: could not push radar data after 3 attempts"; exit 1; }
   fi
 
   echo "-- digest --"; "$PY" -m scanner.digest "$SITE_URL"
