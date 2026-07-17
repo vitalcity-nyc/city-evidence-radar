@@ -5,6 +5,7 @@ set -e
 cd "$(dirname "$0")"
 export PATH="/usr/bin:/bin:/usr/local/bin:$PATH"
 
+mkdir -p logs   # not committed to the repo; must exist for the log redirect below (e.g. fresh CI checkout)
 STAMP=$(date +%Y%m%d_%H%M)
 LOG="logs/run_$STAMP.log"
 SITE_URL="${RADAR_SITE_URL:-}"
