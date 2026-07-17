@@ -37,3 +37,6 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RADAR_SITE_URL: https://vitalcity-nyc.github.io/city-evidence-radar/
         run: bash run.sh
+      - name: Show run log
+        if: always()
+        run: cat logs/*.log 2>/dev/null || echo "(no log file)"
