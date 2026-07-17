@@ -3,7 +3,9 @@
 # fetch -> score (only new items) -> publish data to site -> commit & push -> digest
 set -e
 cd "$(dirname "$0")"
-export PATH="/usr/bin:/bin:/usr/local/bin:$PATH"
+# Append (not prepend) system paths: keeps launchd able to find git/python,
+# without shadowing a CI-provided Python that has the pip deps installed.
+export PATH="$PATH:/usr/bin:/bin:/usr/local/bin"
 
 mkdir -p logs   # not committed to the repo; must exist for the log redirect below (e.g. fresh CI checkout)
 STAMP=$(date +%Y%m%d_%H%M)
