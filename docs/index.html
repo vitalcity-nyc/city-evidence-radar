@@ -47,7 +47,9 @@ h1.title{font-family:var(--sans);font-weight:900;font-size:clamp(30px,5vw,52px);
 select,.chip{font-family:var(--sans);font-size:13px;padding:9px 11px;border:1.5px solid var(--vc-black);background:#fff;cursor:pointer}
 .chip{user-select:none;font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:11px}
 .chip.on{background:var(--vc-chartreuse)}
-.count{font-size:12.5px;color:var(--vc-charcoal);font-weight:400;width:100%;}
+.count{font-size:13.5px;color:var(--vc-charcoal);font-weight:400;width:100%;padding:4px 6px;margin-left:-6px;transition:background-color 1.2s}
+.count b{color:var(--vc-black)}
+.count.flash{background:var(--vc-chartreuse);transition:none}
 
 /* cards */
 main{padding:26px 0 60px}
@@ -296,7 +298,16 @@ function sorter(sort){
 function render(){
   let rows=filtered();
   rows.sort(sorter($('sort').value));
-  $('count').textContent=rows.length+' of '+PAPERS.length+' ideas shown';
+  const active=[];
+  if($('q').value.trim())active.push('search "'+$('q').value.trim()+'"');
+  if($('causalChip').classList.contains('on'))active.push('causal evidence only');
+  if($('safetyChip').classList.contains('on'))active.push('public safety only');
+  if($('nullChip').classList.contains('on'))active.push('null results hidden');
+  ['topic','theme','added'].forEach(id=>{const el=$(id);if(el.value)active.push(el.options[el.selectedIndex].text.replace(/^Added: /,'added '));});
+  const c=$('count'), prev=c.dataset.n;
+  c.innerHTML='<b>'+rows.length+'</b> of '+PAPERS.length+' ideas shown'+(active.length?' · Filtered to: '+esc(active.join(', ')):'');
+  c.dataset.n=rows.length;
+  if(prev!==undefined){c.classList.add('flash');requestAnimationFrame(()=>requestAnimationFrame(()=>c.classList.remove('flash')));}
   if(!rows.length){$('list').innerHTML='<div class="empty">No ideas match these filters. Try turning off a filter or clearing the search.</div>';return;}
   if($('groupChip').classList.contains('on')){
     let html='';
