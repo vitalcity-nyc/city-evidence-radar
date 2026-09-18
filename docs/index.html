@@ -149,6 +149,14 @@ footer a{color:var(--vc-cerulean)}
   <input class="search" id="q" placeholder="Search ideas, authors, topics…" data-tip="Searches the title, authors, the one-line idea, the summary, topic, journal, effect size and number of people reached.">
   <select id="topic" data-tip="Narrow to one area, such as public safety, housing, health or transit."><option value="">All topics</option></select>
   <select id="theme" data-tip="Bundle ideas into editorial themes, such as reentry, domestic violence or schools."><option value="">All themes</option></select>
+  <select id="added" data-tip="Show only studies the radar picked up in a recent window. Uses the date each study was added to the radar, since many journals list no publication date or date an upcoming issue.">
+    <option value="">Added: any time</option>
+    <option value="7">Added: last 7 days</option>
+    <option value="30">Added: last 30 days</option>
+    <option value="60">Added: last 60 days</option>
+    <option value="90">Added: last 90 days</option>
+    <option value="180">Added: last 6 months</option>
+  </select>
   <select id="sort" data-tip="Reorder the list. Top score blends every rating; the others rank by a single measure.">
     <option value="score">Sort: top score</option>
     <option value="effect">Sort: biggest effect</option>
@@ -206,7 +214,7 @@ footer a{color:var(--vc-cerulean)}
     <p>Limits the list to ideas about crime, violence, policing, justice or emergency response. It is off by default, so housing, transit, health, education and other topics also appear.</p>
 
     <div class="term">Search and sort</div>
-    <p>Search matches the title, authors, the one-line idea, the summary, topic, journal and the two facts on each card. Sort reorders the list by overall score, by date or by a single rating.</p>
+    <p>Search matches the title, authors, the one-line idea, the summary, topic, journal and the two facts on each card. Sort reorders the list by overall score, by date or by a single rating. The "Added" menu limits the list to studies the radar picked up in the last week, month, two months, three months or six months.</p>
 
     <div class="term">The score <span>— from 0 to 100</span></div>
     <p>A triage aid, not a verdict. The size of the demonstrated effect counts most, so a rigorously run study that found no effect ranks below one that moved the needle. Research design, scalability, cost and readiness for New York also weigh heavily, and how underused or fresh an idea is gives it a secondary lift. Public-safety ideas get a small added weight.</p>
@@ -256,7 +264,7 @@ function buildThemes(){
   $('theme').innerHTML='<option value="">All themes</option>'+opts;
 }
 
-$('q').oninput=render; $('topic').onchange=render; $('sort').onchange=render; $('theme').onchange=render;
+$('q').oninput=render; $('topic').onchange=render; $('sort').onchange=render; $('theme').onchange=render; $('added').onchange=render;
 ['causalChip','safetyChip','nullChip','groupChip'].forEach(id=>
   $(id).onclick=function(){this.classList.toggle('on');render();});
 
@@ -266,12 +274,15 @@ function filtered(){
   const causalOnly=$('causalChip').classList.contains('on');
   const safetyOnly=$('safetyChip').classList.contains('on');
   const hideNull=$('nullChip').classList.contains('on');
+  const days=+$('added').value;
+  const cutoff=days?new Date(Date.now()-days*864e5).toISOString().slice(0,10):'';
   return PAPERS.filter(p=>{
     if(causalOnly&&!STRONG.has(p.causal_strength))return false;
     if(safetyOnly&&!p.public_safety)return false;
     if(hideNull&&(p.effect_magnitude||0)<2)return false;
     if(topic&&p.topic!==topic)return false;
     if(theme&&p.theme!==theme)return false;
+    if(cutoff&&(p.scored_at||'')<cutoff)return false;
     if(q){const b=(p.title+' '+p.authors+' '+p.idea+' '+p.summary+' '+p.topic+' '+p.venue+' '+(p.effect_size||'')+' '+(p.reach||'')).toLowerCase();if(!b.includes(q))return false;}
     return true;
   });
